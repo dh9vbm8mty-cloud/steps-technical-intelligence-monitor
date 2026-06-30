@@ -1,0 +1,119 @@
+project:
+  name: STEPS Technical Intelligence Monitor
+  organization: HENGYUN Technology
+  disclaimer: Internal engineering intelligence for human review only. Do not treat findings as proven performance claims.
+
+keywords:
+  - pavement cooling
+  - urban heat island mitigation
+  - asphalt heat harvesting
+  - pavement heat exchanger
+  - water-based pavement cooling
+  - thermal energy pavement
+  - measurement and validation methods
+  - surface temperature monitoring
+  - microclimate monitoring
+  - alternative cooling solutions
+  - patent
+  - novelty
+  - rtsu
+  - field data
+  - test method
+
+sources:
+  - name: Google Patents
+    url: https://patents.google.com/?q=pavement+cooling
+    type: patent
+  - name: Semantic Scholar
+    url: https://api.semanticscholar.org/graph/v1/paper/search?query=pavement%20cooling&limit=5&fields=title,url
+    type: academic
+  - name: Crossref
+    url: https://api.crossref.org/works?rows=5&query.title="pavement%20cooling"
+    type: academic
+
+filtering:
+  disabled_sources:
+    - arXiv
+  pavement_urban_terms:
+    - pavement
+    - asphalt
+    - road surface
+    - street surface
+    - sidewalk
+    - urban heat island
+    - heat island
+    - urban microclimate
+    - cool pavement
+    - permeable pavement
+    - reflective pavement
+    - high-albedo pavement
+    - surface temperature
+  thermal_terms:
+    - cooling
+    - heat mitigation
+    - thermal
+    - temperature
+    - heat exchanger
+    - heat harvesting
+    - heat recovery
+    - solar thermal
+    - hydronic
+    - water-based cooling
+  false_positive_terms:
+    - plasma
+    - cosmic
+    - resonator
+    - quantum
+    - optical
+    - optically thin
+    - ionization
+    - liquid crystal
+    - barocaloric
+    - galaxy
+    - astrophysics
+    - mechanical resonator
+    - radiatively cooling gas
+  technical_implication_terms:
+    - measurement
+    - validation
+    - field
+    - monitoring
+    - pavement cooling
+    - thermal energy
+    - heat harvesting
+    - heat exchanger
+    - heat recovery
+    - alternative
+    - reflective
+    - permeable
+    - microclimate
+    - surface temperature
+  medium_relevance_terms:
+    - urban heat mitigation
+    - cool pavement
+    - reflective pavement
+    - permeable pavement
+    - microclimate monitoring
+    - heat mitigation
+  low_relevance_terms:
+    - social vulnerability
+    - city policy
+    - climate
+    - policy
+    - vulnerability
+    - media commentary
+    - commentary
+
+categories:
+  - name: Pavement cooling and urban heat mitigation
+    keywords: [pavement cooling, urban heat island, heat mitigation, cooling]
+  - name: Thermal energy pavement and heat harvesting
+    keywords: [thermal energy pavement, heat harvesting, asphalt heat]
+  - name: RTSU and system engineering relevance
+    keywords: [rtsu, system engineering, field data, monitoring system]
+  - name: Measurement, validation, and test methods
+    keywords: [measurement, validation, test method, surface temperature, microclimate]
+  - name: Alternative and competing solutions
+    keywords: [alternative cooling, reflective coating, phase change, evaporative cooling]
+  - name: Patent and novelty watch
+    keywords: [patent, novelty, invention, intellectual property]
