@@ -1,0 +1,93 @@
+{
+  "classified_items": [
+    {
+      "source_name": "Crossref",
+      "source_type": "academic",
+      "source_url": "https://api.crossref.org/works?rows=5&query.title=\"pavement%20cooling\"",
+      "title": "Initial cooling of pavements and the development of pavement cooling charts",
+      "link": "https://doi.org/10.1139/l90-012",
+      "summary": "<jats:p> A relatively short highway construction season exists on the Canadian prairies and typically the paving season extends from May to October. Highway engineers and contractors are continually confronted with unfavorable weather conditions during the early spring and latter parts of the fall paving season. During these periods of cooler weather, the decision as to whether or not to allow paving to continue or begin becomes very difficult, since freshly laid pavements cool quickly and proper compaction is difficult to attain. The final density obtained in a pavement depends critically on its initial temperature and cooling rate. This study researches the subject of pavement cooling and investigates the feasibility of cold-weather paving. The results of this study illustrate the significance of the factors affecting pavement cooling and provide information for improving the paving specifications used by Saskatchewan Highways and Transportation. This study also shows that the short paving season which exists in Saskatchewan can be extended under certain conditions. Extension of the construction season into colder weather will provide financial and various other benefits, not only to Saskatchewan Highways and Transportation but also to paving contractors and the general public. Key words: pavement cooling, pavement temperature, computer simulation, compaction, asphalt concrete. </jats:p>",
+      "source_category": "academic",
+      "source_quality": "high",
+      "technical_category": "Pavement cooling and urban heat mitigation",
+      "matched_keywords": [
+        "pavement cooling"
+      ],
+      "relevance_to_steps": "high",
+      "technical_risk_or_opportunity": "Monitor for engineering risk and implementation trade-offs",
+      "validation_implication": "Medium: requires human review for validation evidence",
+      "competitor_or_alternative_implication": "Medium: monitor for comparison against alternative approaches",
+      "patent_or_novelty_implication": "Low: no immediate novelty signal",
+      "recommended_action": "Review for engineering relevance, validation approach, and RTSU implications"
+    },
+    {
+      "source_name": "Crossref",
+      "source_type": "academic",
+      "source_url": "https://api.crossref.org/works?rows=5&query.title=\"pavement%20cooling\"",
+      "title": "Cooling Time Requirements for Asphalt Pavement Repairs",
+      "link": "https://doi.org/10.1007/978-3-030-48679-2_75",
+      "source_category": "academic",
+      "source_quality": "high",
+      "technical_category": "Pavement cooling and urban heat mitigation",
+      "matched_keywords": [],
+      "relevance_to_steps": "general technical relevance",
+      "technical_risk_or_opportunity": "Monitor for engineering risk and implementation trade-offs",
+      "validation_implication": "Medium: requires human review for validation evidence",
+      "competitor_or_alternative_implication": "Medium: monitor for comparison against alternative approaches",
+      "patent_or_novelty_implication": "Low: no immediate novelty signal",
+      "recommended_action": "Keep as low-priority background intelligence only"
+    },
+    {
+      "source_name": "Crossref",
+      "source_type": "academic",
+      "source_url": "https://api.crossref.org/works?rows=5&query.title=\"pavement%20cooling\"",
+      "title": "Cooling optimization of asphalt pavement by topology optimization and cooling mechanism analysis",
+      "link": "https://doi.org/10.1016/j.jclepro.2024.141726",
+      "source_category": "academic",
+      "source_quality": "high",
+      "technical_category": "Pavement cooling and urban heat mitigation",
+      "matched_keywords": [],
+      "relevance_to_steps": "general technical relevance",
+      "technical_risk_or_opportunity": "Monitor for engineering risk and implementation trade-offs",
+      "validation_implication": "Medium: requires human review for validation evidence",
+      "competitor_or_alternative_implication": "Medium: monitor for comparison against alternative approaches",
+      "patent_or_novelty_implication": "Low: no immediate novelty signal",
+      "recommended_action": "Keep as low-priority background intelligence only"
+    },
+    {
+      "source_name": "Crossref",
+      "source_type": "academic",
+      "source_url": "https://api.crossref.org/works?rows=5&query.title=\"pavement%20cooling\"",
+      "title": "Study on cooling effect of large gap asphalt pavement",
+      "link": "https://doi.org/10.1049/icp.2024.4111",
+      "source_category": "academic",
+      "source_quality": "high",
+      "technical_category": "Pavement cooling and urban heat mitigation",
+      "matched_keywords": [],
+      "relevance_to_steps": "general technical relevance",
+      "technical_risk_or_opportunity": "Monitor for engineering risk and implementation trade-offs",
+      "validation_implication": "Medium: requires human review for validation evidence",
+      "competitor_or_alternative_implication": "Medium: monitor for comparison against alternative approaches",
+      "patent_or_novelty_implication": "Low: no immediate novelty signal",
+      "recommended_action": "Keep as low-priority background intelligence only"
+    },
+    {
+      "source_name": "Crossref",
+      "source_type": "academic",
+      "source_url": "https://api.crossref.org/works?rows=5&query.title=\"pavement%20cooling\"",
+      "title": "Evaporation Rate and Evaporative Cooling Effect of Pavement Materials",
+      "link": "https://doi.org/10.1016/b978-0-12-803476-7.00007-6",
+      "source_category": "academic",
+      "source_quality": "high",
+      "technical_category": "Pavement cooling and urban heat mitigation",
+      "matched_keywords": [],
+      "relevance_to_steps": "general technical relevance",
+      "technical_risk_or_opportunity": "Monitor for engineering risk and implementation trade-offs",
+      "validation_implication": "Medium: requires human review for validation evidence",
+      "competitor_or_alternative_implication": "High: relevant to alternative or competing cooling concepts",
+      "patent_or_novelty_implication": "Low: no immediate novelty signal",
+      "recommended_action": "Keep as low-priority background intelligence only"
+    }
+  ],
+  "filtered_items": []
+}

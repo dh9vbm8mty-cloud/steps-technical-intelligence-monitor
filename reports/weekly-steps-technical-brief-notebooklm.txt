@@ -1,0 +1,32 @@
+# Weekly STEPS Technical Intelligence Summary
+
+Generated: 2026-06-30 17:24:07 UTC
+
+This weekly summary is an internal engineering intelligence snapshot for human review.
+
+Do not treat findings as proven performance claims. All items remain internal engineering intelligence requiring human review.
+
+## High relevance technical items
+
+- Initial cooling of pavements and the development of pavement cooling charts | source=Crossref | category=Pavement cooling and urban heat mitigation
+
+## Medium priority background items
+
+- No medium-priority items met the current filter.
+
+## Background / verification notes
+
+- Cooling Time Requirements for Asphalt Pavement Repairs | source=Crossref | category=Pavement cooling and urban heat mitigation
+- Cooling optimization of asphalt pavement by topology optimization and cooling mechanism analysis | source=Crossref | category=Pavement cooling and urban heat mitigation
+- Study on cooling effect of large gap asphalt pavement | source=Crossref | category=Pavement cooling and urban heat mitigation
+- Evaporation Rate and Evaporative Cooling Effect of Pavement Materials | source=Crossref | category=Pavement cooling and urban heat mitigation
+
+## Rejected / filtered false positives
+
+- Ground state cooling of mechanical resonators | reason=filtered as unrelated false positive
+- Catastrophic cooling instability in optically thin plasmas | reason=filtered as unrelated false positive
+- Time-Dependent Ionization in Radiatively Cooling Gas | reason=filtered as unrelated false positive
+
+## Source health / fetch issues
+
+- Semantic Scholar: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=pavement%20cooling&limit=5&fields=title,url
