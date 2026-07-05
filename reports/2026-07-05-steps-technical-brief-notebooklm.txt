@@ -1,0 +1,16 @@
+Project: STEPS Technical Intelligence Monitor
+Disclaimer: Internal engineering intelligence for human review only. Do not treat findings as proven performance claims.
+
+Source health / fetch issues:
+- No source fetch issues recorded.
+
+Findings:
+- Sustainable thermochromic coatings for pavement cooling and carbon offset under climate change | source=Semantic Scholar | category=Pavement cooling and urban heat mitigation | relevance=high
+- Synergistic effects of reversible thermochromic microcapsules and polyurethane on asphalt: pavement cooling and performance enhancement | source=Semantic Scholar | category=Pavement cooling and urban heat mitigation | relevance=high
+- Road cooling in tropical environments: microclimate modelling of pavement cooling scenarios using ENVI-met | source=Semantic Scholar | category=Pavement cooling and urban heat mitigation | relevance=high
+- Cooling water-retentive semi-flexible pavement with light-colored grout and recycled materials | source=Semantic Scholar | category=Pavement cooling and urban heat mitigation | relevance=general technical relevance
+- Initial cooling of pavements and the development of pavement cooling charts | source=Crossref | category=Pavement cooling and urban heat mitigation | relevance=high
+- Cooling Time Requirements for Asphalt Pavement Repairs | source=Crossref | category=Pavement cooling and urban heat mitigation | relevance=general technical relevance
+- Cooling optimization of asphalt pavement by topology optimization and cooling mechanism analysis | source=Crossref | category=Pavement cooling and urban heat mitigation | relevance=general technical relevance
+- Study on cooling effect of large gap asphalt pavement | source=Crossref | category=Pavement cooling and urban heat mitigation | relevance=general technical relevance
+- Evaporation Rate and Evaporative Cooling Effect of Pavement Materials | source=Crossref | category=Pavement cooling and urban heat mitigation | relevance=general technical relevance
