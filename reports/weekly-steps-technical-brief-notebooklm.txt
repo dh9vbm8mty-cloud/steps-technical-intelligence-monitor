@@ -1,6 +1,6 @@
 # Weekly STEPS Technical Intelligence Summary
 
-Generated: 2026-07-05 08:55:22 UTC
+Generated: 2026-07-06 10:27:01 UTC
 
 This weekly summary is an internal engineering intelligence snapshot for human review.
 
@@ -18,8 +18,8 @@ Do not treat findings as proven performance claims. All items remain internal en
 
 - Cooling Time Requirements for Asphalt Pavement Repairs | source=Crossref | category=Pavement cooling and urban heat mitigation
 - Cooling optimization of asphalt pavement by topology optimization and cooling mechanism analysis | source=Crossref | category=Pavement cooling and urban heat mitigation
-- Study on cooling effect of large gap asphalt pavement | source=Crossref | category=Pavement cooling and urban heat mitigation
 - Evaporation Rate and Evaporative Cooling Effect of Pavement Materials | source=Crossref | category=Pavement cooling and urban heat mitigation
+- Study on cooling effect of large gap asphalt pavement | source=Crossref | category=Pavement cooling and urban heat mitigation
 
 ## Rejected / filtered false positives
 
