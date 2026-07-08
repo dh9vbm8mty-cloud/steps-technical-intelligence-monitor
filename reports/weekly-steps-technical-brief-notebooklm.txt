@@ -1,6 +1,6 @@
 # Weekly STEPS Technical Intelligence Summary
 
-Generated: 2026-07-07 09:45:43 UTC
+Generated: 2026-07-08 08:32:06 UTC
 
 This weekly summary is an internal engineering intelligence snapshot for human review.
 
@@ -8,6 +8,9 @@ Do not treat findings as proven performance claims. All items remain internal en
 
 ## High relevance technical items
 
+- Sustainable thermochromic coatings for pavement cooling and carbon offset under climate change | source=Semantic Scholar | category=Pavement cooling and urban heat mitigation
+- Synergistic effects of reversible thermochromic microcapsules and polyurethane on asphalt: pavement cooling and performance enhancement | source=Semantic Scholar | category=Pavement cooling and urban heat mitigation
+- Road cooling in tropical environments: microclimate modelling of pavement cooling scenarios using ENVI-met | source=Semantic Scholar | category=Pavement cooling and urban heat mitigation
 - Initial cooling of pavements and the development of pavement cooling charts | source=Crossref | category=Pavement cooling and urban heat mitigation
 
 ## Medium priority background items
@@ -16,6 +19,7 @@ Do not treat findings as proven performance claims. All items remain internal en
 
 ## Background / verification notes
 
+- Cooling water-retentive semi-flexible pavement with light-colored grout and recycled materials | source=Semantic Scholar | category=Pavement cooling and urban heat mitigation
 - Cooling Time Requirements for Asphalt Pavement Repairs | source=Crossref | category=Pavement cooling and urban heat mitigation
 - Cooling optimization of asphalt pavement by topology optimization and cooling mechanism analysis | source=Crossref | category=Pavement cooling and urban heat mitigation
 - Evaporation Rate and Evaporative Cooling Effect of Pavement Materials | source=Crossref | category=Pavement cooling and urban heat mitigation
@@ -23,10 +27,4 @@ Do not treat findings as proven performance claims. All items remain internal en
 
 ## Rejected / filtered false positives
 
-- Ground state cooling of mechanical resonators | reason=filtered as unrelated false positive
-- Catastrophic cooling instability in optically thin plasmas | reason=filtered as unrelated false positive
-- Time-Dependent Ionization in Radiatively Cooling Gas | reason=filtered as unrelated false positive
-
-## Source health / fetch issues
-
-- Semantic Scholar: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=pavement%20cooling&limit=5&fields=title,url
+- Laboratorial Investigation on Optical, Thermal and Pavement Performance of Biomimetic Dark Reflective Coatings with Composite Structure for Pavement Cooling | source=Semantic Scholar | reason=unrelated false positive

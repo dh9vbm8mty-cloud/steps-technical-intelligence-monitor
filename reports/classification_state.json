@@ -1,6 +1,80 @@
 {
   "classified_items": [
     {
+      "source_name": "Semantic Scholar",
+      "source_type": "academic",
+      "source_url": "https://api.semanticscholar.org/graph/v1/paper/search?query=pavement%20cooling&limit=5&fields=title,url",
+      "title": "Sustainable thermochromic coatings for pavement cooling and carbon offset under climate change",
+      "link": "https://www.semanticscholar.org/paper/51f5efca097e7212ec0a92d9870cb08b4d53a038",
+      "source_category": "academic",
+      "source_quality": "high",
+      "technical_category": "Pavement cooling and urban heat mitigation",
+      "matched_keywords": [
+        "pavement cooling"
+      ],
+      "relevance_to_steps": "high",
+      "technical_risk_or_opportunity": "Monitor for engineering risk and implementation trade-offs",
+      "validation_implication": "Medium: requires human review for validation evidence",
+      "competitor_or_alternative_implication": "Medium: monitor for comparison against alternative approaches",
+      "patent_or_novelty_implication": "Low: no immediate novelty signal",
+      "recommended_action": "Review for engineering relevance, validation approach, and RTSU implications"
+    },
+    {
+      "source_name": "Semantic Scholar",
+      "source_type": "academic",
+      "source_url": "https://api.semanticscholar.org/graph/v1/paper/search?query=pavement%20cooling&limit=5&fields=title,url",
+      "title": "Synergistic effects of reversible thermochromic microcapsules and polyurethane on asphalt: pavement cooling and performance enhancement",
+      "link": "https://www.semanticscholar.org/paper/a56b3d10c5cacf2f661a130e1a07713eb05f6315",
+      "source_category": "academic",
+      "source_quality": "high",
+      "technical_category": "Pavement cooling and urban heat mitigation",
+      "matched_keywords": [
+        "pavement cooling"
+      ],
+      "relevance_to_steps": "high",
+      "technical_risk_or_opportunity": "Monitor for engineering risk and implementation trade-offs",
+      "validation_implication": "Medium: requires human review for validation evidence",
+      "competitor_or_alternative_implication": "Medium: monitor for comparison against alternative approaches",
+      "patent_or_novelty_implication": "Low: no immediate novelty signal",
+      "recommended_action": "Review for engineering relevance, validation approach, and RTSU implications"
+    },
+    {
+      "source_name": "Semantic Scholar",
+      "source_type": "academic",
+      "source_url": "https://api.semanticscholar.org/graph/v1/paper/search?query=pavement%20cooling&limit=5&fields=title,url",
+      "title": "Road cooling in tropical environments: microclimate modelling of pavement cooling scenarios using ENVI-met",
+      "link": "https://www.semanticscholar.org/paper/e571457f387c2201118a3f0c69f481c243407ac5",
+      "source_category": "academic",
+      "source_quality": "high",
+      "technical_category": "Pavement cooling and urban heat mitigation",
+      "matched_keywords": [
+        "pavement cooling"
+      ],
+      "relevance_to_steps": "high",
+      "technical_risk_or_opportunity": "Monitor for engineering risk and implementation trade-offs",
+      "validation_implication": "Medium: requires human review for validation evidence",
+      "competitor_or_alternative_implication": "Medium: monitor for comparison against alternative approaches",
+      "patent_or_novelty_implication": "Low: no immediate novelty signal",
+      "recommended_action": "Review for engineering relevance, validation approach, and RTSU implications"
+    },
+    {
+      "source_name": "Semantic Scholar",
+      "source_type": "academic",
+      "source_url": "https://api.semanticscholar.org/graph/v1/paper/search?query=pavement%20cooling&limit=5&fields=title,url",
+      "title": "Cooling water-retentive semi-flexible pavement with light-colored grout and recycled materials",
+      "link": "https://www.semanticscholar.org/paper/076700823a86a1053cf1c249484b779a70627593",
+      "source_category": "academic",
+      "source_quality": "high",
+      "technical_category": "Pavement cooling and urban heat mitigation",
+      "matched_keywords": [],
+      "relevance_to_steps": "general technical relevance",
+      "technical_risk_or_opportunity": "Monitor for engineering risk and implementation trade-offs",
+      "validation_implication": "Medium: requires human review for validation evidence",
+      "competitor_or_alternative_implication": "Medium: monitor for comparison against alternative approaches",
+      "patent_or_novelty_implication": "Low: no immediate novelty signal",
+      "recommended_action": "Keep as low-priority background intelligence only"
+    },
+    {
       "source_name": "Crossref",
       "source_type": "academic",
       "source_url": "https://api.crossref.org/works?rows=5&query.title=\"pavement%20cooling\"",
@@ -89,5 +163,11 @@
       "recommended_action": "Keep as low-priority background intelligence only"
     }
   ],
-  "filtered_items": []
+  "filtered_items": [
+    {
+      "title": "Laboratorial Investigation on Optical, Thermal and Pavement Performance of Biomimetic Dark Reflective Coatings with Composite Structure for Pavement Cooling",
+      "source_name": "Semantic Scholar",
+      "filter_reason": "unrelated false positive"
+    }
+  ]
 }
