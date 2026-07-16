@@ -1,0 +1,12 @@
+Project: STEPS Technical Intelligence Monitor
+Disclaimer: Internal engineering intelligence for human review only. Do not treat findings as proven performance claims.
+
+Source health / fetch issues:
+- Semantic Scholar: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=pavement%20cooling&limit=5&fields=title,url
+
+Findings:
+- Initial cooling of pavements and the development of pavement cooling charts | source=Crossref | category=Pavement cooling and urban heat mitigation | relevance=high
+- Cooling Time Requirements for Asphalt Pavement Repairs | source=Crossref | category=Pavement cooling and urban heat mitigation | relevance=general technical relevance
+- Cooling optimization of asphalt pavement by topology optimization and cooling mechanism analysis | source=Crossref | category=Pavement cooling and urban heat mitigation | relevance=general technical relevance
+- Study on cooling effect of large gap asphalt pavement | source=Crossref | category=Pavement cooling and urban heat mitigation | relevance=general technical relevance
+- Evaporation Rate and Evaporative Cooling Effect of Pavement Materials | source=Crossref | category=Pavement cooling and urban heat mitigation | relevance=general technical relevance
