@@ -1,6 +1,6 @@
 # Weekly STEPS Technical Intelligence Summary
 
-Generated: 2026-07-21 08:31:49 UTC
+Generated: 2026-07-22 08:31:46 UTC
 
 This weekly summary is an internal engineering intelligence snapshot for human review.
 
