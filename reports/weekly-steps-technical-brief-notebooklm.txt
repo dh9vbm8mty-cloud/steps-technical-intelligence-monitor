@@ -1,6 +1,6 @@
 # Weekly STEPS Technical Intelligence Summary
 
-Generated: 2026-07-23 08:33:03 UTC
+Generated: 2026-07-24 08:29:51 UTC
 
 This weekly summary is an internal engineering intelligence snapshot for human review.
 
@@ -29,4 +29,5 @@ Do not treat findings as proven performance claims. All items remain internal en
 
 ## Source health / fetch issues
 
+- Google Patents: 503 Server Error: Service Unavailable for url: https://patents.google.com/?q=pavement+cooling
 - Semantic Scholar: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=pavement%20cooling&limit=5&fields=title,url
