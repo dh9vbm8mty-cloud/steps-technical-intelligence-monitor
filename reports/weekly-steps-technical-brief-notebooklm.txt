@@ -1,6 +1,6 @@
 # Weekly STEPS Technical Intelligence Summary
 
-Generated: 2026-08-16 06:41:28 UTC
+Generated: 2026-08-17 06:57:36 UTC
 
 This weekly summary is an internal engineering intelligence snapshot for human review.
 
@@ -8,7 +8,7 @@ Do not treat findings as proven performance claims. All items remain internal en
 
 ## High relevance technical items
 
-- Initial cooling of pavements and the development of pavement cooling charts | source=Crossref | category=Pavement cooling and urban heat mitigation
+- No high-relevance items met the current filter.
 
 ## Medium priority background items
 
@@ -16,10 +16,7 @@ Do not treat findings as proven performance claims. All items remain internal en
 
 ## Background / verification notes
 
-- Cooling Time Requirements for Asphalt Pavement Repairs | source=Crossref | category=Pavement cooling and urban heat mitigation
-- Cooling optimization of asphalt pavement by topology optimization and cooling mechanism analysis | source=Crossref | category=Pavement cooling and urban heat mitigation
-- Evaporation Rate and Evaporative Cooling Effect of Pavement Materials | source=Crossref | category=Pavement cooling and urban heat mitigation
-- Study on cooling effect of large gap asphalt pavement | source=Crossref | category=Pavement cooling and urban heat mitigation
+- No background items were retained for this cycle.
 
 ## Rejected / filtered false positives
 
@@ -30,3 +27,4 @@ Do not treat findings as proven performance claims. All items remain internal en
 ## Source health / fetch issues
 
 - Semantic Scholar: 429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=pavement%20cooling&limit=5&fields=title,url
+- Crossref: 429 Client Error: Too Many Requests for url: https://api.crossref.org/works?rows=5&query.title=%22pavement%20cooling%22
