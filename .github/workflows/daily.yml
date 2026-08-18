@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: steps-technical-intelligence-monitor
+  cancel-in-progress: false
+
 jobs:
   monitor:
     runs-on: ubuntu-latest
@@ -26,10 +30,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Run tests
+        run: |
+          pytest -q
+
       - name: Run monitor
         run: |
-          python src/main.py
-          python src/weekly_report.py
+          python src/main.py --mode monitor
 
       - name: Show generated files
         run: |
@@ -37,7 +44,7 @@ jobs:
           ls -la data || true
           git status --short
 
-      - name: Commit generated reports
+      - name: Commit generated intelligence outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

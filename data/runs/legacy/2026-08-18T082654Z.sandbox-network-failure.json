@@ -1,0 +1,159 @@
+{
+  "degraded_sources": [
+    {
+      "consecutive_failures": 1,
+      "item_count": 0,
+      "last_attempt_at": "2026-08-18T08:26:54Z",
+      "last_error": "HTTPSConnectionPool(host='api.crossref.org', port=443): Max retries exceeded with url: /works?rows=5&query.title=urban+pavement+cooling (Caused by NameResolutionError(\"HTTPSConnection(host='api.crossref.org', port=443): Failed to resolve 'api.crossref.org' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "last_http_code": null,
+      "last_status": "failed",
+      "last_success_at": null,
+      "source_name": "Crossref"
+    },
+    {
+      "consecutive_failures": 1,
+      "item_count": 0,
+      "last_attempt_at": "2026-08-18T08:26:54Z",
+      "last_error": "HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works?search=urban+pavement+cooling&per-page=5 (Caused by NameResolutionError(\"HTTPSConnection(host='api.openalex.org', port=443): Failed to resolve 'api.openalex.org' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "last_http_code": null,
+      "last_status": "failed",
+      "last_success_at": null,
+      "source_name": "OpenAlex"
+    },
+    {
+      "consecutive_failures": 1,
+      "item_count": 0,
+      "last_attempt_at": "2026-08-18T08:26:54Z",
+      "last_error": "HTTPSConnectionPool(host='api.semanticscholar.org', port=443): Max retries exceeded with url: /graph/v1/paper/search?query=urban+pavement+cooling&limit=5&fields=title%2Curl%2Cabstract%2Cyear%2Cauthors%2Cvenue%2CexternalIds%2CpublicationTypes (Caused by NameResolutionError(\"HTTPSConnection(host='api.semanticscholar.org', port=443): Failed to resolve 'api.semanticscholar.org' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "last_http_code": null,
+      "last_status": "failed",
+      "last_success_at": null,
+      "source_name": "Semantic Scholar"
+    },
+    {
+      "consecutive_failures": 1,
+      "item_count": 0,
+      "last_attempt_at": "2026-08-18T08:26:54Z",
+      "last_error": "HTTPSConnectionPool(host='cordis.europa.eu', port=443): Max retries exceeded with url: /search?q=%22pavement%20thermal%22 (Caused by NameResolutionError(\"HTTPSConnection(host='cordis.europa.eu', port=443): Failed to resolve 'cordis.europa.eu' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "last_http_code": null,
+      "last_status": "failed",
+      "last_success_at": null,
+      "source_name": "CORDIS Projects Search"
+    },
+    {
+      "consecutive_failures": 1,
+      "item_count": 0,
+      "last_attempt_at": "2026-08-18T08:26:54Z",
+      "last_error": "HTTPSConnectionPool(host='highways.dot.gov', port=443): Max retries exceeded with url: /search?search=pavement%20cooling (Caused by NameResolutionError(\"HTTPSConnection(host='highways.dot.gov', port=443): Failed to resolve 'highways.dot.gov' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "last_http_code": null,
+      "last_status": "failed",
+      "last_success_at": null,
+      "source_name": "FHWA Search"
+    },
+    {
+      "consecutive_failures": 1,
+      "item_count": 0,
+      "last_attempt_at": "2026-08-18T08:26:54Z",
+      "last_error": "HTTPSConnectionPool(host='patents.google.com', port=443): Max retries exceeded with url: /?q=%22pavement+cooling%22 (Caused by NameResolutionError(\"HTTPSConnection(host='patents.google.com', port=443): Failed to resolve 'patents.google.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "last_http_code": null,
+      "last_status": "failed",
+      "last_success_at": null,
+      "source_name": "Google Patents Fallback"
+    }
+  ],
+  "duplicates": [],
+  "errors": [
+    {
+      "error": "HTTPSConnectionPool(host='api.crossref.org', port=443): Max retries exceeded with url: /works?rows=5&query.title=urban+pavement+cooling (Caused by NameResolutionError(\"HTTPSConnection(host='api.crossref.org', port=443): Failed to resolve 'api.crossref.org' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "source_name": "Crossref"
+    },
+    {
+      "error": "HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works?search=urban+pavement+cooling&per-page=5 (Caused by NameResolutionError(\"HTTPSConnection(host='api.openalex.org', port=443): Failed to resolve 'api.openalex.org' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "source_name": "OpenAlex"
+    },
+    {
+      "error": "HTTPSConnectionPool(host='api.semanticscholar.org', port=443): Max retries exceeded with url: /graph/v1/paper/search?query=urban+pavement+cooling&limit=5&fields=title%2Curl%2Cabstract%2Cyear%2Cauthors%2Cvenue%2CexternalIds%2CpublicationTypes (Caused by NameResolutionError(\"HTTPSConnection(host='api.semanticscholar.org', port=443): Failed to resolve 'api.semanticscholar.org' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "source_name": "Semantic Scholar"
+    },
+    {
+      "error": "HTTPSConnectionPool(host='cordis.europa.eu', port=443): Max retries exceeded with url: /search?q=%22pavement%20thermal%22 (Caused by NameResolutionError(\"HTTPSConnection(host='cordis.europa.eu', port=443): Failed to resolve 'cordis.europa.eu' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "source_name": "CORDIS Projects Search"
+    },
+    {
+      "error": "HTTPSConnectionPool(host='highways.dot.gov', port=443): Max retries exceeded with url: /search?search=pavement%20cooling (Caused by NameResolutionError(\"HTTPSConnection(host='highways.dot.gov', port=443): Failed to resolve 'highways.dot.gov' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "source_name": "FHWA Search"
+    },
+    {
+      "error": "HTTPSConnectionPool(host='patents.google.com', port=443): Max retries exceeded with url: /?q=%22pavement+cooling%22 (Caused by NameResolutionError(\"HTTPSConnection(host='patents.google.com', port=443): Failed to resolve 'patents.google.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "source_name": "Google Patents Fallback"
+    }
+  ],
+  "new_items": [],
+  "normalized_item_count": 0,
+  "raw_item_count": 0,
+  "rejected_items": [],
+  "run_timestamp": "2026-08-18T08:26:54Z",
+  "source_health": {
+    "CORDIS Projects Search": {
+      "consecutive_failures": 1,
+      "item_count": 0,
+      "last_attempt_at": "2026-08-18T08:26:54Z",
+      "last_error": "HTTPSConnectionPool(host='cordis.europa.eu', port=443): Max retries exceeded with url: /search?q=%22pavement%20thermal%22 (Caused by NameResolutionError(\"HTTPSConnection(host='cordis.europa.eu', port=443): Failed to resolve 'cordis.europa.eu' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "last_http_code": null,
+      "last_status": "failed",
+      "last_success_at": null,
+      "source_name": "CORDIS Projects Search"
+    },
+    "Crossref": {
+      "consecutive_failures": 1,
+      "item_count": 0,
+      "last_attempt_at": "2026-08-18T08:26:54Z",
+      "last_error": "HTTPSConnectionPool(host='api.crossref.org', port=443): Max retries exceeded with url: /works?rows=5&query.title=urban+pavement+cooling (Caused by NameResolutionError(\"HTTPSConnection(host='api.crossref.org', port=443): Failed to resolve 'api.crossref.org' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "last_http_code": null,
+      "last_status": "failed",
+      "last_success_at": null,
+      "source_name": "Crossref"
+    },
+    "FHWA Search": {
+      "consecutive_failures": 1,
+      "item_count": 0,
+      "last_attempt_at": "2026-08-18T08:26:54Z",
+      "last_error": "HTTPSConnectionPool(host='highways.dot.gov', port=443): Max retries exceeded with url: /search?search=pavement%20cooling (Caused by NameResolutionError(\"HTTPSConnection(host='highways.dot.gov', port=443): Failed to resolve 'highways.dot.gov' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "last_http_code": null,
+      "last_status": "failed",
+      "last_success_at": null,
+      "source_name": "FHWA Search"
+    },
+    "Google Patents Fallback": {
+      "consecutive_failures": 1,
+      "item_count": 0,
+      "last_attempt_at": "2026-08-18T08:26:54Z",
+      "last_error": "HTTPSConnectionPool(host='patents.google.com', port=443): Max retries exceeded with url: /?q=%22pavement+cooling%22 (Caused by NameResolutionError(\"HTTPSConnection(host='patents.google.com', port=443): Failed to resolve 'patents.google.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "last_http_code": null,
+      "last_status": "failed",
+      "last_success_at": null,
+      "source_name": "Google Patents Fallback"
+    },
+    "OpenAlex": {
+      "consecutive_failures": 1,
+      "item_count": 0,
+      "last_attempt_at": "2026-08-18T08:26:54Z",
+      "last_error": "HTTPSConnectionPool(host='api.openalex.org', port=443): Max retries exceeded with url: /works?search=urban+pavement+cooling&per-page=5 (Caused by NameResolutionError(\"HTTPSConnection(host='api.openalex.org', port=443): Failed to resolve 'api.openalex.org' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "last_http_code": null,
+      "last_status": "failed",
+      "last_success_at": null,
+      "source_name": "OpenAlex"
+    },
+    "Semantic Scholar": {
+      "consecutive_failures": 1,
+      "item_count": 0,
+      "last_attempt_at": "2026-08-18T08:26:54Z",
+      "last_error": "HTTPSConnectionPool(host='api.semanticscholar.org', port=443): Max retries exceeded with url: /graph/v1/paper/search?query=urban+pavement+cooling&limit=5&fields=title%2Curl%2Cabstract%2Cyear%2Cauthors%2Cvenue%2CexternalIds%2CpublicationTypes (Caused by NameResolutionError(\"HTTPSConnection(host='api.semanticscholar.org', port=443): Failed to resolve 'api.semanticscholar.org' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "last_http_code": null,
+      "last_status": "failed",
+      "last_success_at": null,
+      "source_name": "Semantic Scholar"
+    }
+  },
+  "updated_items": []
+}

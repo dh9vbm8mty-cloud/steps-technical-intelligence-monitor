@@ -1,222 +1,211 @@
 from __future__ import annotations
 
-import json
-from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List
 
-import yaml
-
-LAST_CLASSIFIED_ITEMS: List[Dict[str, Any]] = []
-LAST_FILTERED_ITEMS: List[Dict[str, Any]] = []
-SNAPSHOT_PATH = Path(__file__).resolve().parent.parent / "reports" / "classification_state.json"
+from models import IntelligenceItem
 
 
-def classify_items(
-    items: List[Dict[str, Any]],
-    keywords: List[str],
-    categories: Optional[List[Dict[str, Any]]] = None,
-) -> List[Dict[str, Any]]:
-    global LAST_CLASSIFIED_ITEMS, LAST_FILTERED_ITEMS
-
-    rules = load_filtering_rules()
-    classified_items: List[Dict[str, Any]] = []
-    filtered_items: List[Dict[str, Any]] = []
-
+def classify_items(items: List[IntelligenceItem], taxonomy: Dict[str, Any]) -> List[IntelligenceItem]:
+    rules = taxonomy.get("classification", {})
     for item in items:
-        title_text = normalize_text(item.get("title", ""))
-        summary_text = normalize_text(item.get("summary", ""))
-        full_text = f"{title_text} {summary_text}".lower()
-        matched_keywords = [keyword for keyword in keywords if keyword.lower() in full_text]
-
-        matched_categories = []
-        if categories:
-            for category in categories:
-                category_keywords = category.get("keywords", [])
-                if any(keyword.lower() in full_text for keyword in category_keywords):
-                    matched_categories.append(category.get("name", "General"))
-
-        filtered_reason = should_filter_out(full_text, rules)
-        if filtered_reason:
-            filtered_items.append({
-                "title": title_text,
-                "source_name": item.get("source_name", "Unknown"),
-                "filter_reason": filtered_reason,
-            })
-            continue
-
-        source_type = item.get("source_type", "unknown")
-        source_category = source_type if source_type != "unknown" else "unknown"
-        source_quality = assess_source_quality(source_type, item.get("source_name", ""))
-        technical_category = matched_categories[0] if matched_categories else "General technical intelligence"
-        relevance_to_steps = assess_relevance(full_text, matched_keywords, rules)
-        technical_risk_or_opportunity = assess_risk_or_opportunity(full_text)
-        validation_implication = assess_validation(full_text)
-        competitor_or_alternative_implication = assess_competitor(full_text)
-        patent_or_novelty_implication = assess_patent_novelty(full_text)
-        recommended_action = assess_action(full_text, relevance_to_steps)
-
-        classified_items.append({
-            **item,
-            "title": title_text,
-            "source_category": source_category,
-            "source_quality": source_quality,
-            "technical_category": technical_category,
-            "matched_keywords": matched_keywords,
-            "relevance_to_steps": relevance_to_steps,
-            "technical_risk_or_opportunity": technical_risk_or_opportunity,
-            "validation_implication": validation_implication,
-            "competitor_or_alternative_implication": competitor_or_alternative_implication,
-            "patent_or_novelty_implication": patent_or_novelty_implication,
-            "recommended_action": recommended_action,
-        })
-
-    LAST_CLASSIFIED_ITEMS = classified_items
-    LAST_FILTERED_ITEMS = filtered_items
-    write_classification_snapshot(classified_items, filtered_items)
-    return classified_items
+        classify_item(item, rules)
+    return items
 
 
-def get_last_classified_items() -> List[Dict[str, Any]]:
-    if LAST_CLASSIFIED_ITEMS:
-        return LAST_CLASSIFIED_ITEMS
-    return read_classification_snapshot().get("classified_items", [])
+def classify_item(item: IntelligenceItem, rules: Dict[str, Any]) -> IntelligenceItem:
+    text = item_text(item)
+    if is_unrelated_false_positive(text, rules):
+        reject(item)
+        return item
+
+    has_domain = has_any(text, rules.get("domain_terms", []))
+    has_thermal = has_any(text, rules.get("thermal_terms", []))
+    families = detect_technology_families(text, rules)
+    item.technology_families = families
+    item.engineering_relevance_tags = detect_engineering_tags(text)
+    item.project_maturity = detect_project_maturity(item, text)
+    item.validation_quality = detect_validation_quality(text)
+    item.patent_review_trigger = item.item_type == "Patent" or has_any(text, ["patent", "invention", "intellectual property", "prior art"])
+    item.alternative_or_competitor_relevance = detect_alternative_competitor_relevance(families, text)
+    item.source_confidence = source_confidence(item.source_name, item.item_type)
+
+    if not has_domain and not has_thermal and not families:
+        reject(item)
+        return item
+
+    item.relevance = determine_relevance(item, text, has_domain, has_thermal, rules)
+    item.human_review_required = should_enter_human_review_queue(item, text, rules)
+    return item
 
 
-def get_filtered_false_positives() -> List[Dict[str, Any]]:
-    if LAST_FILTERED_ITEMS:
-        return LAST_FILTERED_ITEMS
-    return read_classification_snapshot().get("filtered_items", [])
+def item_text(item: IntelligenceItem) -> str:
+    parts = [
+        item.title,
+        item.abstract_or_summary or "",
+        item.publication or "",
+        item.organization or "",
+        item.item_type or "",
+    ]
+    return " ".join(part for part in parts if part).lower()
 
 
-def write_classification_snapshot(classified_items: List[Dict[str, Any]], filtered_items: List[Dict[str, Any]]) -> None:
-    SNAPSHOT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    payload = {
-        "classified_items": classified_items,
-        "filtered_items": filtered_items,
+def reject(item: IntelligenceItem) -> None:
+    item.relevance = "Reject"
+    item.status = "REJECTED"
+    item.human_review_required = False
+    item.technology_families = []
+    item.engineering_relevance_tags = []
+
+
+def is_unrelated_false_positive(text: str, rules: Dict[str, Any]) -> bool:
+    if not has_any(text, rules.get("unrelated_false_positive_terms", [])):
+        return False
+    return not has_any(text, rules.get("domain_terms", []))
+
+
+def determine_relevance(
+    item: IntelligenceItem,
+    text: str,
+    has_domain: bool,
+    has_thermal: bool,
+    rules: Dict[str, Any],
+) -> str:
+    strong_signal = has_strong_critical_signal(item, text)
+    direct_engineering = has_domain and (has_thermal or bool(item.technology_families))
+    if strong_signal and direct_engineering:
+        return "Critical"
+    if direct_engineering and has_any(text, rules.get("explicit_review_triggers", [])):
+        return "High"
+    if item.patent_review_trigger and direct_engineering:
+        return "High"
+    if direct_engineering:
+        return "Medium"
+    if item.technology_families:
+        return "Background"
+    return "Reject"
+
+
+def has_strong_critical_signal(item: IntelligenceItem, text: str) -> bool:
+    if item.patent_review_trigger:
+        return True
+    if has_any(text, ["full-scale", "full scale", "operational", "commercial deployment", "multi-season", "multi-year"]):
+        return True
+    if has_any(text, ["field demonstration", "field test", "field experiment", "pilot", "demonstration project"]):
+        return True
+    if has_any(text, ["durability failure", "failure mode", "thermal cracking", "pumping energy", "parasitic energy"]):
+        return True
+    if has_any(text, ["validation method", "independent validation", "heat flux measurement"]):
+        return True
+    return False
+
+
+def should_enter_human_review_queue(item: IntelligenceItem, text: str, rules: Dict[str, Any]) -> bool:
+    if item.relevance in {"Critical", "High"}:
+        return True
+    if item.relevance == "Medium":
+        return has_any(text, rules.get("explicit_review_triggers", [])) or item.patent_review_trigger
+    return False
+
+
+def detect_technology_families(text: str, rules: Dict[str, Any]) -> List[str]:
+    families = []
+    for family, terms in rules.get("technology_families", {}).items():
+        if has_any(text, terms):
+            families.append(family)
+    if not families and has_any(text, ["pavement", "asphalt", "road surface"]) and has_any(text, ["thermal", "temperature", "cooling", "heat"]):
+        families.append("Other")
+    return families
+
+
+def detect_engineering_tags(text: str) -> List[str]:
+    tags_by_term = {
+        "thermal performance": ["thermal performance", "heat transfer", "cooling performance"],
+        "hydraulic performance": ["hydraulic", "flow rate", "pressure drop"],
+        "surface temperature": ["surface temperature"],
+        "subsurface temperature": ["subsurface temperature"],
+        "heat flux": ["heat flux"],
+        "pumping / energy consumption": ["pumping energy", "energy consumption", "power consumption", "parasitic energy"],
+        "control strategy": ["control strategy", "control system", "thermal control"],
+        "sensor / instrumentation": ["sensor", "instrumentation", "monitoring", "iot"],
+        "construction": ["construction", "constructability", "installation"],
+        "durability": ["durability", "fatigue", "cracking"],
+        "maintenance": ["maintenance"],
+        "environmental / climatic conditions": ["climate", "microclimate", "weather", "outdoor"],
+        "field validation": ["field", "pilot", "demonstration", "validation"],
+        "commercial maturity": ["commercial", "product", "deployment"],
+        "urban heat mitigation": ["urban heat", "heat island", "microclimate"],
+        "system integration": ["system integration", "heat pump", "thermal storage", "district heating", "district cooling"],
+        "useful heat recovery": ["heat recovery", "heat harvesting", "thermal energy harvesting"],
+        "alternative technology": ["reflective", "permeable", "evaporative", "phase change", "thermochromic"],
+        "competitor relevance": ["competing", "alternative", "commercial product"],
+        "patent review trigger": ["patent", "invention", "prior art"],
     }
-    SNAPSHOT_PATH.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+    return [tag for tag, terms in tags_by_term.items() if has_any(text, terms)]
 
 
-def read_classification_snapshot() -> Dict[str, Any]:
-    if not SNAPSHOT_PATH.exists():
-        return {"classified_items": [], "filtered_items": []}
-    try:
-        return json.loads(SNAPSHOT_PATH.read_text(encoding="utf-8"))
-    except json.JSONDecodeError:
-        return {"classified_items": [], "filtered_items": []}
+def detect_project_maturity(item: IntelligenceItem, text: str) -> str:
+    if item.item_type in {"Commercial Deployment", "Company / Product"} or has_any(text, ["commercial product", "commercial deployment"]):
+        return "Commercial Product / Deployment"
+    if has_any(text, ["operational infrastructure", "operational", "in operation"]):
+        return "Operational Infrastructure"
+    if has_any(text, ["demonstration project", "demonstration"]):
+        return "Demonstration"
+    if "pilot" in text:
+        return "Pilot"
+    if has_any(text, ["outdoor experimental", "test section", "field experiment", "field test"]):
+        return "Outdoor Experimental Section"
+    if has_any(text, ["laboratory", "lab scale", "prototype"]):
+        return "Laboratory Prototype"
+    if has_any(text, ["numerical", "simulation", "model"]):
+        return "Numerical Model"
+    if "concept" in text:
+        return "Concept"
+    return "Unknown"
 
 
-def load_filtering_rules() -> Dict[str, Any]:
-    config_path = Path(__file__).resolve().parent.parent / "config.yaml"
-    if not config_path.exists():
-        return {}
-
-    with config_path.open("r", encoding="utf-8") as handle:
-        config = yaml.safe_load(handle) or {}
-
-    return config.get("filtering", {})
-
-
-def normalize_text(value: Any) -> str:
-    if isinstance(value, list):
-        return " ".join(str(item) for item in value if item)
-    if isinstance(value, dict):
-        return " ".join(str(item) for item in value.values() if item)
-    return str(value)
-
-
-def should_filter_out(text: str, rules: Dict[str, Any]) -> Optional[str]:
-    false_positive_terms = [term.lower() for term in rules.get("false_positive_terms", [])]
-    if any(term in text for term in false_positive_terms):
-        return "unrelated false positive"
-
-    pavement_terms = [term.lower() for term in rules.get("pavement_urban_terms", [])]
-    thermal_terms = [term.lower() for term in rules.get("thermal_terms", [])]
-    has_pavement_term = any(term in text for term in pavement_terms)
-    has_thermal_term = any(term in text for term in thermal_terms)
-
-    if not has_pavement_term:
-        return "missing pavement or urban term"
-    if not has_thermal_term:
-        return "missing thermal term"
-
-    return None
+def detect_validation_quality(text: str) -> str:
+    if "independent validation" in text:
+        return "Independent Validation"
+    if has_any(text, ["multi-year", "multiyear"]):
+        return "Multi-Year Operation"
+    if has_any(text, ["multi-season", "multiseason"]):
+        return "Multi-Season Monitoring"
+    if has_any(text, ["full-scale field", "full scale field"]):
+        return "Full-Scale Field Demonstration"
+    if "field experiment" in text:
+        return "Controlled Field Experiment"
+    if has_any(text, ["outdoor test", "short-term outdoor", "field test"]):
+        return "Short-Term Outdoor Test"
+    if has_any(text, ["laboratory measurement", "lab measurement"]):
+        return "Laboratory Measurement"
+    if has_any(text, ["simulation", "numerical model"]):
+        return "Simulation Only"
+    return "Unknown"
 
 
-def assess_source_quality(source_type: str, source_name: str) -> str:
-    source_name_lower = source_name.lower()
-    if source_type == "academic":
-        return "high"
-    if source_type == "patent":
-        return "medium-high"
-    if source_type == "news" or "google news" in source_name_lower:
-        return "secondary / needs verification"
-    return "unknown"
+def detect_alternative_competitor_relevance(families: List[str], text: str) -> str:
+    alternative_families = {
+        "Passive Reflective",
+        "Permeable / Evaporative",
+        "Water-Retaining",
+        "Green / Nature-Based Pavement",
+        "Phase Change Material",
+        "Thermochromic / Responsive Material",
+        "Thermoelectric",
+    }
+    if alternative_families.intersection(families) or has_any(text, ["alternative", "competing", "competitor"]):
+        return "Reported"
+    return "Not Reported"
 
 
-def assess_relevance(title: str, matched_keywords: List[str], rules: Dict[str, Any]) -> str:
-    if not title:
-        return "low"
-
-    pavement_terms = [term.lower() for term in rules.get("pavement_urban_terms", [])]
-    thermal_terms = [term.lower() for term in rules.get("thermal_terms", [])]
-    technical_terms = [term.lower() for term in rules.get("technical_implication_terms", [])]
-    medium_terms = [term.lower() for term in rules.get("medium_relevance_terms", [])]
-    low_terms = [term.lower() for term in rules.get("low_relevance_terms", [])]
-
-    has_pavement_term = any(term in title for term in pavement_terms)
-    has_thermal_term = any(term in title for term in thermal_terms)
-    has_technical_implication = any(term in title for term in technical_terms)
-
-    if has_pavement_term and has_thermal_term and has_technical_implication:
-        return "high"
-
-    if any(term in title for term in medium_terms):
-        return "medium"
-
-    if any(term in title for term in low_terms):
-        return "low"
-
-    if has_pavement_term and has_thermal_term:
-        return "general technical relevance"
-
-    if matched_keywords:
-        return "general technical relevance"
-
-    return "low"
+def source_confidence(source_name: str, item_type: str) -> str:
+    lower = source_name.lower()
+    if lower in {"crossref", "openalex", "semantic scholar"}:
+        return "High for bibliographic discovery; engineering claims require human review"
+    if item_type == "Patent":
+        return "Limited patent discovery signal; human patent review required"
+    return "Needs verification"
 
 
-def assess_risk_or_opportunity(title: str) -> str:
-    if any(token in title for token in ["measurement", "validation", "field", "monitoring", "test"]):
-        return "Opportunity: validation and field-test relevance"
-    if any(token in title for token in ["patent", "novelty", "new"]):
-        return "Opportunity: patent and novelty watch"
-    return "Monitor for engineering risk and implementation trade-offs"
-
-
-def assess_validation(title: str) -> str:
-    if any(token in title for token in ["measure", "measurement", "monitor", "validation", "field", "test"]):
-        return "High: directly relevant to measurement and validation planning"
-    return "Medium: requires human review for validation evidence"
-
-
-def assess_competitor(title: str) -> str:
-    if any(token in title for token in ["alternative", "competing", "reflective", "permeable", "phase", "evaporative"]):
-        return "High: relevant to alternative or competing cooling concepts"
-    return "Medium: monitor for comparison against alternative approaches"
-
-
-def assess_patent_novelty(title: str) -> str:
-    if any(token in title for token in ["patent", "novelty", "invention", "ip"]):
-        return "High: patent or novelty signal detected"
-    return "Low: no immediate novelty signal"
-
-
-def assess_action(title: str, relevance: str) -> str:
-    if relevance == "high":
-        return "Review for engineering relevance, validation approach, and RTSU implications"
-    if any(token in title for token in ["patent", "novelty"]):
-        return "Track as a novelty watch item for internal review"
-    if relevance == "medium":
-        return "Keep as a medium-priority background item for technical review"
-    return "Keep as low-priority background intelligence only"
+def has_any(text: str, terms: List[str]) -> bool:
+    return any(term.lower() in text for term in terms)

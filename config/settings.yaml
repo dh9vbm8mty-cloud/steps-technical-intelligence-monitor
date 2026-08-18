@@ -1,0 +1,23 @@
+project:
+  name: STEPS Technical Intelligence Monitor
+  organization: HENGYUN Technology
+  disclaimer: Internal engineering intelligence for human review only. AI-generated classification is triage support only. Do not treat findings as verified performance claims, regulatory conclusions, patentability conclusions, infringement conclusions, commercial maturity conclusions, environmental claims, or public-facing STEPS claims.
+
+run:
+  default_mode: monitor
+  monitor_max_queries: 10
+  backfill_max_queries: 24
+  monitor_query_limit_per_source: 5
+  backfill_query_limit_per_source: 10
+
+reports:
+  daily_dir: reports/daily
+  weekly_dir: reports/weekly
+  daily_slug: steps-technical-brief
+  weekly_slug: weekly-steps-technical-brief
+
+registry:
+  items_path: data/registry/items.jsonl
+  seen_items_path: data/registry/seen_items.json
+  source_health_path: data/registry/source_health.json
+  runs_dir: data/runs

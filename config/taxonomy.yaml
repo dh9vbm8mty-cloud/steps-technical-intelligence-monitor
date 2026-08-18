@@ -1,0 +1,265 @@
+search_families:
+  pavement_thermal_management:
+    - pavement thermal management
+    - pavement temperature mitigation
+    - pavement heat transfer
+    - thermal pavement system
+    - thermal behavior pavement
+    - pavement temperature control
+
+  urban_heat_mitigation:
+    - pavement urban heat mitigation
+    - urban heat island pavement
+    - pavement surface temperature reduction
+    - urban pavement cooling
+    - outdoor heat mitigation pavement
+
+  active_pavement_cooling:
+    - active pavement cooling
+    - water cooled pavement
+    - fluid cooled pavement
+    - embedded cooling pavement
+    - pavement heat exchanger
+
+  passive_cooling_alternatives:
+    - cool pavement
+    - reflective pavement
+    - high albedo pavement
+    - permeable pavement cooling
+    - evaporative pavement cooling
+    - water retaining pavement
+    - phase change pavement
+    - thermochromic pavement
+
+  heat_harvesting_embedded_thermal:
+    - pavement heat harvesting
+    - asphalt solar collector
+    - pavement thermal energy harvesting
+    - thermoelectric pavement
+    - embedded thermal pavement
+    - pavement solar thermal
+
+  field_validation_measurement:
+    - pavement cooling field test
+    - pavement thermal field experiment
+    - pavement temperature monitoring
+    - pavement heat flux measurement
+    - pavement thermal validation
+    - pavement instrumentation thermal
+
+  construction_durability_maintenance:
+    - embedded system pavement construction
+    - thermal pavement constructability
+    - embedded pipe pavement durability
+    - pavement thermal fatigue
+    - pavement thermal cracking
+    - maintenance embedded pavement system
+
+  controls_sensors_monitoring:
+    - pavement temperature sensor
+    - pavement thermal monitoring
+    - embedded pavement sensor
+    - pavement thermal control
+    - smart pavement thermal management
+    - pavement IoT temperature
+
+  energy_parasitic_load:
+    - pavement cooling energy consumption
+    - pumping energy pavement thermal
+    - pavement thermal system efficiency
+    - pavement cooling power consumption
+    - thermal management parasitic energy
+
+  commercial_field_deployment:
+    - pavement cooling pilot
+    - pavement thermal demonstration
+    - cool pavement demonstration
+    - thermal pavement project
+    - pavement cooling deployment
+    - smart pavement thermal project
+
+classification:
+  domain_terms:
+    - pavement
+    - asphalt
+    - concrete pavement
+    - road surface
+    - street surface
+    - roadway
+    - sidewalk
+    - urban heat island
+    - urban microclimate
+    - cool pavement
+    - thermal pavement
+
+  thermal_terms:
+    - thermal
+    - temperature
+    - cooling
+    - heat
+    - heat transfer
+    - heat flux
+    - heat exchanger
+    - heat harvesting
+    - surface temperature
+    - thermal energy
+    - snow melting
+
+  unrelated_false_positive_terms:
+    - plasma
+    - galaxy
+    - quantum
+    - optical resonator
+    - optically thin
+    - ionization
+    - liquid crystal
+    - cpu
+    - electronics cooling
+    - data center
+    - biological cell
+    - cell paper
+    - engine cooling
+    - unrelated pipe maintenance
+
+  explicit_review_triggers:
+    - patent
+    - invention
+    - field
+    - pilot
+    - demonstration
+    - operational
+    - full-scale
+    - full scale
+    - multi-season
+    - multi-year
+    - validation
+    - durability
+    - failure
+    - construction
+    - pumping energy
+    - control strategy
+    - sensor
+    - monitoring
+
+  technology_families:
+    Active Hydronic / Fluid Cooling:
+      - water cooled
+      - water-cooled
+      - fluid cooled
+      - embedded cooling
+      - heat exchanger
+      - embedded pipe
+      - embedded tube
+      - hydronic
+    Passive Reflective:
+      - reflective pavement
+      - high albedo
+      - cool coating
+      - reflective coating
+      - solar reflective
+    Permeable / Evaporative:
+      - permeable pavement
+      - evaporative
+      - evaporation
+    Water-Retaining:
+      - water retaining
+      - water-retaining
+      - water retentive
+      - water-retentive
+    Green / Nature-Based Pavement:
+      - green pavement
+      - vegetated
+      - nature-based
+    Phase Change Material:
+      - phase change
+      - pcm
+    Thermochromic / Responsive Material:
+      - thermochromic
+      - responsive material
+      - reversible thermochromic
+    Thermal Energy Harvesting:
+      - heat harvesting
+      - thermal energy harvesting
+      - asphalt solar collector
+      - pavement solar collector
+      - heat recovery
+    Thermoelectric:
+      - thermoelectric
+    Geothermal / Ground Coupling:
+      - geothermal
+      - ground coupled
+      - ground-coupled
+      - borehole
+    Thermal Storage:
+      - thermal storage
+      - seasonal storage
+    Pavement Heating / Snow Melting:
+      - pavement heating
+      - heated pavement
+      - snow melting
+    Embedded Sensors / Monitoring:
+      - sensor
+      - instrumentation
+      - monitoring
+      - iot
+    Controls / Digital Systems:
+      - control
+      - smart pavement
+      - digital
+    Construction / Durability:
+      - construction
+      - constructability
+      - durability
+      - maintenance
+      - fatigue
+      - cracking
+    Measurement / Validation:
+      - measurement
+      - validation
+      - field test
+      - experiment
+      - heat flux
+
+item_types:
+  - Research Paper
+  - Review Paper
+  - Laboratory Study
+  - Field Experiment
+  - Demonstration Project
+  - Operational Project
+  - Commercial Deployment
+  - Company / Product
+  - Research Group
+  - Government / Public R&D Program
+  - Patent
+  - Standard / Test Method
+  - Other Relevant Evidence
+
+relevance_levels:
+  - Critical
+  - High
+  - Medium
+  - Background
+  - Reject
+
+project_maturity:
+  - Concept
+  - Numerical Model
+  - Laboratory Prototype
+  - Outdoor Experimental Section
+  - Pilot
+  - Demonstration
+  - Operational Infrastructure
+  - Commercial Product / Deployment
+  - Unknown
+
+validation_quality:
+  - Simulation Only
+  - Laboratory Measurement
+  - Short-Term Outdoor Test
+  - Controlled Field Experiment
+  - Full-Scale Field Demonstration
+  - Multi-Season Monitoring
+  - Multi-Year Operation
+  - Independent Validation
+  - Unknown

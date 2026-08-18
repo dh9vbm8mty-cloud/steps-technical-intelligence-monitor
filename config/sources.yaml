@@ -1,0 +1,62 @@
+academic_sources:
+  - name: Crossref
+    type: crossref
+    enabled: true
+    base_url: https://api.crossref.org/works
+    timeout: 20
+    retries: 2
+    backoff_seconds: 2
+    request_interval_seconds: 0.5
+
+  - name: OpenAlex
+    type: openalex
+    enabled: true
+    base_url: https://api.openalex.org/works
+    timeout: 20
+    retries: 2
+    backoff_seconds: 2
+    request_interval_seconds: 0.5
+
+  - name: Semantic Scholar
+    type: semantic_scholar
+    enabled: true
+    base_url: https://api.semanticscholar.org/graph/v1/paper/search
+    timeout: 20
+    retries: 2
+    backoff_seconds: 3
+    request_interval_seconds: 1.0
+
+project_sources:
+  - name: CORDIS Projects Search
+    type: generic_html
+    enabled: true
+    url: https://cordis.europa.eu/search?q=%22pavement%20thermal%22
+    timeout: 20
+    retries: 1
+    backoff_seconds: 2
+
+  - name: FHWA Search
+    type: generic_html
+    enabled: true
+    url: https://highways.dot.gov/search?search=pavement%20cooling
+    timeout: 20
+    retries: 1
+    backoff_seconds: 2
+
+  - name: Commercial Signal Placeholder
+    type: generic_html
+    enabled: false
+    url: https://www.google.com/search?q=pavement+cooling+commercial+system
+    timeout: 20
+    retries: 1
+    backoff_seconds: 2
+
+patent_sources:
+  - name: Google Patents Fallback
+    type: patents
+    enabled: true
+    url: https://patents.google.com/?q=%22pavement+cooling%22
+    timeout: 20
+    retries: 1
+    backoff_seconds: 2
+    note: Limited fallback only. Generic HTML anchors are not treated as reliable patent intelligence.
