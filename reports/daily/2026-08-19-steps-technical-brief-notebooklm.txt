@@ -1,0 +1,19 @@
+Project: STEPS Technical Intelligence Monitor
+Internal Review Warning: Internal engineering intelligence for human review only. AI-generated classification is triage support only. Do not treat findings as verified performance claims, regulatory conclusions, patentability conclusions, infringement conclusions, commercial maturity conclusions, environmental claims, or public-facing STEPS claims.
+
+Daily judgment: High-relevance STEPS engineering intelligence was retained for human review.
+Counts: NEW=7; UPDATED=0; DUPLICATE_OR_SEEN=100; REJECTED=9
+
+Human Review Queue:
+- Field study on thermal behavior of lightweight cellular concrete as pavement subgrade protection in cold regions | relevance=High | status=NEW | type=Research Paper | source=Semantic Scholar | year=2023 | families=Other | url=https://www.semanticscholar.org/paper/b00ac79103d41a08554b12b567fce53412f5ae97
+- Thermal Behavior of Concrete: Understanding the Influence of Coefficient of Thermal Expansion of Concrete on Rigid Pavements | relevance=High | status=NEW | type=Review Paper | source=Semantic Scholar | year=2025 | families=Construction / Durability, Measurement / Validation | url=https://www.semanticscholar.org/paper/36f7b736aea75f9c1e084af915708a8224d8f1fc
+- In–situ experimental investigation of water behavior under thermal conditions in multilayer asphalt concrete pavement embankments in permafrost regions | relevance=High | status=NEW | type=Research Paper | source=Semantic Scholar | year=2025 | families=Construction / Durability, Measurement / Validation | url=https://www.semanticscholar.org/paper/642f54d4b3bbb742dfcc753049c13abf590ccced
+
+Source Health:
+- Monitoring coverage is degraded; absence of findings is inconclusive for affected source domains.
+- CORDIS Projects Search: status=success; consecutive_failures=0; items=1; http=200; error=none
+- Crossref: status=success; consecutive_failures=0; items=50; http=200; error=none
+- FHWA Search: status=failed; consecutive_failures=6; items=0; http=403; error=403 Client Error: Forbidden for url: https://highways.dot.gov/search?search=pavement%20cooling
+- Google Patents Fallback: status=success; consecutive_failures=0; items=0; http=200; error=none
+- OpenAlex: status=success; consecutive_failures=0; items=50; http=200; error=none
+- Semantic Scholar: status=partial; consecutive_failures=6; items=15; http=429; error=429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=urban+pavement+cooling&limit=5&fields=title%2Curl%2Cabstract%2Cyear%2Cauthors%2Cvenue%2CexternalIds%2CpublicationTypes

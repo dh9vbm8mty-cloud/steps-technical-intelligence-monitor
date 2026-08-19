@@ -1,7 +1,7 @@
 Project: STEPS Technical Intelligence Monitor
 Internal Review Warning: Internal engineering intelligence for human review only. AI-generated classification is triage support only. Do not treat findings as verified performance claims, regulatory conclusions, patentability conclusions, infringement conclusions, commercial maturity conclusions, environmental claims, or public-facing STEPS claims.
 
-Weekly new items: 86
+Weekly new items: 93
 Weekly updated items: 0
 Major source failures present: True
 
@@ -29,6 +29,9 @@ Critical / High Findings:
 - Evaluating the performance of cool pavement in San Antonio, Texas as an urban heat mitigation measure | relevance=Critical | status=NEW | type=Research Paper | source=Semantic Scholar | year=2025 | families=Embedded Sensors / Monitoring, Controls / Digital Systems | url=https://www.semanticscholar.org/paper/268235ed761c9b149aa2ee5b56967c01961cfa9a
 - Development and evaluation of STRC coating for cooling asphalt pavement and mitigating urban heat island effects | relevance=High | status=NEW | type=Research Paper | source=Semantic Scholar | year=2024 | families=Construction / Durability | url=https://www.semanticscholar.org/paper/ff2c7b46834e28e557444e175868c1f0d22f36bf
 - Evaluation of the cooling performance of various heat-reflective cool pavement coatings for Urban Heat Island mitigation | relevance=High | status=NEW | type=Research Paper | source=Semantic Scholar | year=2024 | families=Passive Reflective, Construction / Durability | url=https://www.semanticscholar.org/paper/b68a671a20087a52605695e795d92ab18e7fd7a3
+- Field study on thermal behavior of lightweight cellular concrete as pavement subgrade protection in cold regions | relevance=High | status=NEW | type=Research Paper | source=Semantic Scholar | year=2023 | families=Other | url=https://www.semanticscholar.org/paper/b00ac79103d41a08554b12b567fce53412f5ae97
+- Thermal Behavior of Concrete: Understanding the Influence of Coefficient of Thermal Expansion of Concrete on Rigid Pavements | relevance=High | status=NEW | type=Review Paper | source=Semantic Scholar | year=2025 | families=Construction / Durability, Measurement / Validation | url=https://www.semanticscholar.org/paper/36f7b736aea75f9c1e084af915708a8224d8f1fc
+- In–situ experimental investigation of water behavior under thermal conditions in multilayer asphalt concrete pavement embankments in permafrost regions | relevance=High | status=NEW | type=Research Paper | source=Semantic Scholar | year=2025 | families=Construction / Durability, Measurement / Validation | url=https://www.semanticscholar.org/paper/642f54d4b3bbb742dfcc753049c13abf590ccced
 
 Human Review Queue:
 - Mitigation possibilities of concrete pavement degradation | relevance=High | status=NEW | type=Research Paper | source=Crossref | year=2021 | families=Construction / Durability | url=https://doi.org/10.1088/1757-899x/1039/1/012018
@@ -54,6 +57,9 @@ Human Review Queue:
 - Evaluating the performance of cool pavement in San Antonio, Texas as an urban heat mitigation measure | relevance=Critical | status=NEW | type=Research Paper | source=Semantic Scholar | year=2025 | families=Embedded Sensors / Monitoring, Controls / Digital Systems | url=https://www.semanticscholar.org/paper/268235ed761c9b149aa2ee5b56967c01961cfa9a
 - Development and evaluation of STRC coating for cooling asphalt pavement and mitigating urban heat island effects | relevance=High | status=NEW | type=Research Paper | source=Semantic Scholar | year=2024 | families=Construction / Durability | url=https://www.semanticscholar.org/paper/ff2c7b46834e28e557444e175868c1f0d22f36bf
 - Evaluation of the cooling performance of various heat-reflective cool pavement coatings for Urban Heat Island mitigation | relevance=High | status=NEW | type=Research Paper | source=Semantic Scholar | year=2024 | families=Passive Reflective, Construction / Durability | url=https://www.semanticscholar.org/paper/b68a671a20087a52605695e795d92ab18e7fd7a3
+- Field study on thermal behavior of lightweight cellular concrete as pavement subgrade protection in cold regions | relevance=High | status=NEW | type=Research Paper | source=Semantic Scholar | year=2023 | families=Other | url=https://www.semanticscholar.org/paper/b00ac79103d41a08554b12b567fce53412f5ae97
+- Thermal Behavior of Concrete: Understanding the Influence of Coefficient of Thermal Expansion of Concrete on Rigid Pavements | relevance=High | status=NEW | type=Review Paper | source=Semantic Scholar | year=2025 | families=Construction / Durability, Measurement / Validation | url=https://www.semanticscholar.org/paper/36f7b736aea75f9c1e084af915708a8224d8f1fc
+- In–situ experimental investigation of water behavior under thermal conditions in multilayer asphalt concrete pavement embankments in permafrost regions | relevance=High | status=NEW | type=Research Paper | source=Semantic Scholar | year=2025 | families=Construction / Durability, Measurement / Validation | url=https://www.semanticscholar.org/paper/642f54d4b3bbb742dfcc753049c13abf590ccced
 
 Coverage Limitations:
 - Monitoring coverage is degraded; absence of findings is inconclusive for affected source domains.
@@ -65,3 +71,5 @@ Coverage Limitations:
 - Semantic Scholar: status=partial; consecutive_failures=4; error=429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=urban+pavement+cooling&limit=5&fields=title%2Curl%2Cabstract%2Cyear%2Cauthors%2Cvenue%2CexternalIds%2CpublicationTypes
 - FHWA Search: status=failed; consecutive_failures=5; error=403 Client Error: Forbidden for url: https://highways.dot.gov/search?search=pavement%20cooling
 - Semantic Scholar: status=partial; consecutive_failures=5; error=429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=pavement+surface+temperature+reduction&limit=5&fields=title%2Curl%2Cabstract%2Cyear%2Cauthors%2Cvenue%2CexternalIds%2CpublicationTypes
+- FHWA Search: status=failed; consecutive_failures=6; error=403 Client Error: Forbidden for url: https://highways.dot.gov/search?search=pavement%20cooling
+- Semantic Scholar: status=partial; consecutive_failures=6; error=429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=urban+pavement+cooling&limit=5&fields=title%2Curl%2Cabstract%2Cyear%2Cauthors%2Cvenue%2CexternalIds%2CpublicationTypes
