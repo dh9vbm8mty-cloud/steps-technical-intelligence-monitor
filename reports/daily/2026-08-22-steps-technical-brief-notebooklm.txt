@@ -1,0 +1,19 @@
+Project: STEPS Technical Intelligence Monitor
+Internal Review Warning: Internal engineering intelligence for human review only. AI-generated classification is triage support only. Do not treat findings as verified performance claims, regulatory conclusions, patentability conclusions, infringement conclusions, commercial maturity conclusions, environmental claims, or public-facing STEPS claims.
+
+Daily judgment: Critical STEPS engineering intelligence was retained for human review.
+Counts: NEW=4; UPDATED=0; DUPLICATE_OR_SEEN=98; REJECTED=9
+
+Human Review Queue:
+- Eco-friendly bismuth vanadate/iron oxide yellow composite heat-reflective coating for sustainable pavement: Urban heat island mitigation | relevance=High | status=NEW | type=Research Paper | source=Semantic Scholar | year=2025 | families=Passive Reflective, Construction / Durability | url=https://www.semanticscholar.org/paper/5eca2f015e095f4b12aa92b014e9e49c4d596ae2
+- Enhanced Thermal Resistance and Mechanical Performance of Methyl Methacrylate-Based Pavement Coatings for Urban Heat Mitigation | relevance=High | status=NEW | type=Research Paper | source=Semantic Scholar | year=2025 | families=Phase Change Material, Construction / Durability | url=https://www.semanticscholar.org/paper/eb1e93a4268f53ed4fa6473a69a8b975caaf3f41
+- Evidence-based guidance on reflective pavement for urban heat mitigation in Arizona | relevance=Critical | status=NEW | type=Research Paper | source=Semantic Scholar | year=2023 | families=Passive Reflective | url=https://www.semanticscholar.org/paper/270317ced67f11aa230c33cb1d49ae80d779733d
+
+Source Health:
+- Monitoring coverage is degraded; absence of findings is inconclusive for affected source domains.
+- CORDIS Projects Search: status=success; consecutive_failures=0; items=1; http=200; error=none
+- Crossref: status=success; consecutive_failures=0; items=50; http=200; error=none
+- FHWA Search: status=failed; consecutive_failures=9; items=0; http=403; error=403 Client Error: Forbidden for url: https://highways.dot.gov/search?search=pavement%20cooling
+- Google Patents Fallback: status=success; consecutive_failures=0; items=0; http=200; error=none
+- OpenAlex: status=success; consecutive_failures=0; items=50; http=200; error=none
+- Semantic Scholar: status=partial; consecutive_failures=9; items=10; http=429; error=429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=urban+pavement+cooling&limit=5&fields=title%2Curl%2Cabstract%2Cyear%2Cauthors%2Cvenue%2CexternalIds%2CpublicationTypes
