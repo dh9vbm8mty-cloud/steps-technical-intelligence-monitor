@@ -1,7 +1,7 @@
 Project: STEPS Technical Intelligence Monitor
 Internal Review Warning: Internal engineering intelligence for human review only. AI-generated classification is triage support only. Do not treat findings as verified performance claims, regulatory conclusions, patentability conclusions, infringement conclusions, commercial maturity conclusions, environmental claims, or public-facing STEPS claims.
 
-Weekly new items: 97
+Weekly new items: 98
 Weekly updated items: 0
 Major source failures present: True
 
@@ -89,3 +89,5 @@ Coverage Limitations:
 - Semantic Scholar: status=failed; consecutive_failures=10; error=429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=urban+pavement+cooling&limit=5&fields=title%2Curl%2Cabstract%2Cyear%2Cauthors%2Cvenue%2CexternalIds%2CpublicationTypes
 - FHWA Search: status=failed; consecutive_failures=11; error=403 Client Error: Forbidden for url: https://highways.dot.gov/search?search=pavement%20cooling
 - Semantic Scholar: status=partial; consecutive_failures=11; error=429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=urban+pavement+cooling&limit=5&fields=title%2Curl%2Cabstract%2Cyear%2Cauthors%2Cvenue%2CexternalIds%2CpublicationTypes
+- FHWA Search: status=failed; consecutive_failures=12; error=403 Client Error: Forbidden for url: https://highways.dot.gov/search?search=pavement%20cooling
+- Semantic Scholar: status=partial; consecutive_failures=12; error=429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=urban+pavement+cooling&limit=5&fields=title%2Curl%2Cabstract%2Cyear%2Cauthors%2Cvenue%2CexternalIds%2CpublicationTypes
