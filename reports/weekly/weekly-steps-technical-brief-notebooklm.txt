@@ -17,8 +17,6 @@ Human Review Queue:
 
 Coverage Limitations:
 - Monitoring coverage is degraded; absence of findings is inconclusive for affected source domains.
-- FHWA Search: status=failed; consecutive_failures=15; error=403 Client Error: Forbidden for url: https://highways.dot.gov/search?search=pavement%20cooling
-- Semantic Scholar: status=partial; consecutive_failures=15; error=429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=urban+pavement+cooling&limit=5&fields=title%2Curl%2Cabstract%2Cyear%2Cauthors%2Cvenue%2CexternalIds%2CpublicationTypes
 - FHWA Search: status=failed; consecutive_failures=16; error=403 Client Error: Forbidden for url: https://highways.dot.gov/search?search=pavement%20cooling
 - Semantic Scholar: status=partial; consecutive_failures=16; error=429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=pavement+surface+temperature+reduction&limit=5&fields=title%2Curl%2Cabstract%2Cyear%2Cauthors%2Cvenue%2CexternalIds%2CpublicationTypes
 - FHWA Search: status=failed; consecutive_failures=17; error=403 Client Error: Forbidden for url: https://highways.dot.gov/search?search=pavement%20cooling
@@ -33,3 +31,5 @@ Coverage Limitations:
 - Semantic Scholar: status=partial; consecutive_failures=21; error=429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=urban+pavement+cooling&limit=5&fields=title%2Curl%2Cabstract%2Cyear%2Cauthors%2Cvenue%2CexternalIds%2CpublicationTypes
 - FHWA Search: status=failed; consecutive_failures=22; error=403 Client Error: Forbidden for url: https://highways.dot.gov/search?search=pavement%20cooling
 - Semantic Scholar: status=partial; consecutive_failures=22; error=429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=urban+pavement+cooling&limit=5&fields=title%2Curl%2Cabstract%2Cyear%2Cauthors%2Cvenue%2CexternalIds%2CpublicationTypes
+- FHWA Search: status=failed; consecutive_failures=23; error=403 Client Error: Forbidden for url: https://highways.dot.gov/search?search=pavement%20cooling
+- Semantic Scholar: status=partial; consecutive_failures=23; error=429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=pavement+surface+temperature+reduction&limit=5&fields=title%2Curl%2Cabstract%2Cyear%2Cauthors%2Cvenue%2CexternalIds%2CpublicationTypes
