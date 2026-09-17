@@ -489,7 +489,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.uclim.2023.101667",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "0211505f3a4786a1",
       "engineering_relevance_tags": [
         "environmental / climatic conditions"
@@ -497,7 +497,7 @@
       "human_review_required": false,
       "internal_id": "0211505f3a4786a1",
       "item_type": "Review Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "review on thermal behavior of cool pavements",
       "organization": null,
@@ -821,33 +821,37 @@
         ],
         "awards": [],
         "best_oa_location": {
-          "id": "pmh:oai:HAL:hal-04304344v1",
-          "is_accepted": false,
+          "id": "doi:10.1016/j.uclim.2023.101667",
+          "is_accepted": true,
           "is_oa": true,
           "is_published": false,
-          "landing_page_url": "https://uca.hal.science/hal-04304344",
-          "license": "cc-by-nc",
-          "license_id": "https://openalex.org/licenses/cc-by-nc",
-          "pdf_url": "https://uca.hal.science/hal-04304344v1/document",
-          "raw_source_name": "Urban Climate, 2023, 51 (11), pp.101667. &#x27E8;10.1016/j.uclim.2023.101667&#x27E9;",
-          "raw_type": "info:eu-repo/semantics/article",
+          "landing_page_url": "https://doi.org/10.1016/j.uclim.2023.101667",
+          "license": null,
+          "license_id": null,
+          "pdf_url": null,
+          "raw_source_name": "Urban Climate",
+          "raw_type": "journal-article",
           "source": {
-            "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
-            "host_organization": "https://openalex.org/I1294671590",
+            "display_name": "Urban Climate",
+            "host_organization": "https://openalex.org/P4310320990",
             "host_organization_lineage": [
-              "https://openalex.org/I1294671590"
+              "https://openalex.org/P4310320990"
             ],
-            "host_organization_lineage_names": [],
-            "host_organization_name": "Centre National de la Recherche Scientifique",
-            "id": "https://openalex.org/S4306402512",
-            "is_core": false,
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "host_organization_name": "Elsevier BV",
+            "id": "https://openalex.org/S2764899123",
+            "is_core": true,
             "is_in_doaj": false,
             "is_oa": false,
-            "issn": null,
-            "issn_l": null,
-            "type": "repository"
+            "issn": [
+              "2212-0955"
+            ],
+            "issn_l": "2212-0955",
+            "type": "journal"
           },
-          "version": "submittedVersion"
+          "version": "acceptedVersion"
         },
         "biblio": {
           "first_page": "101667",
@@ -858,7 +862,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": true,
           "is_in_top_1_percent": false,
-          "value": 0.96258003
+          "value": 0.96169244
         },
         "cited_by_count": 54,
         "cited_by_percentile_year": {
@@ -958,10 +962,7 @@
             "wikidata": "https://www.wikidata.org/wiki/Q11190"
           }
         ],
-        "content_urls": {
-          "grobid_xml": "https://content.openalex.org/works/W4386319080.grobid-xml",
-          "pdf": "https://content.openalex.org/works/W4386319080.pdf"
-        },
+        "content_urls": null,
         "corresponding_author_ids": [
           "https://openalex.org/A5075901309"
         ],
@@ -1001,10 +1002,10 @@
             "ror": "https://ror.org/00k4n6c32"
           }
         ],
-        "fwci": 4.6503,
+        "fwci": 4.5604,
         "has_content": {
-          "grobid_xml": true,
-          "pdf": true
+          "grobid_xml": false,
+          "pdf": false
         },
         "has_fulltext": true,
         "id": "https://openalex.org/W4386319080",
@@ -1077,8 +1078,8 @@
           {
             "id": "doi:10.1016/j.uclim.2023.101667",
             "is_accepted": true,
-            "is_oa": false,
-            "is_published": true,
+            "is_oa": true,
+            "is_published": false,
             "landing_page_url": "https://doi.org/10.1016/j.uclim.2023.101667",
             "license": null,
             "license_id": null,
@@ -1105,7 +1106,7 @@
               "issn_l": "2212-0955",
               "type": "journal"
             },
-            "version": "publishedVersion"
+            "version": "acceptedVersion"
           },
           {
             "id": "pmh:oai:HAL:hal-04304344v1",
@@ -1171,14 +1172,14 @@
         "open_access": {
           "any_repository_has_fulltext": true,
           "is_oa": true,
-          "oa_status": "green",
-          "oa_url": "https://uca.hal.science/hal-04304344v1/document"
+          "oa_status": "bronze",
+          "oa_url": "https://doi.org/10.1016/j.uclim.2023.101667"
         },
         "primary_location": {
           "id": "doi:10.1016/j.uclim.2023.101667",
           "is_accepted": true,
-          "is_oa": false,
-          "is_published": true,
+          "is_oa": true,
+          "is_published": false,
           "landing_page_url": "https://doi.org/10.1016/j.uclim.2023.101667",
           "license": null,
           "license_id": null,
@@ -1205,7 +1206,7 @@
             "issn_l": "2212-0955",
             "type": "journal"
           },
-          "version": "publishedVersion"
+          "version": "acceptedVersion"
         },
         "primary_topic": {
           "display_name": "Urban Heat Island Mitigation",
@@ -1487,7 +1488,7 @@
           "https://openalex.org/W1194302957",
           "https://openalex.org/W4309269549"
         ],
-        "relevance_score": 595.7375,
+        "relevance_score": 595.3351,
         "sustainable_development_goals": [
           {
             "display_name": "Sustainable cities and communities",
@@ -1550,7 +1551,7 @@
           }
         ],
         "type": "article",
-        "updated_date": "2026-08-28T12:50:07.497085"
+        "updated_date": "2026-09-16T18:09:00.828671"
       },
       "relevance": "Medium",
       "source_confidence": "High for bibliographic discovery; engineering claims require human review",
@@ -1575,7 +1576,7 @@
       ],
       "canonical_url": "https://doi.org/10.17265/1934-7359/2016.01.004",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "09c44a5e7aa11cbd",
       "engineering_relevance_tags": [
         "surface temperature"
@@ -1583,7 +1584,7 @@
       "human_review_required": false,
       "internal_id": "09c44a5e7aa11cbd",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "control of pavement surface temperature rise using recycled materials",
       "organization": null,
@@ -1741,7 +1742,7 @@
             "URL": "http://www.davidpublisher.org/index.php/Home/Article/index?id=24258.html"
           }
         },
-        "score": 19.932356,
+        "score": 19.930668,
         "short-container-title": [
           "JCEA"
         ],
@@ -1854,13 +1855,13 @@
       ],
       "canonical_url": "https://doi.org/10.1109/energytech.2012.6304703",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "0f3658917e4fdafb",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "0f3658917e4fdafb",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "system design to harvest thermal energy across pavement structure",
       "organization": null,
@@ -2044,7 +2045,7 @@
             "URL": "http://ieeexplore.ieee.org/document/6304703/"
           }
         },
-        "score": 19.674637,
+        "score": 19.666994,
         "source": "Crossref",
         "title": [
           "System design to harvest thermal energy across pavement structure"
@@ -2073,7 +2074,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.rser.2013.05.047",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "1036016a9c848e9e",
       "engineering_relevance_tags": [
         "urban heat mitigation"
@@ -2081,7 +2082,7 @@
       "human_review_required": false,
       "internal_id": "1036016a9c848e9e",
       "item_type": "Review Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "using cool pavements as a mitigation strategy to fight urban heat island a review of the actual developments",
       "organization": null,
@@ -2147,9 +2148,9 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": true,
           "is_in_top_1_percent": true,
-          "value": 0.99891284
+          "value": 0.99891315
         },
-        "cited_by_count": 895,
+        "cited_by_count": 896,
         "cited_by_percentile_year": {
           "max": 100,
           "min": 96
@@ -2250,7 +2251,7 @@
         "countries_distinct_count": 1,
         "counts_by_year": [
           {
-            "cited_by_count": 72,
+            "cited_by_count": 73,
             "year": 2026
           },
           {
@@ -2310,7 +2311,7 @@
         "display_name": "Using cool pavements as a mitigation strategy to fight urban heat island\u2014A review of the actual developments",
         "doi": "https://doi.org/10.1016/j.rser.2013.05.047",
         "funders": [],
-        "fwci": 24.2389,
+        "fwci": 24.228,
         "has_content": {
           "grobid_xml": false,
           "pdf": false
@@ -2690,7 +2691,7 @@
           "https://openalex.org/W2783489640",
           "https://openalex.org/W2528816112"
         ],
-        "relevance_score": 747.7889,
+        "relevance_score": 746.7894,
         "sustainable_development_goals": [
           {
             "display_name": "Sustainable cities and communities",
@@ -2753,7 +2754,7 @@
           }
         ],
         "type": "article",
-        "updated_date": "2026-09-15T07:32:03.291174"
+        "updated_date": "2026-09-16T18:09:00.828671"
       },
       "relevance": "Medium",
       "source_confidence": "High for bibliographic discovery; engineering claims require human review",
@@ -2847,7 +2848,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.energy.2025.137383",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "159b4b01eec1f009",
       "engineering_relevance_tags": [
         "alternative technology"
@@ -2855,7 +2856,7 @@
       "human_review_required": false,
       "internal_id": "159b4b01eec1f009",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "solar to heat conversion control of pavement through thermochromic coating integration of thermal management and visual temperature indication",
       "organization": null,
@@ -3226,9 +3227,9 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": true,
           "is_in_top_1_percent": true,
-          "value": 0.99771012
+          "value": 0.99777398
         },
-        "cited_by_count": 45,
+        "cited_by_count": 46,
         "cited_by_percentile_year": {
           "max": 100,
           "min": 98
@@ -3350,7 +3351,7 @@
         "countries_distinct_count": 1,
         "counts_by_year": [
           {
-            "cited_by_count": 39,
+            "cited_by_count": 40,
             "year": 2026
           },
           {
@@ -3378,7 +3379,7 @@
             "ror": null
           }
         ],
-        "fwci": 19.4005,
+        "fwci": 19.3538,
         "has_content": {
           "grobid_xml": false,
           "pdf": false
@@ -3506,6 +3507,9 @@
                 "1873-6785"
               ],
               "issn_l": "0360-5442",
+              "listed_in": [
+                "cwts-core"
+              ],
               "type": "journal"
             },
             "version": "publishedVersion"
@@ -3549,6 +3553,9 @@
               "1873-6785"
             ],
             "issn_l": "0360-5442",
+            "listed_in": [
+              "cwts-core"
+            ],
             "type": "journal"
           },
           "version": "publishedVersion"
@@ -3659,7 +3666,7 @@
           "https://openalex.org/W2736289399",
           "https://openalex.org/W1974466702"
         ],
-        "relevance_score": 417.73114,
+        "relevance_score": 421.43213,
         "sustainable_development_goals": [
           {
             "display_name": "Affordable and clean energy",
@@ -3722,7 +3729,7 @@
           }
         ],
         "type": "article",
-        "updated_date": "2026-09-10T07:47:47.112893"
+        "updated_date": "2026-09-17T07:59:56.861425"
       },
       "relevance": "Medium",
       "source_confidence": "High for bibliographic discovery; engineering claims require human review",
@@ -3748,13 +3755,13 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.landurbplan.2010.02.003",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "1648de676c45fcf2",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "1648de676c45fcf2",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "cooling effect of water holding pavements made of new materials on water and heat budgets in urban areas",
       "organization": null,
@@ -3875,12 +3882,12 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": true,
           "is_in_top_1_percent": false,
-          "value": 0.9768368
+          "value": 0.97828571
         },
         "cited_by_count": 180,
         "cited_by_percentile_year": {
           "max": 100,
-          "min": 98
+          "min": 96
         },
         "concepts": [
           {
@@ -4021,11 +4028,11 @@
         "countries_distinct_count": 2,
         "counts_by_year": [
           {
-            "cited_by_count": 3,
+            "cited_by_count": 2,
             "year": 2026
           },
           {
-            "cited_by_count": 11,
+            "cited_by_count": 12,
             "year": 2025
           },
           {
@@ -4085,7 +4092,7 @@
         "display_name": "Cooling effect of water-holding pavements made of new materials on water and heat budgets in urban areas",
         "doi": "https://doi.org/10.1016/j.landurbplan.2010.02.003",
         "funders": [],
-        "fwci": 8.0891,
+        "fwci": 8.5609,
         "has_content": {
           "grobid_xml": false,
           "pdf": false
@@ -4214,6 +4221,9 @@
                 "1872-6062"
               ],
               "issn_l": "0169-2046",
+              "listed_in": [
+                "cwts-core"
+              ],
               "type": "journal"
             },
             "version": "publishedVersion"
@@ -4243,6 +4253,7 @@
               "is_oa": false,
               "issn": null,
               "issn_l": null,
+              "listed_in": [],
               "type": "repository"
             },
             "version": "submittedVersion"
@@ -4286,6 +4297,9 @@
               "1872-6062"
             ],
             "issn_l": "0169-2046",
+            "listed_in": [
+              "cwts-core"
+            ],
             "type": "journal"
           },
           "version": "publishedVersion"
@@ -4367,7 +4381,7 @@
           "https://openalex.org/W4225253968",
           "https://openalex.org/W2357730185"
         ],
-        "relevance_score": 819.51215,
+        "relevance_score": 819.4973,
         "sustainable_development_goals": [
           {
             "display_name": "Sustainable cities and communities",
@@ -4430,7 +4444,7 @@
           }
         ],
         "type": "article",
-        "updated_date": "2026-08-26T07:47:46.906454"
+        "updated_date": "2026-09-17T07:59:56.861425"
       },
       "relevance": "Medium",
       "source_confidence": "High for bibliographic discovery; engineering claims require human review",
@@ -4456,7 +4470,7 @@
       ],
       "canonical_url": "https://doi.org/10.1080/19397030903121950",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "1cfd0eb2c94d6700",
       "engineering_relevance_tags": [
         "urban heat mitigation"
@@ -4464,7 +4478,7 @@
       "human_review_required": true,
       "internal_id": "1cfd0eb2c94d6700",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "harvesting energy from asphalt pavements and reducing the heat island effect",
       "organization": null,
@@ -5337,7 +5351,7 @@
           "https://openalex.org/W2953410182",
           "https://openalex.org/W2999021254"
         ],
-        "relevance_score": 345.04132,
+        "relevance_score": 345.20993,
         "sustainable_development_goals": [
           {
             "display_name": "Sustainable cities and communities",
@@ -5427,7 +5441,7 @@
       ],
       "canonical_url": "https://doi.org/10.3141/2293-15",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "1cfdfe0b2e0cceb5",
       "engineering_relevance_tags": [
         "surface temperature",
@@ -5437,7 +5451,7 @@
       "human_review_required": false,
       "internal_id": "1cfdfe0b2e0cceb5",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "porous asphalt pavement temperature effects for urban heat island analysis",
       "organization": null,
@@ -5810,7 +5824,7 @@
             "URL": "https://journals.sagepub.com/doi/10.3141/2293-15"
           }
         },
-        "score": 28.542143,
+        "score": 28.5403,
         "short-container-title": [
           "Transportation Research Record: Journal of the Transportation Research Board"
         ],
@@ -5844,7 +5858,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.rser.2015.07.177",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "1d07f11a6af4faa3",
       "engineering_relevance_tags": [
         "urban heat mitigation"
@@ -5852,7 +5866,7 @@
       "human_review_required": false,
       "internal_id": "1d07f11a6af4faa3",
       "item_type": "Review Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "a review on the development of cool pavements to mitigate urban heat island effect",
       "organization": null,
@@ -6491,7 +6505,7 @@
           "https://openalex.org/W1194302957",
           "https://openalex.org/W3012974092"
         ],
-        "relevance_score": 655.47485,
+        "relevance_score": 653.96094,
         "sustainable_development_goals": [
           {
             "display_name": "Sustainable cities and communities",
@@ -6582,7 +6596,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.est.2024.110638",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "1d603600d30e5774",
       "engineering_relevance_tags": [
         "thermal performance",
@@ -6591,7 +6605,7 @@
       "human_review_required": false,
       "internal_id": "1d603600d30e5774",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "oriented heat induction of phase change asphalt pavement for improving heat transfer efficiency",
       "organization": null,
@@ -7396,7 +7410,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2352152X24002226"
           }
         },
-        "score": 20.873117,
+        "score": 20.873455,
         "short-container-title": [
           "Journal of Energy Storage"
         ],
@@ -7590,7 +7604,7 @@
       ],
       "canonical_url": "https://doi.org/10.1088/1748-9326/8/1/015023",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "21cd9dcc04ae490e",
       "engineering_relevance_tags": [
         "thermal performance",
@@ -7602,7 +7616,7 @@
       "human_review_required": false,
       "internal_id": "21cd9dcc04ae490e",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "the use of reflective and permeable pavements as a potential practice for heat island mitigation and stormwater management",
       "organization": null,
@@ -9012,7 +9026,7 @@
           "https://openalex.org/W3042603543",
           "https://openalex.org/W2992538175"
         ],
-        "relevance_score": 387.2868,
+        "relevance_score": 386.92123,
         "sustainable_development_goals": [],
         "title": "The use of reflective and permeable pavements as a potential practice for heat island mitigation and stormwater management",
         "topics": [
@@ -9098,7 +9112,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.coldregions.2021.103419",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "2474549f3d1afc0a",
       "engineering_relevance_tags": [
         "thermal performance"
@@ -9106,7 +9120,7 @@
       "human_review_required": false,
       "internal_id": "2474549f3d1afc0a",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "thermal performance of a layered asphalt pavement system for snow melting",
       "organization": null,
@@ -9624,7 +9638,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0165232X21002007"
           }
         },
-        "score": 18.211147,
+        "score": 18.21125,
         "short-container-title": [
           "Cold Regions Science and Technology"
         ],
@@ -9662,7 +9676,7 @@
       ],
       "canonical_url": "https://doi.org/10.4028/www.scientific.net/amr.168-170.859",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "2609023e34f4358f",
       "engineering_relevance_tags": [
         "thermal performance",
@@ -9672,7 +9686,7 @@
       "human_review_required": true,
       "internal_id": "2609023e34f4358f",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "analysis of high permeable concrete pavement heat transfer mechanism",
       "organization": null,
@@ -9930,7 +9944,7 @@
             "URL": "https://www.scientific.net/AMR.168-170.859"
           }
         },
-        "score": 21.607727,
+        "score": 21.60955,
         "short-container-title": [
           "AMR"
         ],
@@ -9967,7 +9981,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.conbuildmat.2019.01.028",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "276cac1d16952433",
       "engineering_relevance_tags": [
         "thermal performance",
@@ -9977,7 +9991,7 @@
       "human_review_required": true,
       "internal_id": "276cac1d16952433",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "field and laboratory measurement of albedo and heat transfer for pavement materials",
       "organization": null,
@@ -10540,7 +10554,7 @@
           "https://openalex.org/W4367322395",
           "https://openalex.org/W268263458"
         ],
-        "relevance_score": 575.7254,
+        "relevance_score": 574.8367,
         "sustainable_development_goals": [
           {
             "display_name": "Sustainable cities and communities",
@@ -10629,7 +10643,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.proeng.2015.07.141",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "27c95f44e2222988",
       "engineering_relevance_tags": [
         "durability"
@@ -10637,7 +10651,7 @@
       "human_review_required": false,
       "internal_id": "27c95f44e2222988",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "mitigation of low temperature cracking in asphalt pavement by selection of material stiffness",
       "organization": null,
@@ -10946,7 +10960,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1877705815013909"
           }
         },
-        "score": 20.075554,
+        "score": 20.08041,
         "short-container-title": [
           "Procedia Engineering"
         ],
@@ -10989,7 +11003,7 @@
       ],
       "canonical_url": "https://doi.org/10.3390/coatings13010035",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "287857b882fe33b8",
       "engineering_relevance_tags": [
         "pumping / energy consumption",
@@ -11000,7 +11014,7 @@
       "human_review_required": false,
       "internal_id": "287857b882fe33b8",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "mitigation of urban heat island effects by thermochromic asphalt pavement",
       "organization": null,
@@ -11987,7 +12001,7 @@
             "URL": "https://www.mdpi.com/2079-6412/13/1/35"
           }
         },
-        "score": 29.020384,
+        "score": 29.01178,
         "short-container-title": [
           "Coatings"
         ],
@@ -12025,7 +12039,7 @@
       ],
       "canonical_url": "https://doi.org/10.3390/w11122635",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "29b54f0656b462a3",
       "engineering_relevance_tags": [
         "surface temperature",
@@ -12037,7 +12051,7 @@
       "human_review_required": true,
       "internal_id": "29b54f0656b462a3",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "field testing of porous pavement performance on runoff and temperature control in taipei city",
       "organization": null,
@@ -13305,7 +13319,7 @@
           "https://openalex.org/W3127317157",
           "https://openalex.org/W2963934980"
         ],
-        "relevance_score": 388.1456,
+        "relevance_score": 387.61658,
         "sustainable_development_goals": [
           {
             "display_name": "Sustainable cities and communities",
@@ -13398,7 +13412,7 @@
       ],
       "canonical_url": "https://www.semanticscholar.org/paper/6dda365357dbe87f3e4bdeffa09bda9a85418ba2",
       "country": null,
-      "discovered_at": "2026-09-14T12:07:59Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "2a311b7472bbd887",
       "engineering_relevance_tags": [
         "thermal performance"
@@ -13406,7 +13420,7 @@
       "human_review_required": false,
       "internal_id": "2a311b7472bbd887",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-14T12:07:59Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "modeling and analysis of ice condensation on bridge deck pavement surface based on heat transfer theory and finite element method",
       "organization": null,
@@ -13445,8 +13459,8 @@
         "openAccessPdf": {
           "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.applthermaleng.2024.122344?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.applthermaleng.2024.122344, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use.",
           "license": null,
-          "status": "CLOSED",
-          "url": ""
+          "status": "BRONZE",
+          "url": "https://doi.org/10.1016/j.applthermaleng.2024.122344"
         },
         "paperId": "6dda365357dbe87f3e4bdeffa09bda9a85418ba2",
         "publicationTypes": [
@@ -13483,7 +13497,7 @@
       ],
       "canonical_url": "https://www.semanticscholar.org/paper/964696157200220be554a43607d6ee1c23a9e693",
       "country": null,
-      "discovered_at": "2026-09-14T12:07:59Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "32f18338c354f22b",
       "engineering_relevance_tags": [
         "thermal performance"
@@ -13491,7 +13505,7 @@
       "human_review_required": false,
       "internal_id": "32f18338c354f22b",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-14T12:07:59Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "analysis of entransy dissipation thermal resistance and heat transfer efficiency of electrical heating snow melting pavement",
       "organization": null,
@@ -13643,7 +13657,7 @@
       ],
       "canonical_url": "https://doi.org/10.4028/www.scientific.net/msf.724.147",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "3509b1981c0c57bd",
       "engineering_relevance_tags": [
         "surface temperature",
@@ -13653,7 +13667,7 @@
       "human_review_required": false,
       "internal_id": "3509b1981c0c57bd",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "reduction effects of urban heat island by water retentive pavement",
       "organization": null,
@@ -13902,7 +13916,7 @@
             "URL": "https://www.scientific.net/MSF.724.147"
           }
         },
-        "score": 28.535257,
+        "score": 28.534113,
         "short-container-title": [
           "MSF"
         ],
@@ -14213,7 +14227,7 @@
       ],
       "canonical_url": "https://doi.org/10.3130/aije.71.51_1",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "3f28c562b8ff4a8e",
       "engineering_relevance_tags": [
         "alternative technology"
@@ -14221,7 +14235,7 @@
       "human_review_required": false,
       "internal_id": "3f28c562b8ff4a8e",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "an experiment on the fundamental performance of an evaporative cooling pavement system during summer development of an evaporative cooling pavement system and cooling effect simulation model for urban thermal environment part 1",
       "organization": null,
@@ -14474,7 +14488,7 @@
             "URL": "https://www.jstage.jst.go.jp/article/aije/71/600/71_KJ00004359425/_article/-char/ja/"
           }
         },
-        "score": 19.15715,
+        "score": 19.153786,
         "short-container-title": [
           "Journal of Environmental Engineering (Transactions of AIJ)",
           "Journal of Environmental Engineering",
@@ -14514,7 +14528,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.conbuildmat.2022.129350",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "3f5f9b5bd0861ad8",
       "engineering_relevance_tags": [
         "thermal performance",
@@ -14524,7 +14538,7 @@
       "human_review_required": true,
       "internal_id": "3f5f9b5bd0861ad8",
       "item_type": "Review Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "a review on the heat transfer in asphalt pavements and urban heat island mitigation methods",
       "organization": null,
@@ -15265,7 +15279,7 @@
           "https://openalex.org/W841237914",
           "https://openalex.org/W2136283022"
         ],
-        "relevance_score": 758.8267,
+        "relevance_score": 757.8065,
         "sustainable_development_goals": [
           {
             "display_name": "Sustainable cities and communities",
@@ -15354,7 +15368,7 @@
       ],
       "canonical_url": "https://doi.org/10.1201/9781003156222-58",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "42d9f4625d46442f",
       "engineering_relevance_tags": [
         "thermal performance"
@@ -15362,7 +15376,7 @@
       "human_review_required": false,
       "internal_id": "42d9f4625d46442f",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "fem analysis of heat transfer in porous asphalt pavement",
       "organization": null,
@@ -15509,7 +15523,7 @@
             "URL": "https://www.taylorfrancis.com/books/9781000369007/chapters/10.1201/9781003156222-58"
           }
         },
-        "score": 21.6159,
+        "score": 21.611736,
         "source": "Crossref",
         "title": [
           "FEM analysis of heat transfer in porous asphalt pavement"
@@ -15641,7 +15655,7 @@
       ],
       "canonical_url": "https://doi.org/10.1061/jhtrcq.0000869",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "439aa3ccb4deb312",
       "engineering_relevance_tags": [
         "construction"
@@ -15649,7 +15663,7 @@
       "human_review_required": true,
       "internal_id": "439aa3ccb4deb312",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "research on asphalt pavement construction temperature control model based on feedback and control theory",
       "organization": null,
@@ -15851,7 +15865,7 @@
             "URL": "https://ascelibrary.org/doi/10.1061/JHTRCQ.0000869"
           }
         },
-        "score": 18.265774,
+        "score": 18.276052,
         "short-container-title": [
           "J. Highway Transp. Res. Dev. (English Ed.)"
         ],
@@ -16395,7 +16409,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.conbuildmat.2024.139476",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "4bdd1dfea4f53502",
       "engineering_relevance_tags": [
         "construction",
@@ -16404,7 +16418,7 @@
       "human_review_required": true,
       "internal_id": "4bdd1dfea4f53502",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "composite phase change materials coupled with radiative cooling for asphalt pavement thermal management",
       "organization": null,
@@ -17088,7 +17102,7 @@
           "https://openalex.org/W2010210446",
           "https://openalex.org/W2357308156"
         ],
-        "relevance_score": 614.14215,
+        "relevance_score": 613.6735,
         "sustainable_development_goals": [],
         "title": "Composite phase change materials coupled with radiative cooling for asphalt pavement thermal management",
         "topics": [
@@ -17255,7 +17269,7 @@
       ],
       "canonical_url": "https://doi.org/10.3390/su18041876",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "50222f03e9ff6596",
       "engineering_relevance_tags": [
         "thermal performance",
@@ -17265,7 +17279,7 @@
       "human_review_required": false,
       "internal_id": "50222f03e9ff6596",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "high albedo interlocking concrete block pavement for urban heat island mitigation",
       "organization": null,
@@ -17852,7 +17866,7 @@
             "URL": "https://www.mdpi.com/2071-1050/18/4/1876"
           }
         },
-        "score": 27.964268,
+        "score": 27.960388,
         "short-container-title": [
           "Sustainability"
         ],
@@ -17893,13 +17907,13 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.coldregions.2011.11.003",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "50cdafd115f7a6ef",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "50cdafd115f7a6ef",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "unilateral heat transfer asphalt pavement for permafrost protection",
       "organization": null,
@@ -18713,7 +18727,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0165232X11002333"
           }
         },
-        "score": 22.556402,
+        "score": 22.555468,
         "short-container-title": [
           "Cold Regions Science and Technology"
         ],
@@ -18750,7 +18764,7 @@
       ],
       "canonical_url": "https://doi.org/10.1007/978-981-97-8213-0_32",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "5118d9059aa278af",
       "engineering_relevance_tags": [
         "surface temperature"
@@ -18758,7 +18772,7 @@
       "human_review_required": false,
       "internal_id": "5118d9059aa278af",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "development of pavement with road surface temperature reduction and rainwater storage effect",
       "organization": null,
@@ -19115,7 +19129,7 @@
             "URL": "https://link.springer.com/10.1007/978-981-97-8213-0_32"
           }
         },
-        "score": 23.924717,
+        "score": 23.924812,
         "source": "Crossref",
         "title": [
           "Development of Pavement with Road Surface Temperature Reduction and Rainwater Storage Effect"
@@ -19241,7 +19255,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.uclim.2024.102042",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "56ee2e996691a7eb",
       "engineering_relevance_tags": [
         "environmental / climatic conditions",
@@ -19250,7 +19264,7 @@
       "human_review_required": false,
       "internal_id": "56ee2e996691a7eb",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "pavement watering as an urban heat mitigation technique",
       "organization": null,
@@ -20219,7 +20233,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2212095524002384"
           }
         },
-        "score": 31.10947,
+        "score": 31.114065,
         "short-container-title": [
           "Urban Climate"
         ],
@@ -20334,13 +20348,13 @@
       ],
       "canonical_url": "https://doi.org/10.1061/41072(359)38",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "5bab996840505901",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "5bab996840505901",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "mnroad pavement temperature profiles",
       "organization": null,
@@ -20497,7 +20511,7 @@
             "URL": "https://ascelibrary.org/doi/10.1061/41072%28359%2938"
           }
         },
-        "score": 18.620274,
+        "score": 18.61827,
         "source": "Crossref",
         "title": [
           "MnROAD Pavement Temperature Profiles"
@@ -20528,13 +20542,13 @@
       ],
       "canonical_url": "https://doi.org/10.1007/978-981-16-7509-6_4",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "60a5e01557db370d",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "60a5e01557db370d",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "thermal behavior of a pcm incorporated concrete pavement",
       "organization": null,
@@ -20856,7 +20870,7 @@
             "URL": "https://link.springer.com/10.1007/978-981-16-7509-6_4"
           }
         },
-        "score": 21.784739,
+        "score": 21.780466,
         "source": "Crossref",
         "title": [
           "Thermal Behavior of a PCM Incorporated Concrete Pavement"
@@ -21056,13 +21070,13 @@
       ],
       "canonical_url": "https://doi.org/10.2139/ssrn.5004444",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "7127c3b54fe00d0a",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "7127c3b54fe00d0a",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "thermal behavior ofwaste ceramic mortar pavement and normat concrete pavement",
       "organization": null,
@@ -21268,7 +21282,7 @@
             "URL": "https://www.ssrn.com/abstract=5004444"
           }
         },
-        "score": 23.223507,
+        "score": 23.213013,
         "source": "Crossref",
         "subtype": "preprint",
         "title": [
@@ -21484,7 +21498,7 @@
       ],
       "canonical_url": "https://doi.org/10.3141/2456-10",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "77724678b6d32ece",
       "engineering_relevance_tags": [
         "field validation",
@@ -21493,7 +21507,7 @@
       "human_review_required": true,
       "internal_id": "77724678b6d32ece",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "prediction of asphalt pavement temperature profile with finite control volume method",
       "organization": null,
@@ -21857,7 +21871,7 @@
             "URL": "https://journals.sagepub.com/doi/10.3141/2456-10"
           }
         },
-        "score": 18.458775,
+        "score": 18.458155,
         "short-container-title": [
           "Transportation Research Record: Journal of the Transportation Research Board"
         ],
@@ -21892,7 +21906,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/b978-0-12-803476-7.00011-8",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "7c23e49b3929d672",
       "engineering_relevance_tags": [
         "urban heat mitigation"
@@ -21900,7 +21914,7 @@
       "human_review_required": false,
       "internal_id": "7c23e49b3929d672",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "pavement thermal modeling",
       "organization": null,
@@ -22040,7 +22054,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/B9780128034767000118"
           }
         },
-        "score": 19.917858,
+        "score": 19.909481,
         "source": "Crossref",
         "title": [
           "Pavement Thermal Modeling"
@@ -22070,7 +22084,7 @@
       ],
       "canonical_url": "https://openalex.org/W2244137650",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "7cc6d9221c7d3b0c",
       "engineering_relevance_tags": [
         "thermal performance"
@@ -22078,7 +22092,7 @@
       "human_review_required": false,
       "internal_id": "7cc6d9221c7d3b0c",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "a heat transfer model for evaluating frost action and temperature related effects in multilayered pavement systems",
       "organization": null,
@@ -23037,7 +23051,7 @@
           "https://openalex.org/W1982448001",
           "https://openalex.org/W1563071883"
         ],
-        "relevance_score": 510.53192,
+        "relevance_score": 509.91693,
         "sustainable_development_goals": [
           {
             "display_name": "Climate action",
@@ -23209,7 +23223,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.rser.2021.111171",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "7f52cd83e20b5e26",
       "engineering_relevance_tags": [
         "urban heat mitigation"
@@ -23217,7 +23231,7 @@
       "human_review_required": false,
       "internal_id": "7f52cd83e20b5e26",
       "item_type": "Review Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "cool pavements for urban heat island mitigation a synthetic review",
       "organization": null,
@@ -23969,7 +23983,7 @@
           "https://openalex.org/W2077790809",
           "https://openalex.org/W2906246018"
         ],
-        "relevance_score": 1336.3197,
+        "relevance_score": 1335.1566,
         "sustainable_development_goals": [],
         "title": "Cool pavements for urban heat island mitigation: A synthetic review",
         "topics": [
@@ -24052,7 +24066,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.jenvman.2017.03.095",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "8348c3dc2ef1ca1b",
       "engineering_relevance_tags": [
         "urban heat mitigation"
@@ -24060,7 +24074,7 @@
       "human_review_required": false,
       "internal_id": "8348c3dc2ef1ca1b",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "the urban heat island effect its causes and mitigation with reference to the thermal properties of asphalt concrete",
       "organization": null,
@@ -24207,9 +24221,9 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": true,
           "is_in_top_1_percent": true,
-          "value": 0.99927657
+          "value": 0.99927677
         },
-        "cited_by_count": 1163,
+        "cited_by_count": 1164,
         "cited_by_percentile_year": {
           "max": 100,
           "min": 99
@@ -24359,7 +24373,7 @@
         "countries_distinct_count": 1,
         "counts_by_year": [
           {
-            "cited_by_count": 143,
+            "cited_by_count": 144,
             "year": 2026
           },
           {
@@ -24403,7 +24417,7 @@
         "display_name": "The urban heat island effect, its causes, and mitigation, with reference to the thermal properties of asphalt concrete",
         "doi": "https://doi.org/10.1016/j.jenvman.2017.03.095",
         "funders": [],
-        "fwci": 24.576,
+        "fwci": 24.5653,
         "has_content": {
           "grobid_xml": false,
           "pdf": false
@@ -24890,7 +24904,7 @@
           "https://openalex.org/W1601735820",
           "https://openalex.org/W2546714292"
         ],
-        "relevance_score": 595.9557,
+        "relevance_score": 595.0572,
         "sustainable_development_goals": [
           {
             "display_name": "Sustainable cities and communities",
@@ -24953,7 +24967,7 @@
           }
         ],
         "type": "article",
-        "updated_date": "2026-09-12T09:15:50.089291"
+        "updated_date": "2026-09-16T18:09:00.828671"
       },
       "relevance": "Medium",
       "source_confidence": "High for bibliographic discovery; engineering claims require human review",
@@ -24985,7 +24999,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.conbuildmat.2023.133787",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "8ac95ac34990a2ab",
       "engineering_relevance_tags": [
         "construction",
@@ -24994,7 +25008,7 @@
       "human_review_required": true,
       "internal_id": "8ac95ac34990a2ab",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "experimental investigation on performance of composite thermochromic and ice melting coatings for dynamic pavement temperature control",
       "organization": null,
@@ -25743,7 +25757,7 @@
           "https://openalex.org/W649860568",
           "https://openalex.org/W4225274352"
         ],
-        "relevance_score": 350.05075,
+        "relevance_score": 349.7829,
         "sustainable_development_goals": [
           {
             "display_name": "Sustainable cities and communities",
@@ -25834,7 +25848,7 @@
       ],
       "canonical_url": "https://doi.org/10.3141/1813-01",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "8cd07918fe08dc21",
       "engineering_relevance_tags": [
         "construction",
@@ -25844,7 +25858,7 @@
       "human_review_required": true,
       "internal_id": "8cd07918fe08dc21",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "importance of concrete temperature control during concrete pavement construction in hot weather conditions",
       "organization": null,
@@ -26909,7 +26923,7 @@
           "https://openalex.org/W3144001262",
           "https://openalex.org/W1964862172"
         ],
-        "relevance_score": 414.64923,
+        "relevance_score": 414.18204,
         "sustainable_development_goals": [
           {
             "display_name": "Industry, innovation and infrastructure",
@@ -27001,7 +27015,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.scs.2020.102476",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "8cd200ffad85ff85",
       "engineering_relevance_tags": [
         "urban heat mitigation"
@@ -27009,7 +27023,7 @@
       "human_review_required": false,
       "internal_id": "8cd200ffad85ff85",
       "item_type": "Review Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "urban heat island studies with emphasis on urban pavements a review",
       "organization": null,
@@ -27823,7 +27837,7 @@
           "https://openalex.org/W2388358789",
           "https://openalex.org/W2625176280"
         ],
-        "relevance_score": 1311.213,
+        "relevance_score": 1309.4747,
         "sustainable_development_goals": [
           {
             "display_name": "Life in Land",
@@ -27912,7 +27926,7 @@
       ],
       "canonical_url": "https://doi.org/10.1088/1757-899x/1039/1/012018",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "8f5cb0d7abdd6c83",
       "engineering_relevance_tags": [
         "durability",
@@ -27922,7 +27936,7 @@
       "human_review_required": true,
       "internal_id": "8f5cb0d7abdd6c83",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "mitigation possibilities of concrete pavement degradation",
       "organization": null,
@@ -28339,7 +28353,7 @@
             "URL": "https://iopscience.iop.org/article/10.1088/1757-899X/1039/1/012018"
           }
         },
-        "score": 19.80318,
+        "score": 19.792961,
         "short-container-title": [
           "IOP Conf. Ser.: Mater. Sci. Eng."
         ],
@@ -28450,13 +28464,13 @@
       ],
       "canonical_url": "https://doi.org/10.1007/s11356-025-36834-1",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "912e4827660c0168",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "912e4827660c0168",
       "item_type": "Review Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "urban cooling through pavement innovation a review of strategies and materials",
       "organization": null,
@@ -29543,7 +29557,7 @@
             "URL": "https://link.springer.com/10.1007/s11356-025-36834-1"
           }
         },
-        "score": 21.804607,
+        "score": 21.797474,
         "short-container-title": [
           "Environ Sci Pollut Res"
         ],
@@ -30378,7 +30392,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.cej.2025.164720",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "98f005b4485bad67",
       "engineering_relevance_tags": [
         "alternative technology"
@@ -30386,7 +30400,7 @@
       "human_review_required": false,
       "internal_id": "98f005b4485bad67",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "multi scale optimization of high enthalpy encapsulated ternary eutectic phase change materials towards sustainable asphalt pavements with enhanced thermal management",
       "organization": null,
@@ -31296,7 +31310,7 @@
           "https://openalex.org/W2010210446",
           "https://openalex.org/W2357308156"
         ],
-        "relevance_score": 281.37558,
+        "relevance_score": 280.94977,
         "sustainable_development_goals": [
           {
             "display_name": "Responsible consumption and production",
@@ -31533,7 +31547,7 @@
       ],
       "canonical_url": "https://doi.org/10.46610/joidrp.2026.v011i01.004",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "9c2aa8ef8d371751",
       "engineering_relevance_tags": [
         "surface temperature",
@@ -31546,7 +31560,7 @@
       "human_review_required": true,
       "internal_id": "9c2aa8ef8d371751",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "urban heat island effect and sustainable pavement materials",
       "organization": null,
@@ -31692,7 +31706,7 @@
             "URL": "https://matjournals.net/engineering/index.php/JoIDRP/article/view/3699"
           }
         },
-        "score": 30.950422,
+        "score": 30.948544,
         "short-container-title": [
           "JoIDRP"
         ],
@@ -31821,13 +31835,13 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.geothermics.2017.02.002",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "9df07e5d2ec06b63",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "9df07e5d2ec06b63",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "pavement temperature mitigation by the means of geothermally and solar heated air",
       "organization": null,
@@ -32401,7 +32415,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0375650517300548"
           }
         },
-        "score": 20.701538,
+        "score": 20.692656,
         "short-container-title": [
           "Geothermics"
         ],
@@ -32439,13 +32453,13 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.trd.2021.102753",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "a05334803f34000a",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "a05334803f34000a",
       "item_type": "Review Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "a review on solar pavement and photovoltaic thermal pv t system",
       "organization": null,
@@ -33930,7 +33944,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1361920921000572"
           }
         },
-        "score": 18.251259,
+        "score": 18.254433,
         "short-container-title": [
           "Transportation Research Part D: Transport and Environment"
         ],
@@ -33966,7 +33980,7 @@
       ],
       "canonical_url": "https://doi.org/10.65302/icj.2026.100037",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "a1be85238b90824a",
       "engineering_relevance_tags": [
         "durability"
@@ -33974,7 +33988,7 @@
       "human_review_required": false,
       "internal_id": "a1be85238b90824a",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "concrete as thermal energy storage system and anti icing pavement system",
       "organization": null,
@@ -34117,7 +34131,7 @@
             "URL": "https://www.icjonline.com/article_07_v100_03_2026"
           }
         },
-        "score": 19.706606,
+        "score": 19.69448,
         "short-container-title": [
           "ICJ"
         ],
@@ -34154,7 +34168,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.enbuild.2025.116149",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "a4909888aea3a831",
       "engineering_relevance_tags": [
         "urban heat mitigation",
@@ -34163,7 +34177,7 @@
       "human_review_required": false,
       "internal_id": "a4909888aea3a831",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "mitigation urban heat island by using porous and permeable block pavement",
       "organization": null,
@@ -35110,7 +35124,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0378778825008795"
           }
         },
-        "score": 27.911037,
+        "score": 27.899418,
         "short-container-title": [
           "Energy and Buildings"
         ],
@@ -35147,7 +35161,7 @@
       ],
       "canonical_url": "https://doi.org/10.5194/egusphere-egu26-14185",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "a568c43f8198a818",
       "engineering_relevance_tags": [
         "surface temperature",
@@ -35158,7 +35172,7 @@
       "human_review_required": false,
       "internal_id": "a568c43f8198a818",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "coupling urban energy and microclimate models to quantify high albedo pavement cooling effects in antwerp",
       "organization": null,
@@ -35289,7 +35303,7 @@
             "URL": "https://meetingorganizer.copernicus.org/EGU26/EGU26-14185.html"
           }
         },
-        "score": 19.118828,
+        "score": 19.113808,
         "source": "Crossref",
         "subtype": "other",
         "title": [
@@ -35683,13 +35697,13 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.compstruct.2014.07.021",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "abfc85e5176fe8ca",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "abfc85e5176fe8ca",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "thermal characteristics of a conductive cement based composite for a snow melting heated pavement system",
       "organization": null,
@@ -36325,7 +36339,7 @@
           "https://openalex.org/W2939872324",
           "https://openalex.org/W2360544060"
         ],
-        "relevance_score": 449.47806,
+        "relevance_score": 448.865,
         "sustainable_development_goals": [
           {
             "display_name": "Sustainable cities and communities",
@@ -36418,7 +36432,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.conbuildmat.2025.145088",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "ac5b7dff58e937da",
       "engineering_relevance_tags": [
         "construction",
@@ -36427,7 +36441,7 @@
       "human_review_required": true,
       "internal_id": "ac5b7dff58e937da",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "a sustainable pavement coating with balanced cooling and adhesion for urban heat reduction",
       "organization": null,
@@ -37645,7 +37659,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061825052407"
           }
         },
-        "score": 20.304419,
+        "score": 20.304241,
         "short-container-title": [
           "Construction and Building Materials"
         ],
@@ -37678,7 +37692,7 @@
       "authors": [],
       "canonical_url": "https://doi.org/10.1016/c2014-0-04185-8",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "ae12658b1973b90c",
       "engineering_relevance_tags": [
         "urban heat mitigation"
@@ -37686,7 +37700,7 @@
       "human_review_required": false,
       "internal_id": "ae12658b1973b90c",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "pavement materials for heat island mitigation",
       "organization": null,
@@ -37790,7 +37804,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/C20140041858"
           }
         },
-        "score": 19.764318,
+        "score": 19.725729,
         "source": "Crossref",
         "title": [
           "Pavement Materials for Heat Island Mitigation"
@@ -37822,13 +37836,13 @@
       ],
       "canonical_url": "https://doi.org/10.1061/9780784482599.024",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "b536ab00c2d4b13e",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "b536ab00c2d4b13e",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "thermal behavior of flexible pavement containing foam glass aggregates as thermal insulation layer",
       "organization": null,
@@ -38066,7 +38080,7 @@
             "URL": "https://ascelibrary.org/doi/10.1061/9780784482599.024"
           }
         },
-        "score": 20.088367,
+        "score": 20.08764,
         "source": "Crossref",
         "title": [
           "Thermal Behavior of Flexible Pavement Containing Foam Glass Aggregates as Thermal Insulation Layer"
@@ -38203,13 +38217,13 @@
       ],
       "canonical_url": "https://doi.org/10.1007/s12544-015-0156-6",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "b6e6af6546fdd3d0",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "b6e6af6546fdd3d0",
       "item_type": "Review Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "review of remote sensing methodologies for pavement management and assessment",
       "organization": null,
@@ -39454,7 +39468,7 @@
           "https://openalex.org/W3214390286",
           "https://openalex.org/W2937323345"
         ],
-        "relevance_score": 285.71503,
+        "relevance_score": 284.963,
         "sustainable_development_goals": [
           {
             "display_name": "Industry, innovation and infrastructure",
@@ -39544,7 +39558,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.jreng.2024.12.008",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "b7b2e05793ddfd81",
       "engineering_relevance_tags": [
         "surface temperature"
@@ -39552,7 +39566,7 @@
       "human_review_required": false,
       "internal_id": "b7b2e05793ddfd81",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "evaluation of effective parameters on pavement surface temperature",
       "organization": null,
@@ -40308,7 +40322,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2097049825000344"
           }
         },
-        "score": 21.408257,
+        "score": 21.405403,
         "short-container-title": [
           "Journal of Road Engineering"
         ],
@@ -40348,7 +40362,7 @@
       ],
       "canonical_url": "https://www.semanticscholar.org/paper/d8a0e9b8ef85e9e89497c21a23416c6daad6ec3a",
       "country": null,
-      "discovered_at": "2026-09-14T12:07:59Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "bbe160050a13c0b6",
       "engineering_relevance_tags": [
         "thermal performance"
@@ -40356,7 +40370,7 @@
       "human_review_required": false,
       "internal_id": "bbe160050a13c0b6",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-14T12:07:59Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "fluid network heat transfer characteristics of asphalt pavement heated by hot air",
       "organization": null,
@@ -40440,7 +40454,7 @@
       ],
       "canonical_url": "https://doi.org/10.1061/(asce)mt.1943-5533.0000872",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "c1603506e364878d",
       "engineering_relevance_tags": [
         "urban heat mitigation"
@@ -40448,7 +40462,7 @@
       "human_review_required": false,
       "internal_id": "c1603506e364878d",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "unidirectional heat transfer asphalt pavement for mitigating the urban heat island effect",
       "organization": null,
@@ -40929,7 +40943,7 @@
             "URL": "https://ascelibrary.org/doi/10.1061/%28ASCE%29MT.1943-5533.0000872"
           }
         },
-        "score": 21.516678,
+        "score": 21.509163,
         "short-container-title": [
           "J. Mater. Civ. Eng."
         ],
@@ -41138,7 +41152,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.jclepro.2017.10.182",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "cb2183e4728e1511",
       "engineering_relevance_tags": [
         "commercial maturity"
@@ -41146,7 +41160,7 @@
       "human_review_required": false,
       "internal_id": "cb2183e4728e1511",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "characterizing thermal behaviors of various pavement materials and their thermal impacts on ambient environment",
       "organization": null,
@@ -41790,7 +41804,7 @@
           "https://openalex.org/W4394814748",
           "https://openalex.org/W811843590"
         ],
-        "relevance_score": 672.20654,
+        "relevance_score": 671.3268,
         "sustainable_development_goals": [
           {
             "display_name": "Sustainable cities and communities",
@@ -41880,7 +41894,7 @@
       ],
       "canonical_url": "https://doi.org/10.1061/(asce)0899-1561(2007)19:8(683)",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "cc0df3de85243062",
       "engineering_relevance_tags": [
         "surface temperature",
@@ -41889,7 +41903,7 @@
       "human_review_required": false,
       "internal_id": "cc0df3de85243062",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "impact of pavement thermophysical properties on surface temperatures",
       "organization": null,
@@ -43034,7 +43048,7 @@
           "https://openalex.org/W3216119834",
           "https://openalex.org/W4288766327"
         ],
-        "relevance_score": 488.06308,
+        "relevance_score": 487.14755,
         "sustainable_development_goals": [
           {
             "display_name": "Industry, innovation and infrastructure",
@@ -43199,7 +43213,7 @@
       ],
       "canonical_url": "https://doi.org/10.7855/ijhe.2013.15.1.075",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "d0aaf51f0f760123",
       "engineering_relevance_tags": [
         "surface temperature"
@@ -43207,7 +43221,7 @@
       "human_review_required": false,
       "internal_id": "d0aaf51f0f760123",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "a study of the surface temperature reduction using pipe cooling system in asphalt pavement",
       "organization": null,
@@ -43390,7 +43404,7 @@
             "URL": "http://koreascience.or.kr/journal/view.jsp?kj=HGDRC5&py=2013&vnc=v15n1&sp=75"
           }
         },
-        "score": 22.48993,
+        "score": 22.483913,
         "short-container-title": [
           "Journal of the Korean Society of Road Engineers"
         ],
@@ -43503,7 +43517,7 @@
       ],
       "canonical_url": "https://www.semanticscholar.org/paper/538d593caed6dd946b3f6357c794ed2bbe2c5355",
       "country": null,
-      "discovered_at": "2026-09-14T12:07:59Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "d315166e8f5bc156",
       "engineering_relevance_tags": [
         "thermal performance"
@@ -43511,7 +43525,7 @@
       "human_review_required": false,
       "internal_id": "d315166e8f5bc156",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-14T12:07:59Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "heat transfer mechanism of asphalt pavement based on entransy dissipation analysis",
       "organization": null,
@@ -43581,13 +43595,13 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.enbuild.2018.03.049",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "d567e47effed99cf",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "d567e47effed99cf",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "design and experiment of thermoelectric asphalt pavements with power generation and temperature reduction functions",
       "organization": null,
@@ -44271,7 +44285,7 @@
           "https://openalex.org/W2890326640",
           "https://openalex.org/W2170581641"
         ],
-        "relevance_score": 395.37787,
+        "relevance_score": 394.43634,
         "sustainable_development_goals": [
           {
             "display_name": "Sustainable cities and communities",
@@ -44361,7 +44375,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.ijfatigue.2017.11.013",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "d59c05e747598af3",
       "engineering_relevance_tags": [
         "durability"
@@ -44369,7 +44383,7 @@
       "human_review_required": true,
       "internal_id": "d59c05e747598af3",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "investigation of fatigue and thermal cracking behavior of rejuvenated reclaimed asphalt pavement binders and mixtures",
       "organization": null,
@@ -44835,7 +44849,7 @@
           "https://openalex.org/W2768761475",
           "https://openalex.org/W2351518987"
         ],
-        "relevance_score": 576.30994,
+        "relevance_score": 575.79767,
         "sustainable_development_goals": [
           {
             "display_name": "Industry, innovation and infrastructure",
@@ -44926,7 +44940,7 @@
       ],
       "canonical_url": "https://doi.org/10.1007/978-981-19-9822-5_305",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "d96d5efc1217ce54",
       "engineering_relevance_tags": [
         "field validation",
@@ -44935,7 +44949,7 @@
       "human_review_required": true,
       "internal_id": "d96d5efc1217ce54",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "urban heat island mitigation a field evaluation of a pervious pavement combined with pavement watering",
       "organization": null,
@@ -45346,7 +45360,7 @@
             "URL": "https://link.springer.com/10.1007/978-981-19-9822-5_305"
           }
         },
-        "score": 27.548714,
+        "score": 27.548172,
         "source": "Crossref",
         "title": [
           "Urban Heat Island Mitigation: A Field Evaluation of a Pervious Pavement Combined with Pavement Watering"
@@ -45381,13 +45395,13 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.coldregions.2021.103406",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "da8bb4681536b457",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "da8bb4681536b457",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "optimization design and prediction of the snow melting pavement based on electrical thermal system",
       "organization": null,
@@ -46173,7 +46187,7 @@
           "https://openalex.org/W2371713266",
           "https://openalex.org/W2394295166"
         ],
-        "relevance_score": 385.12985,
+        "relevance_score": 384.6001,
         "sustainable_development_goals": [
           {
             "display_name": "Affordable and clean energy",
@@ -46264,7 +46278,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.uclim.2024.102218",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "dba82b7e7abaa4ab",
       "engineering_relevance_tags": [
         "environmental / climatic conditions"
@@ -46272,7 +46286,7 @@
       "human_review_required": false,
       "internal_id": "dba82b7e7abaa4ab",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "pervious asphalt pavement and concrete wall watering for urban cooling characterization of surface cooling effects at an outdoor test site",
       "organization": null,
@@ -47099,7 +47113,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2212095524004152"
           }
         },
-        "score": 19.117199,
+        "score": 19.118736,
         "short-container-title": [
           "Urban Climate"
         ],
@@ -47134,7 +47148,7 @@
       ],
       "canonical_url": "https://openalex.org/W852276632",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "dd989ade9ada98d9",
       "engineering_relevance_tags": [
         "environmental / climatic conditions"
@@ -47142,7 +47156,7 @@
       "human_review_required": false,
       "internal_id": "dd989ade9ada98d9",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "calculation of maximum pavement temperatures from weather reports",
       "organization": null,
@@ -47763,7 +47777,7 @@
           "https://openalex.org/W2001455043",
           "https://openalex.org/W1989953478"
         ],
-        "relevance_score": 368.54327,
+        "relevance_score": 367.9025,
         "sustainable_development_goals": [
           {
             "display_name": "Sustainable cities and communities",
@@ -47902,7 +47916,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.conbuildmat.2020.120609",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "ded2f5fd2a853af5",
       "engineering_relevance_tags": [
         "construction"
@@ -47910,7 +47924,7 @@
       "human_review_required": true,
       "internal_id": "ded2f5fd2a853af5",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "evaluation of thermal and anti rutting behaviors of thermal resistance asphalt pavement with glass microsphere",
       "organization": null,
@@ -48572,7 +48586,7 @@
           "https://openalex.org/W2248721647",
           "https://openalex.org/W2566602874"
         ],
-        "relevance_score": 414.706,
+        "relevance_score": 414.79868,
         "sustainable_development_goals": [],
         "title": "Evaluation of thermal and anti-rutting behaviors of thermal resistance asphalt pavement with glass microsphere",
         "topics": [
@@ -48657,7 +48671,7 @@
       ],
       "canonical_url": "https://www.semanticscholar.org/paper/ea66d41c69ffa20943125d78256297af27dc2815",
       "country": null,
-      "discovered_at": "2026-09-14T12:07:59Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "e36f6c3ece25448d",
       "engineering_relevance_tags": [
         "thermal performance",
@@ -48666,7 +48680,7 @@
       "human_review_required": true,
       "internal_id": "e36f6c3ece25448d",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-14T12:07:59Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "heat transfer characteristics of electrical heating deicing and snow melting asphalt pavement under different operating conditions",
       "organization": null,
@@ -49028,7 +49042,7 @@
       ],
       "canonical_url": "https://doi.org/10.2208/journalpe.6.29",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "eb9952bb642f8cb4",
       "engineering_relevance_tags": [
         "surface temperature"
@@ -49036,7 +49050,7 @@
       "human_review_required": false,
       "internal_id": "eb9952bb642f8cb4",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "evaluation of a pavement for heat control of road surface temperature",
       "organization": null,
@@ -49163,7 +49177,7 @@
             "URL": "http://www.jstage.jst.go.jp/article/journalpe1996/6/0/6_0_29/_article"
           }
         },
-        "score": 18.45211,
+        "score": 18.456814,
         "short-container-title": [
           "JOURNAL OF PAVEMENT ENGINEERING, JSCE"
         ],
@@ -49203,7 +49217,7 @@
       ],
       "canonical_url": "https://doi.org/10.11113/mjce.v26.15902",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "ecb6950b7a06b813",
       "engineering_relevance_tags": [
         "surface temperature",
@@ -49214,7 +49228,7 @@
       "human_review_required": false,
       "internal_id": "ecb6950b7a06b813",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "physical and chemical characterization of wasted tiles as coating materials for pavement surface temperature reduction",
       "organization": null,
@@ -49438,7 +49452,7 @@
             "URL": "https://journals.utm.my/mjce/article/view/15902"
           }
         },
-        "score": 21.67838,
+        "score": 21.655928,
         "short-container-title": [
           "MJCE"
         ],
@@ -49473,7 +49487,7 @@
       ],
       "canonical_url": "https://doi.org/10.2208/journalip.16.443",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "edae3599c08af4cc",
       "engineering_relevance_tags": [
         "surface temperature"
@@ -49481,7 +49495,7 @@
       "human_review_required": false,
       "internal_id": "edae3599c08af4cc",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "an experimental study about the reduction effect of surface temperature of the porous pavement",
       "organization": null,
@@ -49625,7 +49639,7 @@
             "URL": "http://www.jstage.jst.go.jp/article/journalip1984/16/0/16_0_443/_article"
           }
         },
-        "score": 22.419273,
+        "score": 22.418585,
         "short-container-title": [
           "INFRASTRUCTURE PLANNING REVIEW"
         ],
@@ -49660,7 +49674,7 @@
       ],
       "canonical_url": "https://doi.org/10.4028/www.scientific.net/amm.110-116.400",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "f4b00fba83b4c973",
       "engineering_relevance_tags": [
         "thermal performance",
@@ -49672,7 +49686,7 @@
       "human_review_required": true,
       "internal_id": "f4b00fba83b4c973",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "transient thermal behavior of hot mix asphalt pavement",
       "organization": null,
@@ -49989,7 +50003,7 @@
             "URL": "https://www.scientific.net/AMM.110-116.400"
           }
         },
-        "score": 21.822514,
+        "score": 21.811998,
         "short-container-title": [
           "AMM"
         ],
@@ -50026,7 +50040,7 @@
       ],
       "canonical_url": "https://doi.org/10.3390/civileng2020026",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "f5f04985c6a05c44",
       "engineering_relevance_tags": [
         "pumping / energy consumption",
@@ -50037,7 +50051,7 @@
       "human_review_required": false,
       "internal_id": "f5f04985c6a05c44",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "urban heat island causes consequences and mitigation measures with emphasis on reflective and permeable pavements",
       "organization": null,
@@ -51254,7 +51268,7 @@
           "https://openalex.org/W1539205971",
           "https://openalex.org/W2389900588"
         ],
-        "relevance_score": 1271.771,
+        "relevance_score": 1269.8826,
         "sustainable_development_goals": [],
         "title": "Urban Heat Island: Causes, Consequences, and Mitigation Measures with Emphasis on Reflective and Permeable Pavements",
         "topics": [
@@ -51336,7 +51350,7 @@
       ],
       "canonical_url": "https://doi.org/10.3390/buildings6010002",
       "country": null,
-      "discovered_at": "2026-09-16T11:02:26Z",
+      "discovered_at": "2026-09-17T11:13:41Z",
       "duplicate_of": "fd80decc48a1172b",
       "engineering_relevance_tags": [
         "environmental / climatic conditions",
@@ -51345,7 +51359,7 @@
       "human_review_required": true,
       "internal_id": "fd80decc48a1172b",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-09-16T11:02:26Z",
+      "last_seen_at": "2026-09-17T11:13:41Z",
       "location": null,
       "normalized_title": "diurnal thermal behavior of pavements vegetation and water pond in a hot humid city",
       "organization": null,
@@ -52482,7 +52496,7 @@
           "https://openalex.org/W3147577347",
           "https://openalex.org/W4225418846"
         ],
-        "relevance_score": 420.9307,
+        "relevance_score": 420.31482,
         "sustainable_development_goals": [
           {
             "display_name": "Sustainable cities and communities",
