@@ -397,7 +397,7 @@
       ],
       "canonical_url": "https://openalex.org/W601848138",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "00ed7d267463b449",
       "engineering_relevance_tags": [
         "surface temperature",
@@ -408,7 +408,7 @@
       "human_review_required": true,
       "internal_id": "4aeca82b18c72ab4",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "innovative thermochromic asphalt binder for pavement thermal management characterization and computational simulation",
       "organization": null,
@@ -1094,7 +1094,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": false,
           "is_in_top_1_percent": false,
-          "value": 0.69246141
+          "value": 0.74605403
         },
         "cited_by_count": 1,
         "cited_by_percentile_year": {
@@ -1208,7 +1208,7 @@
         "display_name": "Innovative Thermochromic Asphalt Binder for Pavement Thermal Management: Characterization and Computational Simulation",
         "doi": null,
         "funders": [],
-        "fwci": 0.5312,
+        "fwci": 0.6433,
         "has_content": {
           "grobid_xml": false,
           "pdf": false
@@ -1334,7 +1334,7 @@
             "id": "https://openalex.org/fields/22"
           },
           "id": "https://openalex.org/T10264",
-          "score": 0.9810000061988831,
+          "score": 0.9984999895095825,
           "subfield": {
             "display_name": "Civil and Structural Engineering",
             "id": "https://openalex.org/subfields/2205"
@@ -1366,7 +1366,7 @@
           "https://openalex.org/W2377238257",
           "https://openalex.org/W2999973874"
         ],
-        "relevance_score": 119.18287,
+        "relevance_score": 119.33242,
         "study_designs": [],
         "sustainable_development_goals": [],
         "sustainable_development_goals_aurora": [],
@@ -1383,7 +1383,41 @@
               "id": "https://openalex.org/fields/22"
             },
             "id": "https://openalex.org/T10264",
-            "score": 0.9810000061988831,
+            "score": 0.9984999895095825,
+            "subfield": {
+              "display_name": "Civil and Structural Engineering",
+              "id": "https://openalex.org/subfields/2205"
+            }
+          },
+          {
+            "display_name": "Urban Heat Island Mitigation",
+            "domain": {
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
+            },
+            "field": {
+              "display_name": "Environmental Science",
+              "id": "https://openalex.org/fields/23"
+            },
+            "id": "https://openalex.org/T10766",
+            "score": 9.999999747378752e-05,
+            "subfield": {
+              "display_name": "Environmental Engineering",
+              "id": "https://openalex.org/subfields/2305"
+            }
+          },
+          {
+            "display_name": "Geotechnical and construction materials studies",
+            "domain": {
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
+            },
+            "field": {
+              "display_name": "Engineering",
+              "id": "https://openalex.org/fields/22"
+            },
+            "id": "https://openalex.org/T13236",
+            "score": 9.999999747378752e-05,
             "subfield": {
               "display_name": "Civil and Structural Engineering",
               "id": "https://openalex.org/subfields/2205"
@@ -1494,7 +1528,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.uclim.2023.101667",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "0211505f3a4786a1",
       "engineering_relevance_tags": [
         "environmental / climatic conditions"
@@ -1502,7 +1536,7 @@
       "human_review_required": false,
       "internal_id": "0211505f3a4786a1",
       "item_type": "Review Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "review on thermal behavior of cool pavements",
       "organization": null,
@@ -1882,7 +1916,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": true,
           "is_in_top_1_percent": false,
-          "value": 0.96060648
+          "value": 0.96111168
         },
         "cited_by_count": 54,
         "cited_by_percentile_year": {
@@ -2022,7 +2056,7 @@
             "ror": "https://ror.org/00k4n6c32"
           }
         ],
-        "fwci": 4.5155,
+        "fwci": 4.6755,
         "has_content": {
           "grobid_xml": false,
           "pdf": false
@@ -2236,7 +2270,7 @@
             "id": "https://openalex.org/fields/23"
           },
           "id": "https://openalex.org/T10766",
-          "score": 0.9998000264167786,
+          "score": 0.9980000257492065,
           "subfield": {
             "display_name": "Environmental Engineering",
             "id": "https://openalex.org/subfields/2305"
@@ -2505,7 +2539,7 @@
           "https://openalex.org/W1194302957",
           "https://openalex.org/W4309269549"
         ],
-        "relevance_score": 107.34723,
+        "relevance_score": 106.94917,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -2539,14 +2573,14 @@
               "id": "https://openalex.org/fields/23"
             },
             "id": "https://openalex.org/T10766",
-            "score": 0.9998000264167786,
+            "score": 0.9980000257492065,
             "subfield": {
               "display_name": "Environmental Engineering",
               "id": "https://openalex.org/subfields/2305"
             }
           },
           {
-            "display_name": "Smart Materials for Construction",
+            "display_name": "Urban Stormwater Management Solutions",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
@@ -2555,15 +2589,15 @@
               "display_name": "Environmental Science",
               "id": "https://openalex.org/fields/23"
             },
-            "id": "https://openalex.org/T12682",
-            "score": 0.9954000115394592,
+            "id": "https://openalex.org/T11119",
+            "score": 0.0005000000237487257,
             "subfield": {
-              "display_name": "Pollution",
-              "id": "https://openalex.org/subfields/2310"
+              "display_name": "Environmental Engineering",
+              "id": "https://openalex.org/subfields/2305"
             }
           },
           {
-            "display_name": "Building Energy and Comfort Optimization",
+            "display_name": "Asphalt Pavement Performance Evaluation",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
@@ -2572,11 +2606,11 @@
               "display_name": "Engineering",
               "id": "https://openalex.org/fields/22"
             },
-            "id": "https://openalex.org/T10121",
-            "score": 0.9901000261306763,
+            "id": "https://openalex.org/T10264",
+            "score": 0.00039999998989515007,
             "subfield": {
-              "display_name": "Building and Construction",
-              "id": "https://openalex.org/subfields/2215"
+              "display_name": "Civil and Structural Engineering",
+              "id": "https://openalex.org/subfields/2205"
             }
           }
         ],
@@ -2606,7 +2640,7 @@
       ],
       "canonical_url": "https://doi.org/10.17265/1934-7359/2016.01.004",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "09c44a5e7aa11cbd",
       "engineering_relevance_tags": [
         "surface temperature"
@@ -2614,7 +2648,7 @@
       "human_review_required": false,
       "internal_id": "09c44a5e7aa11cbd",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "control of pavement surface temperature rise using recycled materials",
       "organization": null,
@@ -2772,7 +2806,7 @@
             "URL": "http://www.davidpublisher.org/index.php/Home/Article/index?id=24258.html"
           }
         },
-        "score": 19.933615,
+        "score": 19.933323,
         "short-container-title": [
           "JCEA"
         ],
@@ -2885,13 +2919,13 @@
       ],
       "canonical_url": "https://doi.org/10.1109/energytech.2012.6304703",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "0f3658917e4fdafb",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "0f3658917e4fdafb",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "system design to harvest thermal energy across pavement structure",
       "organization": null,
@@ -3075,7 +3109,7 @@
             "URL": "http://ieeexplore.ieee.org/document/6304703/"
           }
         },
-        "score": 19.726109,
+        "score": 19.727293,
         "source": "Crossref",
         "title": [
           "System design to harvest thermal energy across pavement structure"
@@ -3104,7 +3138,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.rser.2013.05.047",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "1036016a9c848e9e",
       "engineering_relevance_tags": [
         "urban heat mitigation"
@@ -3112,7 +3146,7 @@
       "human_review_required": false,
       "internal_id": "1036016a9c848e9e",
       "item_type": "Review Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "using cool pavements as a mitigation strategy to fight urban heat island a review of the actual developments",
       "organization": null,
@@ -3720,7 +3754,7 @@
           "https://openalex.org/W2783489640",
           "https://openalex.org/W2528816112"
         ],
-        "relevance_score": 107.80164,
+        "relevance_score": 107.84935,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -3823,7 +3857,7 @@
       ],
       "canonical_url": "https://doi.org/10.1201/9780429457791-130",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "1041a24906d04357",
       "engineering_relevance_tags": [
         "thermal performance",
@@ -3834,7 +3868,7 @@
       "human_review_required": false,
       "internal_id": "1041a24906d04357",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "thermal analysis of hydronic asphalt pavement systems",
       "organization": null,
@@ -4522,7 +4556,7 @@
           "https://openalex.org/W2607661942",
           "https://openalex.org/W577391634"
         ],
-        "relevance_score": 80.294235,
+        "relevance_score": 80.13554,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -4697,7 +4731,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.energy.2025.137383",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "159b4b01eec1f009",
       "engineering_relevance_tags": [
         "alternative technology"
@@ -4705,7 +4739,7 @@
       "human_review_required": false,
       "internal_id": "159b4b01eec1f009",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "solar to heat conversion control of pavement through thermochromic coating integration of thermal management and visual temperature indication",
       "organization": null,
@@ -5099,7 +5133,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": true,
           "is_in_top_1_percent": true,
-          "value": 0.99744857
+          "value": 0.99678831
         },
         "cited_by_count": 46,
         "cited_by_percentile_year": {
@@ -5251,7 +5285,7 @@
             "ror": null
           }
         ],
-        "fwci": 18.6467,
+        "fwci": 14.0957,
         "has_content": {
           "grobid_xml": false,
           "pdf": false
@@ -5397,20 +5431,20 @@
           "version": "publishedVersion"
         },
         "primary_topic": {
-          "display_name": "Building Energy and Comfort Optimization",
+          "display_name": "Urban Heat Island Mitigation",
           "domain": {
             "display_name": "Physical Sciences",
             "id": "https://openalex.org/domains/3"
           },
           "field": {
-            "display_name": "Engineering",
-            "id": "https://openalex.org/fields/22"
+            "display_name": "Environmental Science",
+            "id": "https://openalex.org/fields/23"
           },
-          "id": "https://openalex.org/T10121",
-          "score": 0.995199978351593,
+          "id": "https://openalex.org/T10766",
+          "score": 0.4147999882698059,
           "subfield": {
-            "display_name": "Building and Construction",
-            "id": "https://openalex.org/subfields/2215"
+            "display_name": "Environmental Engineering",
+            "id": "https://openalex.org/subfields/2305"
           }
         },
         "publication_date": "2025-07-02",
@@ -5502,7 +5536,7 @@
           "https://openalex.org/W2736289399",
           "https://openalex.org/W1974466702"
         ],
-        "relevance_score": 77.71349,
+        "relevance_score": 77.61666,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -5531,7 +5565,24 @@
         "title": "Solar-to-heat conversion control of pavement through thermochromic coating: Integration of thermal management and visual temperature indication",
         "topics": [
           {
-            "display_name": "Building Energy and Comfort Optimization",
+            "display_name": "Urban Heat Island Mitigation",
+            "domain": {
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
+            },
+            "field": {
+              "display_name": "Environmental Science",
+              "id": "https://openalex.org/fields/23"
+            },
+            "id": "https://openalex.org/T10766",
+            "score": 0.4147999882698059,
+            "subfield": {
+              "display_name": "Environmental Engineering",
+              "id": "https://openalex.org/subfields/2305"
+            }
+          },
+          {
+            "display_name": "Thermal Radiation and Cooling Technologies",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
@@ -5540,11 +5591,11 @@
               "display_name": "Engineering",
               "id": "https://openalex.org/fields/22"
             },
-            "id": "https://openalex.org/T10121",
-            "score": 0.995199978351593,
+            "id": "https://openalex.org/T12442",
+            "score": 0.259799987077713,
             "subfield": {
-              "display_name": "Building and Construction",
-              "id": "https://openalex.org/subfields/2215"
+              "display_name": "Civil and Structural Engineering",
+              "id": "https://openalex.org/subfields/2205"
             }
           },
           {
@@ -5558,27 +5609,10 @@
               "id": "https://openalex.org/fields/25"
             },
             "id": "https://openalex.org/T11128",
-            "score": 0.9897000193595886,
+            "score": 0.048700001090765,
             "subfield": {
               "display_name": "Polymers and Plastics",
               "id": "https://openalex.org/subfields/2507"
-            }
-          },
-          {
-            "display_name": "Urban Heat Island Mitigation",
-            "domain": {
-              "display_name": "Physical Sciences",
-              "id": "https://openalex.org/domains/3"
-            },
-            "field": {
-              "display_name": "Environmental Science",
-              "id": "https://openalex.org/fields/23"
-            },
-            "id": "https://openalex.org/T10766",
-            "score": 0.9850000143051147,
-            "subfield": {
-              "display_name": "Environmental Engineering",
-              "id": "https://openalex.org/subfields/2305"
             }
           }
         ],
@@ -7326,7 +7360,7 @@
       ],
       "canonical_url": "https://doi.org/10.3141/2293-15",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "1cfdfe0b2e0cceb5",
       "engineering_relevance_tags": [
         "surface temperature",
@@ -7336,7 +7370,7 @@
       "human_review_required": false,
       "internal_id": "1cfdfe0b2e0cceb5",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "porous asphalt pavement temperature effects for urban heat island analysis",
       "organization": null,
@@ -7709,7 +7743,7 @@
             "URL": "https://journals.sagepub.com/doi/10.3141/2293-15"
           }
         },
-        "score": 28.608429,
+        "score": 28.615868,
         "short-container-title": [
           "Transportation Research Record: Journal of the Transportation Research Board"
         ],
@@ -7743,7 +7777,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.rser.2015.07.177",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "1d07f11a6af4faa3",
       "engineering_relevance_tags": [
         "urban heat mitigation"
@@ -7751,7 +7785,7 @@
       "human_review_required": false,
       "internal_id": "1d07f11a6af4faa3",
       "item_type": "Review Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "a review on the development of cool pavements to mitigate urban heat island effect",
       "organization": null,
@@ -7825,7 +7859,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": true,
           "is_in_top_1_percent": true,
-          "value": 0.99391218
+          "value": 0.99507124
         },
         "cited_by_count": 603,
         "cited_by_percentile_year": {
@@ -7994,7 +8028,7 @@
         "display_name": "A review on the development of cool pavements to mitigate urban heat island effect",
         "doi": "https://doi.org/10.1016/j.rser.2015.07.177",
         "funders": [],
-        "fwci": 13.2766,
+        "fwci": 15.5302,
         "has_content": {
           "grobid_xml": false,
           "pdf": false
@@ -8180,7 +8214,7 @@
             "id": "https://openalex.org/fields/23"
           },
           "id": "https://openalex.org/T10766",
-          "score": 0.9998999834060669,
+          "score": 0.9990000128746033,
           "subfield": {
             "display_name": "Environmental Engineering",
             "id": "https://openalex.org/subfields/2305"
@@ -8390,7 +8424,7 @@
           "https://openalex.org/W1194302957",
           "https://openalex.org/W3012974092"
         ],
-        "relevance_score": 148.80501,
+        "relevance_score": 148.51826,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -8424,7 +8458,24 @@
               "id": "https://openalex.org/fields/23"
             },
             "id": "https://openalex.org/T10766",
-            "score": 0.9998999834060669,
+            "score": 0.9990000128746033,
+            "subfield": {
+              "display_name": "Environmental Engineering",
+              "id": "https://openalex.org/subfields/2305"
+            }
+          },
+          {
+            "display_name": "Urban Stormwater Management Solutions",
+            "domain": {
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
+            },
+            "field": {
+              "display_name": "Environmental Science",
+              "id": "https://openalex.org/fields/23"
+            },
+            "id": "https://openalex.org/T11119",
+            "score": 0.0003000000142492354,
             "subfield": {
               "display_name": "Environmental Engineering",
               "id": "https://openalex.org/subfields/2305"
@@ -8441,27 +8492,10 @@
               "id": "https://openalex.org/fields/22"
             },
             "id": "https://openalex.org/T10121",
-            "score": 0.9919999837875366,
+            "score": 9.999999747378752e-05,
             "subfield": {
               "display_name": "Building and Construction",
               "id": "https://openalex.org/subfields/2215"
-            }
-          },
-          {
-            "display_name": "Wind and Air Flow Studies",
-            "domain": {
-              "display_name": "Physical Sciences",
-              "id": "https://openalex.org/domains/3"
-            },
-            "field": {
-              "display_name": "Environmental Science",
-              "id": "https://openalex.org/fields/23"
-            },
-            "id": "https://openalex.org/T11371",
-            "score": 0.991599977016449,
-            "subfield": {
-              "display_name": "Environmental Engineering",
-              "id": "https://openalex.org/subfields/2305"
             }
           }
         ],
@@ -8491,7 +8525,7 @@
       ],
       "canonical_url": "https://doi.org/10.1061/41114(371)404",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "1d3294073f216148",
       "engineering_relevance_tags": [
         "thermal performance",
@@ -8500,7 +8534,7 @@
       "human_review_required": false,
       "internal_id": "1d3294073f216148",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "stormwater temperature mitigation beneath porous pavements",
       "organization": null,
@@ -9862,7 +9896,7 @@
           "https://openalex.org/W2992538175",
           "https://openalex.org/W2130497306"
         ],
-        "relevance_score": 91.6952,
+        "relevance_score": 91.48165,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -9955,7 +9989,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.est.2024.110638",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "1d603600d30e5774",
       "engineering_relevance_tags": [
         "thermal performance",
@@ -9964,7 +9998,7 @@
       "human_review_required": false,
       "internal_id": "1d603600d30e5774",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "oriented heat induction of phase change asphalt pavement for improving heat transfer efficiency",
       "organization": null,
@@ -10769,7 +10803,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2352152X24002226"
           }
         },
-        "score": 20.899223,
+        "score": 20.89916,
         "short-container-title": [
           "Journal of Energy Storage"
         ],
@@ -12474,7 +12508,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.coldregions.2021.103419",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "2474549f3d1afc0a",
       "engineering_relevance_tags": [
         "thermal performance"
@@ -12482,7 +12516,7 @@
       "human_review_required": false,
       "internal_id": "2474549f3d1afc0a",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "thermal performance of a layered asphalt pavement system for snow melting",
       "organization": null,
@@ -13000,7 +13034,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0165232X21002007"
           }
         },
-        "score": 18.244787,
+        "score": 18.247595,
         "short-container-title": [
           "Cold Regions Science and Technology"
         ],
@@ -13038,7 +13072,7 @@
       ],
       "canonical_url": "https://doi.org/10.4028/www.scientific.net/amr.168-170.859",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "2609023e34f4358f",
       "engineering_relevance_tags": [
         "thermal performance",
@@ -13048,7 +13082,7 @@
       "human_review_required": true,
       "internal_id": "2609023e34f4358f",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "analysis of high permeable concrete pavement heat transfer mechanism",
       "organization": null,
@@ -13306,7 +13340,7 @@
             "URL": "https://www.scientific.net/AMR.168-170.859"
           }
         },
-        "score": 21.633995,
+        "score": 21.624617,
         "short-container-title": [
           "AMR"
         ],
@@ -14042,7 +14076,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.proeng.2015.07.141",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "27c95f44e2222988",
       "engineering_relevance_tags": [
         "durability"
@@ -14050,7 +14084,7 @@
       "human_review_required": false,
       "internal_id": "27c95f44e2222988",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "mitigation of low temperature cracking in asphalt pavement by selection of material stiffness",
       "organization": null,
@@ -14359,7 +14393,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1877705815013909"
           }
         },
-        "score": 20.101854,
+        "score": 20.107786,
         "short-container-title": [
           "Procedia Engineering"
         ],
@@ -14402,7 +14436,7 @@
       ],
       "canonical_url": "https://doi.org/10.3390/coatings13010035",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "287857b882fe33b8",
       "engineering_relevance_tags": [
         "pumping / energy consumption",
@@ -14413,7 +14447,7 @@
       "human_review_required": false,
       "internal_id": "287857b882fe33b8",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "mitigation of urban heat island effects by thermochromic asphalt pavement",
       "organization": null,
@@ -15400,7 +15434,7 @@
             "URL": "https://www.mdpi.com/2079-6412/13/1/35"
           }
         },
-        "score": 29.040396,
+        "score": 29.040558,
         "short-container-title": [
           "Coatings"
         ],
@@ -16870,7 +16904,7 @@
       ],
       "canonical_url": "https://doi.org/10.1201/9781315643274-140",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "326e00fdf1d4addc",
       "engineering_relevance_tags": [
         "surface temperature",
@@ -16879,7 +16913,7 @@
       "human_review_required": false,
       "internal_id": "326e00fdf1d4addc",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "mitigation of asphalt pavement temperatures by means of natural air convection",
       "organization": null,
@@ -17278,7 +17312,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": false,
           "is_in_top_1_percent": false,
-          "value": 0.41089838
+          "value": 0.419071
         },
         "cited_by_count": 0,
         "cited_by_percentile_year": null,
@@ -17514,7 +17548,7 @@
             "id": "https://openalex.org/fields/22"
           },
           "id": "https://openalex.org/T10264",
-          "score": 0.9796000123023987,
+          "score": 0.7202000021934509,
           "subfield": {
             "display_name": "Civil and Structural Engineering",
             "id": "https://openalex.org/subfields/2205"
@@ -17538,7 +17572,7 @@
           "https://openalex.org/W3026849073",
           "https://openalex.org/W3045891854"
         ],
-        "relevance_score": 81.700386,
+        "relevance_score": 81.48347,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -17572,14 +17606,31 @@
               "id": "https://openalex.org/fields/22"
             },
             "id": "https://openalex.org/T10264",
-            "score": 0.9796000123023987,
+            "score": 0.7202000021934509,
             "subfield": {
               "display_name": "Civil and Structural Engineering",
               "id": "https://openalex.org/subfields/2205"
             }
           },
           {
-            "display_name": "Smart Materials for Construction",
+            "display_name": "Geotechnical and construction materials studies",
+            "domain": {
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
+            },
+            "field": {
+              "display_name": "Engineering",
+              "id": "https://openalex.org/fields/22"
+            },
+            "id": "https://openalex.org/T13236",
+            "score": 0.04780000075697899,
+            "subfield": {
+              "display_name": "Civil and Structural Engineering",
+              "id": "https://openalex.org/subfields/2205"
+            }
+          },
+          {
+            "display_name": "Urban Heat Island Mitigation",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
@@ -17588,11 +17639,11 @@
               "display_name": "Environmental Science",
               "id": "https://openalex.org/fields/23"
             },
-            "id": "https://openalex.org/T12682",
-            "score": 0.9679999947547913,
+            "id": "https://openalex.org/T10766",
+            "score": 0.026599999517202377,
             "subfield": {
-              "display_name": "Pollution",
-              "id": "https://openalex.org/subfields/2310"
+              "display_name": "Environmental Engineering",
+              "id": "https://openalex.org/subfields/2305"
             }
           }
         ],
@@ -17786,7 +17837,7 @@
       ],
       "canonical_url": "https://doi.org/10.4028/www.scientific.net/msf.724.147",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "3509b1981c0c57bd",
       "engineering_relevance_tags": [
         "surface temperature",
@@ -17796,7 +17847,7 @@
       "human_review_required": false,
       "internal_id": "3509b1981c0c57bd",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "reduction effects of urban heat island by water retentive pavement",
       "organization": null,
@@ -18045,7 +18096,7 @@
             "URL": "https://www.scientific.net/MSF.724.147"
           }
         },
-        "score": 28.606659,
+        "score": 28.615786,
         "short-container-title": [
           "MSF"
         ],
@@ -19181,7 +19232,7 @@
       ],
       "canonical_url": "https://doi.org/10.3390/buildings15030504",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "3aef000fb8fcdd0f",
       "engineering_relevance_tags": [
         "surface temperature",
@@ -19191,7 +19242,7 @@
       "human_review_required": false,
       "internal_id": "0a304534d5b392b0",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "urban sustainability through pavement technologies reducing urban heat islands with cool pavements",
       "organization": null,
@@ -19872,7 +19923,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": true,
           "is_in_top_1_percent": false,
-          "value": 0.98496725
+          "value": 0.98492579
         },
         "cited_by_count": 26,
         "cited_by_percentile_year": {
@@ -19992,7 +20043,7 @@
         "display_name": "Urban Sustainability Through Pavement Technologies: Reducing Urban Heat Islands with Cool Pavements",
         "doi": "https://doi.org/10.3390/buildings15030504",
         "funders": [],
-        "fwci": 8.0954,
+        "fwci": 7.9671,
         "has_content": {
           "grobid_xml": true,
           "pdf": true
@@ -20175,7 +20226,7 @@
             "id": "https://openalex.org/fields/23"
           },
           "id": "https://openalex.org/T10766",
-          "score": 0.9998000264167786,
+          "score": 0.9984999895095825,
           "subfield": {
             "display_name": "Environmental Engineering",
             "id": "https://openalex.org/subfields/2305"
@@ -20335,7 +20386,7 @@
           "https://openalex.org/W1531070595",
           "https://openalex.org/W2317335358"
         ],
-        "relevance_score": 107.80685,
+        "relevance_score": 107.5585,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -20368,31 +20419,14 @@
               "id": "https://openalex.org/fields/23"
             },
             "id": "https://openalex.org/T10766",
-            "score": 0.9998000264167786,
+            "score": 0.9984999895095825,
             "subfield": {
               "display_name": "Environmental Engineering",
               "id": "https://openalex.org/subfields/2305"
             }
           },
           {
-            "display_name": "Noise Effects and Management",
-            "domain": {
-              "display_name": "Health Sciences",
-              "id": "https://openalex.org/domains/4"
-            },
-            "field": {
-              "display_name": "Health Professions",
-              "id": "https://openalex.org/fields/36"
-            },
-            "id": "https://openalex.org/T11692",
-            "score": 0.9980999827384949,
-            "subfield": {
-              "display_name": "Speech and Hearing",
-              "id": "https://openalex.org/subfields/3616"
-            }
-          },
-          {
-            "display_name": "Smart Materials for Construction",
+            "display_name": "Urban Stormwater Management Solutions",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
@@ -20401,11 +20435,28 @@
               "display_name": "Environmental Science",
               "id": "https://openalex.org/fields/23"
             },
-            "id": "https://openalex.org/T12682",
-            "score": 0.9940000176429749,
+            "id": "https://openalex.org/T11119",
+            "score": 0.0006000000284984708,
             "subfield": {
-              "display_name": "Pollution",
-              "id": "https://openalex.org/subfields/2310"
+              "display_name": "Environmental Engineering",
+              "id": "https://openalex.org/subfields/2305"
+            }
+          },
+          {
+            "display_name": "Asphalt Pavement Performance Evaluation",
+            "domain": {
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
+            },
+            "field": {
+              "display_name": "Engineering",
+              "id": "https://openalex.org/fields/22"
+            },
+            "id": "https://openalex.org/T10264",
+            "score": 9.999999747378752e-05,
+            "subfield": {
+              "display_name": "Civil and Structural Engineering",
+              "id": "https://openalex.org/subfields/2205"
             }
           }
         ],
@@ -20618,7 +20669,7 @@
       ],
       "canonical_url": "https://doi.org/10.3130/aije.71.51_1",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "3f28c562b8ff4a8e",
       "engineering_relevance_tags": [
         "alternative technology"
@@ -20626,7 +20677,7 @@
       "human_review_required": false,
       "internal_id": "3f28c562b8ff4a8e",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "an experiment on the fundamental performance of an evaporative cooling pavement system during summer development of an evaporative cooling pavement system and cooling effect simulation model for urban thermal environment part 1",
       "organization": null,
@@ -20879,7 +20930,7 @@
             "URL": "https://www.jstage.jst.go.jp/article/aije/71/600/71_KJ00004359425/_article/-char/ja/"
           }
         },
-        "score": 19.214226,
+        "score": 19.217573,
         "short-container-title": [
           "Journal of Environmental Engineering (Transactions of AIJ)",
           "Journal of Environmental Engineering",
@@ -20919,7 +20970,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.conbuildmat.2022.129350",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "3f5f9b5bd0861ad8",
       "engineering_relevance_tags": [
         "thermal performance",
@@ -20929,7 +20980,7 @@
       "human_review_required": true,
       "internal_id": "3f5f9b5bd0861ad8",
       "item_type": "Review Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "a review on the heat transfer in asphalt pavements and urban heat island mitigation methods",
       "organization": null,
@@ -21089,7 +21140,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": true,
           "is_in_top_1_percent": true,
-          "value": 0.99165799
+          "value": 0.99267399
         },
         "cited_by_count": 112,
         "cited_by_percentile_year": {
@@ -21288,7 +21339,7 @@
             "ror": "https://ror.org/01h531d29"
           }
         ],
-        "fwci": 9.5563,
+        "fwci": 10.475,
         "has_content": {
           "grobid_xml": false,
           "pdf": false
@@ -21506,7 +21557,7 @@
             "id": "https://openalex.org/fields/22"
           },
           "id": "https://openalex.org/T10264",
-          "score": 0.9972000122070312,
+          "score": 0.8417999744415283,
           "subfield": {
             "display_name": "Civil and Structural Engineering",
             "id": "https://openalex.org/subfields/2205"
@@ -21683,7 +21734,7 @@
           "https://openalex.org/W841237914",
           "https://openalex.org/W2136283022"
         ],
-        "relevance_score": 112.11759,
+        "relevance_score": 111.949394,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -21717,14 +21768,14 @@
               "id": "https://openalex.org/fields/22"
             },
             "id": "https://openalex.org/T10264",
-            "score": 0.9972000122070312,
+            "score": 0.8417999744415283,
             "subfield": {
               "display_name": "Civil and Structural Engineering",
               "id": "https://openalex.org/subfields/2205"
             }
           },
           {
-            "display_name": "Smart Materials for Construction",
+            "display_name": "Urban Heat Island Mitigation",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
@@ -21733,28 +21784,28 @@
               "display_name": "Environmental Science",
               "id": "https://openalex.org/fields/23"
             },
-            "id": "https://openalex.org/T12682",
-            "score": 0.9937000274658203,
+            "id": "https://openalex.org/T10766",
+            "score": 0.14249999821186066,
             "subfield": {
-              "display_name": "Pollution",
-              "id": "https://openalex.org/subfields/2310"
+              "display_name": "Environmental Engineering",
+              "id": "https://openalex.org/subfields/2305"
             }
           },
           {
-            "display_name": "Climate change and permafrost",
+            "display_name": "Geotechnical and construction materials studies",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
             },
             "field": {
-              "display_name": "Earth and Planetary Sciences",
-              "id": "https://openalex.org/fields/19"
+              "display_name": "Engineering",
+              "id": "https://openalex.org/fields/22"
             },
-            "id": "https://openalex.org/T11333",
-            "score": 0.9896000027656555,
+            "id": "https://openalex.org/T13236",
+            "score": 0.0015999999595806003,
             "subfield": {
-              "display_name": "Atmospheric Science",
-              "id": "https://openalex.org/subfields/1902"
+              "display_name": "Civil and Structural Engineering",
+              "id": "https://openalex.org/subfields/2205"
             }
           }
         ],
@@ -21785,7 +21836,7 @@
       ],
       "canonical_url": "https://doi.org/10.1201/9781003156222-58",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "42d9f4625d46442f",
       "engineering_relevance_tags": [
         "thermal performance"
@@ -21793,7 +21844,7 @@
       "human_review_required": false,
       "internal_id": "42d9f4625d46442f",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "fem analysis of heat transfer in porous asphalt pavement",
       "organization": null,
@@ -21940,7 +21991,7 @@
             "URL": "https://www.taylorfrancis.com/books/9781000369007/chapters/10.1201/9781003156222-58"
           }
         },
-        "score": 21.634071,
+        "score": 21.635868,
         "source": "Crossref",
         "title": [
           "FEM analysis of heat transfer in porous asphalt pavement"
@@ -22072,7 +22123,7 @@
       ],
       "canonical_url": "https://doi.org/10.1061/jhtrcq.0000869",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "439aa3ccb4deb312",
       "engineering_relevance_tags": [
         "construction"
@@ -22080,7 +22131,7 @@
       "human_review_required": true,
       "internal_id": "439aa3ccb4deb312",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "research on asphalt pavement construction temperature control model based on feedback and control theory",
       "organization": null,
@@ -22282,7 +22333,7 @@
             "URL": "https://ascelibrary.org/doi/10.1061/JHTRCQ.0000869"
           }
         },
-        "score": 18.305857,
+        "score": 18.304256,
         "short-container-title": [
           "J. Highway Transp. Res. Dev. (English Ed.)"
         ],
@@ -22826,7 +22877,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.conbuildmat.2024.139476",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "4bdd1dfea4f53502",
       "engineering_relevance_tags": [
         "construction",
@@ -22835,7 +22886,7 @@
       "human_review_required": true,
       "internal_id": "4bdd1dfea4f53502",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "composite phase change materials coupled with radiative cooling for asphalt pavement thermal management",
       "organization": null,
@@ -23128,7 +23179,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": true,
           "is_in_top_1_percent": false,
-          "value": 0.95062725
+          "value": 0.93719624
         },
         "cited_by_count": 25,
         "cited_by_percentile_year": {
@@ -23309,7 +23360,7 @@
             "ror": null
           }
         ],
-        "fwci": 4.1678,
+        "fwci": 3.4664,
         "has_content": {
           "grobid_xml": false,
           "pdf": false
@@ -23457,7 +23508,7 @@
           "version": "publishedVersion"
         },
         "primary_topic": {
-          "display_name": "Thermal Radiation and Cooling Technologies",
+          "display_name": "Phase Change Materials Research",
           "domain": {
             "display_name": "Physical Sciences",
             "id": "https://openalex.org/domains/3"
@@ -23466,11 +23517,11 @@
             "display_name": "Engineering",
             "id": "https://openalex.org/fields/22"
           },
-          "id": "https://openalex.org/T12442",
-          "score": 0.9998000264167786,
+          "id": "https://openalex.org/T10938",
+          "score": 0.9779999852180481,
           "subfield": {
-            "display_name": "Civil and Structural Engineering",
-            "id": "https://openalex.org/subfields/2205"
+            "display_name": "Mechanical Engineering",
+            "id": "https://openalex.org/subfields/2210"
           }
         },
         "publication_date": "2024-12-01",
@@ -23544,7 +23595,7 @@
           "https://openalex.org/W2010210446",
           "https://openalex.org/W2357308156"
         ],
-        "relevance_score": 132.03511,
+        "relevance_score": 132.27167,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -23562,6 +23613,23 @@
         "title": "Composite phase change materials coupled with radiative cooling for asphalt pavement thermal management",
         "topics": [
           {
+            "display_name": "Phase Change Materials Research",
+            "domain": {
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
+            },
+            "field": {
+              "display_name": "Engineering",
+              "id": "https://openalex.org/fields/22"
+            },
+            "id": "https://openalex.org/T10938",
+            "score": 0.9779999852180481,
+            "subfield": {
+              "display_name": "Mechanical Engineering",
+              "id": "https://openalex.org/subfields/2210"
+            }
+          },
+          {
             "display_name": "Thermal Radiation and Cooling Technologies",
             "domain": {
               "display_name": "Physical Sciences",
@@ -23572,31 +23640,14 @@
               "id": "https://openalex.org/fields/22"
             },
             "id": "https://openalex.org/T12442",
-            "score": 0.9998000264167786,
+            "score": 0.00860000029206276,
             "subfield": {
               "display_name": "Civil and Structural Engineering",
               "id": "https://openalex.org/subfields/2205"
             }
           },
           {
-            "display_name": "Urban Heat Island Mitigation",
-            "domain": {
-              "display_name": "Physical Sciences",
-              "id": "https://openalex.org/domains/3"
-            },
-            "field": {
-              "display_name": "Environmental Science",
-              "id": "https://openalex.org/fields/23"
-            },
-            "id": "https://openalex.org/T10766",
-            "score": 0.9968000054359436,
-            "subfield": {
-              "display_name": "Environmental Engineering",
-              "id": "https://openalex.org/subfields/2305"
-            }
-          },
-          {
-            "display_name": "Radiative Heat Transfer Studies",
+            "display_name": "Asphalt Pavement Performance Evaluation",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
@@ -23605,11 +23656,11 @@
               "display_name": "Engineering",
               "id": "https://openalex.org/fields/22"
             },
-            "id": "https://openalex.org/T12304",
-            "score": 0.994700014591217,
+            "id": "https://openalex.org/T10264",
+            "score": 0.007799999788403511,
             "subfield": {
-              "display_name": "Computational Mechanics",
-              "id": "https://openalex.org/subfields/2206"
+              "display_name": "Civil and Structural Engineering",
+              "id": "https://openalex.org/subfields/2205"
             }
           }
         ],
@@ -23642,7 +23693,7 @@
       ],
       "canonical_url": "https://doi.org/10.1007/978-3-030-46455-4_23",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "4c193a397dcb90bd",
       "engineering_relevance_tags": [
         "durability"
@@ -23650,7 +23701,7 @@
       "human_review_required": false,
       "internal_id": "4c193a397dcb90bd",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "active mitigation of low temperature cracking in asphalt pavements",
       "organization": null,
@@ -23835,7 +23886,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": false,
           "is_in_top_1_percent": false,
-          "value": 0.63399694
+          "value": 0.67640411
         },
         "cited_by_count": 2,
         "cited_by_percentile_year": {
@@ -23950,7 +24001,7 @@
         "display_name": "Active Mitigation of Low-Temperature Cracking in Asphalt Pavements",
         "doi": "https://doi.org/10.1007/978-3-030-46455-4_23",
         "funders": [],
-        "fwci": 0.5657,
+        "fwci": 0.7568,
         "has_content": {
           "grobid_xml": false,
           "pdf": false
@@ -24134,20 +24185,20 @@
           "version": "publishedVersion"
         },
         "primary_topic": {
-          "display_name": "Smart Materials for Construction",
+          "display_name": "Asphalt Pavement Performance Evaluation",
           "domain": {
             "display_name": "Physical Sciences",
             "id": "https://openalex.org/domains/3"
           },
           "field": {
-            "display_name": "Environmental Science",
-            "id": "https://openalex.org/fields/23"
+            "display_name": "Engineering",
+            "id": "https://openalex.org/fields/22"
           },
-          "id": "https://openalex.org/T12682",
-          "score": 0.9995999932289124,
+          "id": "https://openalex.org/T10264",
+          "score": 0.9990000128746033,
           "subfield": {
-            "display_name": "Pollution",
-            "id": "https://openalex.org/subfields/2310"
+            "display_name": "Civil and Structural Engineering",
+            "id": "https://openalex.org/subfields/2205"
           }
         },
         "publication_date": "2021-09-25",
@@ -24171,7 +24222,7 @@
           "https://openalex.org/W1499124204",
           "https://openalex.org/W4394391585"
         ],
-        "relevance_score": 85.586105,
+        "relevance_score": 85.515686,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -24195,23 +24246,6 @@
         "title": "Active Mitigation of Low-Temperature Cracking in Asphalt Pavements",
         "topics": [
           {
-            "display_name": "Smart Materials for Construction",
-            "domain": {
-              "display_name": "Physical Sciences",
-              "id": "https://openalex.org/domains/3"
-            },
-            "field": {
-              "display_name": "Environmental Science",
-              "id": "https://openalex.org/fields/23"
-            },
-            "id": "https://openalex.org/T12682",
-            "score": 0.9995999932289124,
-            "subfield": {
-              "display_name": "Pollution",
-              "id": "https://openalex.org/subfields/2310"
-            }
-          },
-          {
             "display_name": "Asphalt Pavement Performance Evaluation",
             "domain": {
               "display_name": "Physical Sciences",
@@ -24222,14 +24256,14 @@
               "id": "https://openalex.org/fields/22"
             },
             "id": "https://openalex.org/T10264",
-            "score": 0.9994999766349792,
+            "score": 0.9990000128746033,
             "subfield": {
               "display_name": "Civil and Structural Engineering",
               "id": "https://openalex.org/subfields/2205"
             }
           },
           {
-            "display_name": "Geotechnical Engineering and Underground Structures",
+            "display_name": "Icing and De-icing Technologies",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
@@ -24238,8 +24272,25 @@
               "display_name": "Engineering",
               "id": "https://openalex.org/fields/22"
             },
-            "id": "https://openalex.org/T12233",
-            "score": 0.9943000078201294,
+            "id": "https://openalex.org/T12696",
+            "score": 0.00019999999494757503,
+            "subfield": {
+              "display_name": "Aerospace Engineering",
+              "id": "https://openalex.org/subfields/2202"
+            }
+          },
+          {
+            "display_name": "Geotechnical and construction materials studies",
+            "domain": {
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
+            },
+            "field": {
+              "display_name": "Engineering",
+              "id": "https://openalex.org/fields/22"
+            },
+            "id": "https://openalex.org/T13236",
+            "score": 0.00019999999494757503,
             "subfield": {
               "display_name": "Civil and Structural Engineering",
               "id": "https://openalex.org/subfields/2205"
@@ -24273,7 +24324,7 @@
       ],
       "canonical_url": "https://openalex.org/W650316821",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "4d28e8bbfc81b65d",
       "engineering_relevance_tags": [
         "surface temperature"
@@ -24281,7 +24332,7 @@
       "human_review_required": false,
       "internal_id": "4d28e8bbfc81b65d",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "development of surface treatment technology targeting temperature reduction of asphalt pavement",
       "organization": null,
@@ -24612,7 +24663,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": false,
           "is_in_top_1_percent": false,
-          "value": 0.04575506
+          "value": 0.15645978
         },
         "cited_by_count": 4,
         "cited_by_percentile_year": {
@@ -24822,20 +24873,20 @@
           "version": null
         },
         "primary_topic": {
-          "display_name": "Smart Materials for Construction",
+          "display_name": "Asphalt Pavement Performance Evaluation",
           "domain": {
             "display_name": "Physical Sciences",
             "id": "https://openalex.org/domains/3"
           },
           "field": {
-            "display_name": "Environmental Science",
-            "id": "https://openalex.org/fields/23"
+            "display_name": "Engineering",
+            "id": "https://openalex.org/fields/22"
           },
-          "id": "https://openalex.org/T12682",
-          "score": 0.7098000049591064,
+          "id": "https://openalex.org/T10264",
+          "score": 0.8730000257492065,
           "subfield": {
-            "display_name": "Pollution",
-            "id": "https://openalex.org/subfields/2310"
+            "display_name": "Civil and Structural Engineering",
+            "id": "https://openalex.org/subfields/2205"
           }
         },
         "publication_date": "2006-11-01",
@@ -24864,7 +24915,7 @@
           "https://openalex.org/W185864726",
           "https://openalex.org/W2953246498"
         ],
-        "relevance_score": 93.402695,
+        "relevance_score": 92.98819,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -24883,7 +24934,24 @@
         "title": "Development of surface treatment technology targeting temperature reduction of asphalt pavement",
         "topics": [
           {
-            "display_name": "Smart Materials for Construction",
+            "display_name": "Asphalt Pavement Performance Evaluation",
+            "domain": {
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
+            },
+            "field": {
+              "display_name": "Engineering",
+              "id": "https://openalex.org/fields/22"
+            },
+            "id": "https://openalex.org/T10264",
+            "score": 0.8730000257492065,
+            "subfield": {
+              "display_name": "Civil and Structural Engineering",
+              "id": "https://openalex.org/subfields/2205"
+            }
+          },
+          {
+            "display_name": "Urban Heat Island Mitigation",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
@@ -24892,11 +24960,28 @@
               "display_name": "Environmental Science",
               "id": "https://openalex.org/fields/23"
             },
-            "id": "https://openalex.org/T12682",
-            "score": 0.7098000049591064,
+            "id": "https://openalex.org/T10766",
+            "score": 0.11630000174045563,
             "subfield": {
-              "display_name": "Pollution",
-              "id": "https://openalex.org/subfields/2310"
+              "display_name": "Environmental Engineering",
+              "id": "https://openalex.org/subfields/2305"
+            }
+          },
+          {
+            "display_name": "Geotechnical and construction materials studies",
+            "domain": {
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
+            },
+            "field": {
+              "display_name": "Engineering",
+              "id": "https://openalex.org/fields/22"
+            },
+            "id": "https://openalex.org/T13236",
+            "score": 0.0007999999797903001,
+            "subfield": {
+              "display_name": "Civil and Structural Engineering",
+              "id": "https://openalex.org/subfields/2205"
             }
           }
         ],
@@ -25010,7 +25095,7 @@
       ],
       "canonical_url": "https://doi.org/10.3390/su18041876",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "50222f03e9ff6596",
       "engineering_relevance_tags": [
         "thermal performance",
@@ -25020,7 +25105,7 @@
       "human_review_required": false,
       "internal_id": "50222f03e9ff6596",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "high albedo interlocking concrete block pavement for urban heat island mitigation",
       "organization": null,
@@ -25607,7 +25692,7 @@
             "URL": "https://www.mdpi.com/2071-1050/18/4/1876"
           }
         },
-        "score": 28.036074,
+        "score": 28.092896,
         "short-container-title": [
           "Sustainability"
         ],
@@ -25648,13 +25733,13 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.coldregions.2011.11.003",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "50cdafd115f7a6ef",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "50cdafd115f7a6ef",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "unilateral heat transfer asphalt pavement for permafrost protection",
       "organization": null,
@@ -26468,7 +26553,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0165232X11002333"
           }
         },
-        "score": 22.563768,
+        "score": 22.56055,
         "short-container-title": [
           "Cold Regions Science and Technology"
         ],
@@ -26505,7 +26590,7 @@
       ],
       "canonical_url": "https://doi.org/10.1007/978-981-97-8213-0_32",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "5118d9059aa278af",
       "engineering_relevance_tags": [
         "surface temperature"
@@ -26513,7 +26598,7 @@
       "human_review_required": false,
       "internal_id": "5118d9059aa278af",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "development of pavement with road surface temperature reduction and rainwater storage effect",
       "organization": null,
@@ -26870,7 +26955,7 @@
             "URL": "https://link.springer.com/10.1007/978-981-97-8213-0_32"
           }
         },
-        "score": 23.956635,
+        "score": 23.92472,
         "source": "Crossref",
         "title": [
           "Development of Pavement with Road Surface Temperature Reduction and Rainwater Storage Effect"
@@ -26996,7 +27081,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.uclim.2024.102042",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "56ee2e996691a7eb",
       "engineering_relevance_tags": [
         "environmental / climatic conditions",
@@ -27005,7 +27090,7 @@
       "human_review_required": false,
       "internal_id": "56ee2e996691a7eb",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "pavement watering as an urban heat mitigation technique",
       "organization": null,
@@ -27974,7 +28059,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2212095524002384"
           }
         },
-        "score": 31.174892,
+        "score": 31.173742,
         "short-container-title": [
           "Urban Climate"
         ],
@@ -28089,13 +28174,13 @@
       ],
       "canonical_url": "https://doi.org/10.1061/41072(359)38",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "5bab996840505901",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "5bab996840505901",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "mnroad pavement temperature profiles",
       "organization": null,
@@ -28252,7 +28337,7 @@
             "URL": "https://ascelibrary.org/doi/10.1061/41072%28359%2938"
           }
         },
-        "score": 18.627125,
+        "score": 18.627625,
         "source": "Crossref",
         "title": [
           "MnROAD Pavement Temperature Profiles"
@@ -28283,7 +28368,7 @@
       ],
       "canonical_url": "https://doi.org/10.3141/2403-06",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "5d2f6c3fbb7be3ed",
       "engineering_relevance_tags": [
         "pumping / energy consumption",
@@ -28296,7 +28381,7 @@
       "human_review_required": true,
       "internal_id": "5d2f6c3fbb7be3ed",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "decision methodology for temperature control of pavements",
       "organization": null,
@@ -28980,7 +29065,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": false,
           "is_in_top_1_percent": false,
-          "value": 0.07841081
+          "value": 0.20154139
         },
         "cited_by_count": 2,
         "cited_by_percentile_year": {
@@ -29272,20 +29357,20 @@
           "version": "publishedVersion"
         },
         "primary_topic": {
-          "display_name": "Smart Materials for Construction",
+          "display_name": "Asphalt Pavement Performance Evaluation",
           "domain": {
             "display_name": "Physical Sciences",
             "id": "https://openalex.org/domains/3"
           },
           "field": {
-            "display_name": "Environmental Science",
-            "id": "https://openalex.org/fields/23"
+            "display_name": "Engineering",
+            "id": "https://openalex.org/fields/22"
           },
-          "id": "https://openalex.org/T12682",
-          "score": 0.9991999864578247,
+          "id": "https://openalex.org/T10264",
+          "score": 0.7250999808311462,
           "subfield": {
-            "display_name": "Pollution",
-            "id": "https://openalex.org/subfields/2310"
+            "display_name": "Civil and Structural Engineering",
+            "id": "https://openalex.org/subfields/2205"
           }
         },
         "publication_date": "2014-01-01",
@@ -29314,7 +29399,7 @@
           "https://openalex.org/W1989506148",
           "https://openalex.org/W179829755"
         ],
-        "relevance_score": 82.66843,
+        "relevance_score": 82.516815,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -29348,23 +29433,6 @@
         "title": "Decision Methodology for Temperature Control of Pavements",
         "topics": [
           {
-            "display_name": "Smart Materials for Construction",
-            "domain": {
-              "display_name": "Physical Sciences",
-              "id": "https://openalex.org/domains/3"
-            },
-            "field": {
-              "display_name": "Environmental Science",
-              "id": "https://openalex.org/fields/23"
-            },
-            "id": "https://openalex.org/T12682",
-            "score": 0.9991999864578247,
-            "subfield": {
-              "display_name": "Pollution",
-              "id": "https://openalex.org/subfields/2310"
-            }
-          },
-          {
             "display_name": "Asphalt Pavement Performance Evaluation",
             "domain": {
               "display_name": "Physical Sciences",
@@ -29375,14 +29443,14 @@
               "id": "https://openalex.org/fields/22"
             },
             "id": "https://openalex.org/T10264",
-            "score": 0.9836999773979187,
+            "score": 0.7250999808311462,
             "subfield": {
               "display_name": "Civil and Structural Engineering",
               "id": "https://openalex.org/subfields/2205"
             }
           },
           {
-            "display_name": "Wind and Air Flow Studies",
+            "display_name": "Urban Heat Island Mitigation",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
@@ -29391,11 +29459,28 @@
               "display_name": "Environmental Science",
               "id": "https://openalex.org/fields/23"
             },
-            "id": "https://openalex.org/T11371",
-            "score": 0.9797000288963318,
+            "id": "https://openalex.org/T10766",
+            "score": 0.07010000199079514,
             "subfield": {
               "display_name": "Environmental Engineering",
               "id": "https://openalex.org/subfields/2305"
+            }
+          },
+          {
+            "display_name": "Infrastructure Maintenance and Monitoring",
+            "domain": {
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
+            },
+            "field": {
+              "display_name": "Engineering",
+              "id": "https://openalex.org/fields/22"
+            },
+            "id": "https://openalex.org/T11606",
+            "score": 0.02969999983906746,
+            "subfield": {
+              "display_name": "Civil and Structural Engineering",
+              "id": "https://openalex.org/subfields/2205"
             }
           }
         ],
@@ -29427,13 +29512,13 @@
       ],
       "canonical_url": "https://doi.org/10.1007/978-981-16-7509-6_4",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "60a5e01557db370d",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "60a5e01557db370d",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "thermal behavior of a pcm incorporated concrete pavement",
       "organization": null,
@@ -29755,7 +29840,7 @@
             "URL": "https://link.springer.com/10.1007/978-981-16-7509-6_4"
           }
         },
-        "score": 21.778942,
+        "score": 21.77252,
         "source": "Crossref",
         "title": [
           "Thermal Behavior of a PCM Incorporated Concrete Pavement"
@@ -30380,7 +30465,7 @@
       ],
       "canonical_url": "https://doi.org/10.21122/1029-7448-2019-62-6-536-546",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "6dcd03a74b89589b",
       "engineering_relevance_tags": [
         "commercial maturity"
@@ -30388,7 +30473,7 @@
       "human_review_required": false,
       "internal_id": "6dcd03a74b89589b",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "heat resistance and heat and mass transfer in road pavements",
       "organization": null,
@@ -31315,7 +31400,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": false,
           "is_in_top_1_percent": false,
-          "value": 0.64920575
+          "value": 0.65998836
         },
         "cited_by_count": 5,
         "cited_by_percentile_year": {
@@ -31482,7 +31567,7 @@
         "display_name": "Heat Resistance and Heat-and-Mass Transfer in Road Pavements",
         "doi": "https://doi.org/10.21122/1029-7448-2019-62-6-536-546",
         "funders": [],
-        "fwci": 0.3632,
+        "fwci": 0.3775,
         "has_content": {
           "grobid_xml": true,
           "pdf": true
@@ -31754,7 +31839,7 @@
             "id": "https://openalex.org/fields/22"
           },
           "id": "https://openalex.org/T10264",
-          "score": 0.9977999925613403,
+          "score": 0.8765000104904175,
           "subfield": {
             "display_name": "Civil and Structural Engineering",
             "id": "https://openalex.org/subfields/2205"
@@ -31785,7 +31870,7 @@
           "https://openalex.org/W3105142409",
           "https://openalex.org/W1546761978"
         ],
-        "relevance_score": 99.93147,
+        "relevance_score": 99.60701,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -31819,31 +31904,14 @@
               "id": "https://openalex.org/fields/22"
             },
             "id": "https://openalex.org/T10264",
-            "score": 0.9977999925613403,
+            "score": 0.8765000104904175,
             "subfield": {
               "display_name": "Civil and Structural Engineering",
               "id": "https://openalex.org/subfields/2205"
             }
           },
           {
-            "display_name": "Smart Materials for Construction",
-            "domain": {
-              "display_name": "Physical Sciences",
-              "id": "https://openalex.org/domains/3"
-            },
-            "field": {
-              "display_name": "Environmental Science",
-              "id": "https://openalex.org/fields/23"
-            },
-            "id": "https://openalex.org/T12682",
-            "score": 0.9966999888420105,
-            "subfield": {
-              "display_name": "Pollution",
-              "id": "https://openalex.org/subfields/2310"
-            }
-          },
-          {
-            "display_name": "Recycled Aggregate Concrete Performance",
+            "display_name": "Geotechnical and construction materials studies",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
@@ -31852,11 +31920,28 @@
               "display_name": "Engineering",
               "id": "https://openalex.org/fields/22"
             },
-            "id": "https://openalex.org/T11847",
-            "score": 0.9962000250816345,
+            "id": "https://openalex.org/T13236",
+            "score": 0.09830000251531601,
             "subfield": {
-              "display_name": "Building and Construction",
-              "id": "https://openalex.org/subfields/2215"
+              "display_name": "Civil and Structural Engineering",
+              "id": "https://openalex.org/subfields/2205"
+            }
+          },
+          {
+            "display_name": "Heat Transfer and Numerical Methods",
+            "domain": {
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
+            },
+            "field": {
+              "display_name": "Engineering",
+              "id": "https://openalex.org/fields/22"
+            },
+            "id": "https://openalex.org/T13116",
+            "score": 0.004100000020116568,
+            "subfield": {
+              "display_name": "Computational Mechanics",
+              "id": "https://openalex.org/subfields/2206"
             }
           }
         ],
@@ -31887,13 +31972,13 @@
       ],
       "canonical_url": "https://doi.org/10.2139/ssrn.5004444",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "7127c3b54fe00d0a",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "7127c3b54fe00d0a",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "thermal behavior ofwaste ceramic mortar pavement and normat concrete pavement",
       "organization": null,
@@ -32099,7 +32184,7 @@
             "URL": "https://www.ssrn.com/abstract=5004444"
           }
         },
-        "score": 23.217072,
+        "score": 23.220177,
         "source": "Crossref",
         "subtype": "preprint",
         "title": [
@@ -32132,7 +32217,7 @@
       ],
       "canonical_url": "https://openalex.org/W2994752393",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "745332bd2baa33b4",
       "engineering_relevance_tags": [
         "useful heat recovery"
@@ -32140,7 +32225,7 @@
       "human_review_required": false,
       "internal_id": "745332bd2baa33b4",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "materials and designs for heat harvesting and thermal management of asphalt pavements",
       "organization": null,
@@ -32236,7 +32321,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": false,
           "is_in_top_1_percent": false,
-          "value": 0.10358928
+          "value": 0.1686757
         },
         "cited_by_count": 0,
         "cited_by_percentile_year": null,
@@ -32408,20 +32493,20 @@
           "version": null
         },
         "primary_topic": {
-          "display_name": "Smart Materials for Construction",
+          "display_name": "Asphalt Pavement Performance Evaluation",
           "domain": {
             "display_name": "Physical Sciences",
             "id": "https://openalex.org/domains/3"
           },
           "field": {
-            "display_name": "Environmental Science",
-            "id": "https://openalex.org/fields/23"
+            "display_name": "Engineering",
+            "id": "https://openalex.org/fields/22"
           },
-          "id": "https://openalex.org/T12682",
-          "score": 0.9975000023841858,
+          "id": "https://openalex.org/T10264",
+          "score": 0.8589000105857849,
           "subfield": {
-            "display_name": "Pollution",
-            "id": "https://openalex.org/subfields/2310"
+            "display_name": "Civil and Structural Engineering",
+            "id": "https://openalex.org/subfields/2205"
           }
         },
         "publication_date": "2019-01-01",
@@ -32450,29 +32535,12 @@
           "https://openalex.org/W2156323955",
           "https://openalex.org/W2028054024"
         ],
-        "relevance_score": 75.96223,
+        "relevance_score": 75.82725,
         "study_designs": [],
         "sustainable_development_goals": [],
         "sustainable_development_goals_aurora": [],
         "title": "Materials and Designs for Heat Harvesting and Thermal Management of Asphalt Pavements",
         "topics": [
-          {
-            "display_name": "Smart Materials for Construction",
-            "domain": {
-              "display_name": "Physical Sciences",
-              "id": "https://openalex.org/domains/3"
-            },
-            "field": {
-              "display_name": "Environmental Science",
-              "id": "https://openalex.org/fields/23"
-            },
-            "id": "https://openalex.org/T12682",
-            "score": 0.9975000023841858,
-            "subfield": {
-              "display_name": "Pollution",
-              "id": "https://openalex.org/subfields/2310"
-            }
-          },
           {
             "display_name": "Asphalt Pavement Performance Evaluation",
             "domain": {
@@ -32484,27 +32552,44 @@
               "id": "https://openalex.org/fields/22"
             },
             "id": "https://openalex.org/T10264",
-            "score": 0.9817000031471252,
+            "score": 0.8589000105857849,
             "subfield": {
               "display_name": "Civil and Structural Engineering",
               "id": "https://openalex.org/subfields/2205"
             }
           },
           {
-            "display_name": "Hydraulic and Pneumatic Systems",
+            "display_name": "Thermal properties of materials",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
             },
             "field": {
-              "display_name": "Engineering",
-              "id": "https://openalex.org/fields/22"
+              "display_name": "Materials Science",
+              "id": "https://openalex.org/fields/25"
             },
-            "id": "https://openalex.org/T11372",
-            "score": 0.9297999739646912,
+            "id": "https://openalex.org/T11277",
+            "score": 0.051600001752376556,
             "subfield": {
-              "display_name": "Mechanical Engineering",
-              "id": "https://openalex.org/subfields/2210"
+              "display_name": "Materials Chemistry",
+              "id": "https://openalex.org/subfields/2505"
+            }
+          },
+          {
+            "display_name": "Urban Heat Island Mitigation",
+            "domain": {
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
+            },
+            "field": {
+              "display_name": "Environmental Science",
+              "id": "https://openalex.org/fields/23"
+            },
+            "id": "https://openalex.org/T10766",
+            "score": 0.006300000008195639,
+            "subfield": {
+              "display_name": "Environmental Engineering",
+              "id": "https://openalex.org/subfields/2305"
             }
           }
         ],
@@ -32719,7 +32804,7 @@
       ],
       "canonical_url": "https://doi.org/10.3141/2456-10",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "77724678b6d32ece",
       "engineering_relevance_tags": [
         "field validation",
@@ -32728,7 +32813,7 @@
       "human_review_required": true,
       "internal_id": "77724678b6d32ece",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "prediction of asphalt pavement temperature profile with finite control volume method",
       "organization": null,
@@ -33092,7 +33177,7 @@
             "URL": "https://journals.sagepub.com/doi/10.3141/2456-10"
           }
         },
-        "score": 18.484459,
+        "score": 18.479553,
         "short-container-title": [
           "Transportation Research Record: Journal of the Transportation Research Board"
         ],
@@ -33127,7 +33212,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/b978-0-12-803476-7.00011-8",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "7c23e49b3929d672",
       "engineering_relevance_tags": [
         "urban heat mitigation"
@@ -33135,7 +33220,7 @@
       "human_review_required": false,
       "internal_id": "7c23e49b3929d672",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "pavement thermal modeling",
       "organization": null,
@@ -33275,7 +33360,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/B9780128034767000118"
           }
         },
-        "score": 19.968315,
+        "score": 19.965483,
         "source": "Crossref",
         "title": [
           "Pavement Thermal Modeling"
@@ -34430,7 +34515,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.rser.2021.111171",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "7f52cd83e20b5e26",
       "engineering_relevance_tags": [
         "urban heat mitigation"
@@ -34438,7 +34523,7 @@
       "human_review_required": false,
       "internal_id": "7f52cd83e20b5e26",
       "item_type": "Review Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "cool pavements for urban heat island mitigation a synthetic review",
       "organization": null,
@@ -34629,7 +34714,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": true,
           "is_in_top_1_percent": true,
-          "value": 0.99192879
+          "value": 0.99194489
         },
         "cited_by_count": 218,
         "cited_by_percentile_year": {
@@ -34817,7 +34902,7 @@
         "display_name": "Cool pavements for urban heat island mitigation: A synthetic review",
         "doi": "https://doi.org/10.1016/j.rser.2021.111171",
         "funders": [],
-        "fwci": 9.3226,
+        "fwci": 9.5613,
         "has_content": {
           "grobid_xml": false,
           "pdf": false
@@ -35023,7 +35108,7 @@
             "id": "https://openalex.org/fields/23"
           },
           "id": "https://openalex.org/T10766",
-          "score": 0.9998999834060669,
+          "score": 0.9994999766349792,
           "subfield": {
             "display_name": "Environmental Engineering",
             "id": "https://openalex.org/subfields/2305"
@@ -35197,7 +35282,7 @@
           "https://openalex.org/W2077790809",
           "https://openalex.org/W2906246018"
         ],
-        "relevance_score": 145.62894,
+        "relevance_score": 145.38058,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -35230,7 +35315,24 @@
               "id": "https://openalex.org/fields/23"
             },
             "id": "https://openalex.org/T10766",
-            "score": 0.9998999834060669,
+            "score": 0.9994999766349792,
+            "subfield": {
+              "display_name": "Environmental Engineering",
+              "id": "https://openalex.org/subfields/2305"
+            }
+          },
+          {
+            "display_name": "Urban Stormwater Management Solutions",
+            "domain": {
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
+            },
+            "field": {
+              "display_name": "Environmental Science",
+              "id": "https://openalex.org/fields/23"
+            },
+            "id": "https://openalex.org/T11119",
+            "score": 0.0003000000142492354,
             "subfield": {
               "display_name": "Environmental Engineering",
               "id": "https://openalex.org/subfields/2305"
@@ -35247,27 +35349,10 @@
               "id": "https://openalex.org/fields/22"
             },
             "id": "https://openalex.org/T10121",
-            "score": 0.9975000023841858,
+            "score": 0.0,
             "subfield": {
               "display_name": "Building and Construction",
               "id": "https://openalex.org/subfields/2215"
-            }
-          },
-          {
-            "display_name": "Wind and Air Flow Studies",
-            "domain": {
-              "display_name": "Physical Sciences",
-              "id": "https://openalex.org/domains/3"
-            },
-            "field": {
-              "display_name": "Environmental Science",
-              "id": "https://openalex.org/fields/23"
-            },
-            "id": "https://openalex.org/T11371",
-            "score": 0.9947999715805054,
-            "subfield": {
-              "display_name": "Environmental Engineering",
-              "id": "https://openalex.org/subfields/2305"
             }
           }
         ],
@@ -36275,7 +36360,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.conbuildmat.2023.133787",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "8ac95ac34990a2ab",
       "engineering_relevance_tags": [
         "construction",
@@ -36284,7 +36369,7 @@
       "human_review_required": true,
       "internal_id": "8ac95ac34990a2ab",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "experimental investigation on performance of composite thermochromic and ice melting coatings for dynamic pavement temperature control",
       "organization": null,
@@ -36706,7 +36791,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": false,
           "is_in_top_1_percent": false,
-          "value": 0.49897556
+          "value": 0.72063122
         },
         "cited_by_count": 8,
         "cited_by_percentile_year": {
@@ -36846,7 +36931,7 @@
             "ror": "https://ror.org/00s2cp259"
           }
         ],
-        "fwci": 0.4379,
+        "fwci": 1.0084,
         "has_content": {
           "grobid_xml": false,
           "pdf": false
@@ -36999,20 +37084,20 @@
           "version": "publishedVersion"
         },
         "primary_topic": {
-          "display_name": "Smart Materials for Construction",
+          "display_name": "Icing and De-icing Technologies",
           "domain": {
             "display_name": "Physical Sciences",
             "id": "https://openalex.org/domains/3"
           },
           "field": {
-            "display_name": "Environmental Science",
-            "id": "https://openalex.org/fields/23"
+            "display_name": "Engineering",
+            "id": "https://openalex.org/fields/22"
           },
-          "id": "https://openalex.org/T12682",
-          "score": 0.9993000030517578,
+          "id": "https://openalex.org/T12696",
+          "score": 0.3986999988555908,
           "subfield": {
-            "display_name": "Pollution",
-            "id": "https://openalex.org/subfields/2310"
+            "display_name": "Aerospace Engineering",
+            "id": "https://openalex.org/subfields/2202"
           }
         },
         "publication_date": "2023-10-31",
@@ -37070,7 +37155,7 @@
           "https://openalex.org/W649860568",
           "https://openalex.org/W4225274352"
         ],
-        "relevance_score": 107.296745,
+        "relevance_score": 107.47626,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -37094,20 +37179,37 @@
         "title": "Experimental investigation on performance of composite thermochromic and ice-melting coatings for dynamic pavement temperature control",
         "topics": [
           {
-            "display_name": "Smart Materials for Construction",
+            "display_name": "Icing and De-icing Technologies",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
             },
             "field": {
-              "display_name": "Environmental Science",
-              "id": "https://openalex.org/fields/23"
+              "display_name": "Engineering",
+              "id": "https://openalex.org/fields/22"
             },
-            "id": "https://openalex.org/T12682",
-            "score": 0.9993000030517578,
+            "id": "https://openalex.org/T12696",
+            "score": 0.3986999988555908,
             "subfield": {
-              "display_name": "Pollution",
-              "id": "https://openalex.org/subfields/2310"
+              "display_name": "Aerospace Engineering",
+              "id": "https://openalex.org/subfields/2202"
+            }
+          },
+          {
+            "display_name": "Asphalt Pavement Performance Evaluation",
+            "domain": {
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
+            },
+            "field": {
+              "display_name": "Engineering",
+              "id": "https://openalex.org/fields/22"
+            },
+            "id": "https://openalex.org/T10264",
+            "score": 0.36890000104904175,
+            "subfield": {
+              "display_name": "Civil and Structural Engineering",
+              "id": "https://openalex.org/subfields/2205"
             }
           },
           {
@@ -37121,27 +37223,10 @@
               "id": "https://openalex.org/fields/23"
             },
             "id": "https://openalex.org/T10766",
-            "score": 0.992900013923645,
+            "score": 0.03590000048279762,
             "subfield": {
               "display_name": "Environmental Engineering",
               "id": "https://openalex.org/subfields/2305"
-            }
-          },
-          {
-            "display_name": "Climate change and permafrost",
-            "domain": {
-              "display_name": "Physical Sciences",
-              "id": "https://openalex.org/domains/3"
-            },
-            "field": {
-              "display_name": "Earth and Planetary Sciences",
-              "id": "https://openalex.org/fields/19"
-            },
-            "id": "https://openalex.org/T11333",
-            "score": 0.9563999772071838,
-            "subfield": {
-              "display_name": "Atmospheric Science",
-              "id": "https://openalex.org/subfields/1902"
             }
           }
         ],
@@ -38344,7 +38429,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.scs.2020.102476",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "8cd200ffad85ff85",
       "engineering_relevance_tags": [
         "urban heat mitigation"
@@ -38352,7 +38437,7 @@
       "human_review_required": false,
       "internal_id": "8cd200ffad85ff85",
       "item_type": "Review Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "urban heat island studies with emphasis on urban pavements a review",
       "organization": null,
@@ -38597,7 +38682,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": true,
           "is_in_top_1_percent": false,
-          "value": 0.97851098
+          "value": 0.97962739
         },
         "cited_by_count": 183,
         "cited_by_percentile_year": {
@@ -38762,7 +38847,7 @@
             "ror": "https://ror.org/00rzspn62"
           }
         ],
-        "fwci": 6.2791,
+        "fwci": 6.6998,
         "has_content": {
           "grobid_xml": false,
           "pdf": false
@@ -38921,7 +39006,7 @@
             "id": "https://openalex.org/fields/23"
           },
           "id": "https://openalex.org/T10766",
-          "score": 0.9998999834060669,
+          "score": 1.0,
           "subfield": {
             "display_name": "Environmental Engineering",
             "id": "https://openalex.org/subfields/2305"
@@ -39166,7 +39251,7 @@
           "https://openalex.org/W2388358789",
           "https://openalex.org/W2625176280"
         ],
-        "relevance_score": 160.51065,
+        "relevance_score": 160.49799,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -39200,31 +39285,14 @@
               "id": "https://openalex.org/fields/23"
             },
             "id": "https://openalex.org/T10766",
-            "score": 0.9998999834060669,
+            "score": 1.0,
             "subfield": {
               "display_name": "Environmental Engineering",
               "id": "https://openalex.org/subfields/2305"
             }
           },
           {
-            "display_name": "Building Energy and Comfort Optimization",
-            "domain": {
-              "display_name": "Physical Sciences",
-              "id": "https://openalex.org/domains/3"
-            },
-            "field": {
-              "display_name": "Engineering",
-              "id": "https://openalex.org/fields/22"
-            },
-            "id": "https://openalex.org/T10121",
-            "score": 0.9879999756813049,
-            "subfield": {
-              "display_name": "Building and Construction",
-              "id": "https://openalex.org/subfields/2215"
-            }
-          },
-          {
-            "display_name": "Urban Green Space and Health",
+            "display_name": "Urban Stormwater Management Solutions",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
@@ -39233,11 +39301,28 @@
               "display_name": "Environmental Science",
               "id": "https://openalex.org/fields/23"
             },
-            "id": "https://openalex.org/T10692",
-            "score": 0.9642999768257141,
+            "id": "https://openalex.org/T11119",
+            "score": 0.0,
             "subfield": {
-              "display_name": "Health, Toxicology and Mutagenesis",
-              "id": "https://openalex.org/subfields/2307"
+              "display_name": "Environmental Engineering",
+              "id": "https://openalex.org/subfields/2305"
+            }
+          },
+          {
+            "display_name": "Land Use and Ecosystem Services",
+            "domain": {
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
+            },
+            "field": {
+              "display_name": "Environmental Science",
+              "id": "https://openalex.org/fields/23"
+            },
+            "id": "https://openalex.org/T10226",
+            "score": 0.0,
+            "subfield": {
+              "display_name": "Global and Planetary Change",
+              "id": "https://openalex.org/subfields/2306"
             }
           }
         ],
@@ -39268,7 +39353,7 @@
       ],
       "canonical_url": "https://doi.org/10.1088/1757-899x/1039/1/012018",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "8f5cb0d7abdd6c83",
       "engineering_relevance_tags": [
         "durability",
@@ -39278,7 +39363,7 @@
       "human_review_required": true,
       "internal_id": "8f5cb0d7abdd6c83",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "mitigation possibilities of concrete pavement degradation",
       "organization": null,
@@ -39695,7 +39780,7 @@
             "URL": "https://iopscience.iop.org/article/10.1088/1757-899X/1039/1/012018"
           }
         },
-        "score": 19.828808,
+        "score": 19.807158,
         "short-container-title": [
           "IOP Conf. Ser.: Mater. Sci. Eng."
         ],
@@ -39806,13 +39891,13 @@
       ],
       "canonical_url": "https://doi.org/10.1007/s11356-025-36834-1",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "912e4827660c0168",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "912e4827660c0168",
       "item_type": "Review Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "urban cooling through pavement innovation a review of strategies and materials",
       "organization": null,
@@ -40899,7 +40984,7 @@
             "URL": "https://link.springer.com/10.1007/s11356-025-36834-1"
           }
         },
-        "score": 21.878145,
+        "score": 21.882755,
         "short-container-title": [
           "Environ Sci Pollut Res"
         ],
@@ -42945,7 +43030,7 @@
       ],
       "canonical_url": "https://doi.org/10.46610/joidrp.2026.v011i01.004",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "9c2aa8ef8d371751",
       "engineering_relevance_tags": [
         "surface temperature",
@@ -42958,7 +43043,7 @@
       "human_review_required": true,
       "internal_id": "9c2aa8ef8d371751",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "urban heat island effect and sustainable pavement materials",
       "organization": null,
@@ -43104,7 +43189,7 @@
             "URL": "https://matjournals.net/engineering/index.php/JoIDRP/article/view/3699"
           }
         },
-        "score": 30.968498,
+        "score": 30.962881,
         "short-container-title": [
           "JoIDRP"
         ],
@@ -43144,7 +43229,7 @@
       ],
       "canonical_url": "https://doi.org/10.1038/s41467-023-36972-5",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "9c91e7a67a18981d",
       "engineering_relevance_tags": [
         "environmental / climatic conditions",
@@ -43155,7 +43240,7 @@
       "human_review_required": true,
       "internal_id": "cdbfd70479d16bf2",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "evidence based guidance on reflective pavement for urban heat mitigation in arizona",
       "organization": null,
@@ -43800,7 +43885,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": true,
           "is_in_top_1_percent": false,
-          "value": 0.98901362
+          "value": 0.98914268
         },
         "cited_by_count": 95,
         "cited_by_percentile_year": {
@@ -43968,7 +44053,7 @@
         "display_name": "Evidence-based guidance on reflective pavement for urban heat mitigation in Arizona",
         "doi": "https://doi.org/10.1038/s41467-023-36972-5",
         "funders": [],
-        "fwci": 7.944,
+        "fwci": 8.2255,
         "has_content": {
           "grobid_xml": true,
           "pdf": true
@@ -44280,7 +44365,7 @@
             "id": "https://openalex.org/fields/23"
           },
           "id": "https://openalex.org/T10766",
-          "score": 0.9998000264167786,
+          "score": 0.9994999766349792,
           "subfield": {
             "display_name": "Environmental Engineering",
             "id": "https://openalex.org/subfields/2305"
@@ -44372,7 +44457,7 @@
           "https://openalex.org/W2605399805",
           "https://openalex.org/W4283387877"
         ],
-        "relevance_score": 139.22354,
+        "relevance_score": 138.98515,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -44406,14 +44491,14 @@
               "id": "https://openalex.org/fields/23"
             },
             "id": "https://openalex.org/T10766",
-            "score": 0.9998000264167786,
+            "score": 0.9994999766349792,
             "subfield": {
               "display_name": "Environmental Engineering",
               "id": "https://openalex.org/subfields/2305"
             }
           },
           {
-            "display_name": "Climate Change and Health Impacts",
+            "display_name": "Urban Stormwater Management Solutions",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
@@ -44422,28 +44507,28 @@
               "display_name": "Environmental Science",
               "id": "https://openalex.org/fields/23"
             },
-            "id": "https://openalex.org/T11244",
-            "score": 0.9915000200271606,
+            "id": "https://openalex.org/T11119",
+            "score": 9.999999747378752e-05,
             "subfield": {
-              "display_name": "Health, Toxicology and Mutagenesis",
-              "id": "https://openalex.org/subfields/2307"
+              "display_name": "Environmental Engineering",
+              "id": "https://openalex.org/subfields/2305"
             }
           },
           {
-            "display_name": "Noise Effects and Management",
+            "display_name": "Land Use and Ecosystem Services",
             "domain": {
-              "display_name": "Health Sciences",
-              "id": "https://openalex.org/domains/4"
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
             },
             "field": {
-              "display_name": "Health Professions",
-              "id": "https://openalex.org/fields/36"
+              "display_name": "Environmental Science",
+              "id": "https://openalex.org/fields/23"
             },
-            "id": "https://openalex.org/T11692",
-            "score": 0.9905999898910522,
+            "id": "https://openalex.org/T10226",
+            "score": 0.0,
             "subfield": {
-              "display_name": "Speech and Hearing",
-              "id": "https://openalex.org/subfields/3616"
+              "display_name": "Global and Planetary Change",
+              "id": "https://openalex.org/subfields/2306"
             }
           }
         ],
@@ -44474,13 +44559,13 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.geothermics.2017.02.002",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "9df07e5d2ec06b63",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "9df07e5d2ec06b63",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "pavement temperature mitigation by the means of geothermally and solar heated air",
       "organization": null,
@@ -45054,7 +45139,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0375650517300548"
           }
         },
-        "score": 20.760702,
+        "score": 20.7631,
         "short-container-title": [
           "Geothermics"
         ],
@@ -45091,7 +45176,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.scitotenv.2018.04.041",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "9f96b6958efcd0bf",
       "engineering_relevance_tags": [
         "urban heat mitigation",
@@ -45100,7 +45185,7 @@
       "human_review_required": false,
       "internal_id": "9f96b6958efcd0bf",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "a new structure of permeable pavement for mitigating urban heat island",
       "organization": null,
@@ -45265,7 +45350,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": true,
           "is_in_top_1_percent": false,
-          "value": 0.96555949
+          "value": 0.96982795
         },
         "cited_by_count": 121,
         "cited_by_percentile_year": {
@@ -45433,7 +45518,7 @@
             "ror": "https://ror.org/03rc6as71"
           }
         ],
-        "fwci": 5.3601,
+        "fwci": 5.9397,
         "has_content": {
           "grobid_xml": false,
           "pdf": false
@@ -45629,7 +45714,7 @@
             "id": "https://openalex.org/fields/23"
           },
           "id": "https://openalex.org/T10766",
-          "score": 0.9998999834060669,
+          "score": 0.9717000126838684,
           "subfield": {
             "display_name": "Environmental Engineering",
             "id": "https://openalex.org/subfields/2305"
@@ -45675,7 +45760,7 @@
           "https://openalex.org/W4308492032",
           "https://openalex.org/W2291542863"
         ],
-        "relevance_score": 137.47774,
+        "relevance_score": 137.38785,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -45709,31 +45794,31 @@
               "id": "https://openalex.org/fields/23"
             },
             "id": "https://openalex.org/T10766",
-            "score": 0.9998999834060669,
+            "score": 0.9717000126838684,
             "subfield": {
               "display_name": "Environmental Engineering",
               "id": "https://openalex.org/subfields/2305"
             }
           },
           {
-            "display_name": "Building Energy and Comfort Optimization",
+            "display_name": "Urban Stormwater Management Solutions",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
             },
             "field": {
-              "display_name": "Engineering",
-              "id": "https://openalex.org/fields/22"
+              "display_name": "Environmental Science",
+              "id": "https://openalex.org/fields/23"
             },
-            "id": "https://openalex.org/T10121",
-            "score": 0.9854999780654907,
+            "id": "https://openalex.org/T11119",
+            "score": 0.026900000870227814,
             "subfield": {
-              "display_name": "Building and Construction",
-              "id": "https://openalex.org/subfields/2215"
+              "display_name": "Environmental Engineering",
+              "id": "https://openalex.org/subfields/2305"
             }
           },
           {
-            "display_name": "Thermal Radiation and Cooling Technologies",
+            "display_name": "Asphalt Pavement Performance Evaluation",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
@@ -45742,8 +45827,8 @@
               "display_name": "Engineering",
               "id": "https://openalex.org/fields/22"
             },
-            "id": "https://openalex.org/T12442",
-            "score": 0.9746999740600586,
+            "id": "https://openalex.org/T10264",
+            "score": 9.999999747378752e-05,
             "subfield": {
               "display_name": "Civil and Structural Engineering",
               "id": "https://openalex.org/subfields/2205"
@@ -45778,13 +45863,13 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.trd.2021.102753",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "a05334803f34000a",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "a05334803f34000a",
       "item_type": "Review Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "a review on solar pavement and photovoltaic thermal pv t system",
       "organization": null,
@@ -47269,7 +47354,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1361920921000572"
           }
         },
-        "score": 18.297823,
+        "score": 18.299368,
         "short-container-title": [
           "Transportation Research Part D: Transport and Environment"
         ],
@@ -47305,7 +47390,7 @@
       ],
       "canonical_url": "https://doi.org/10.65302/icj.2026.100037",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "a1be85238b90824a",
       "engineering_relevance_tags": [
         "durability"
@@ -47313,7 +47398,7 @@
       "human_review_required": false,
       "internal_id": "a1be85238b90824a",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "concrete as thermal energy storage system and anti icing pavement system",
       "organization": null,
@@ -47456,7 +47541,7 @@
             "URL": "https://www.icjonline.com/article_07_v100_03_2026"
           }
         },
-        "score": 19.758636,
+        "score": 19.754005,
         "short-container-title": [
           "ICJ"
         ],
@@ -47493,7 +47578,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.enbuild.2025.116149",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "a4909888aea3a831",
       "engineering_relevance_tags": [
         "urban heat mitigation",
@@ -47502,7 +47587,7 @@
       "human_review_required": false,
       "internal_id": "a4909888aea3a831",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "mitigation urban heat island by using porous and permeable block pavement",
       "organization": null,
@@ -48449,7 +48534,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0378778825008795"
           }
         },
-        "score": 27.940874,
+        "score": 27.92974,
         "short-container-title": [
           "Energy and Buildings"
         ],
@@ -48486,7 +48571,7 @@
       ],
       "canonical_url": "https://doi.org/10.5194/egusphere-egu26-14185",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "a568c43f8198a818",
       "engineering_relevance_tags": [
         "surface temperature",
@@ -48497,7 +48582,7 @@
       "human_review_required": false,
       "internal_id": "a568c43f8198a818",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "coupling urban energy and microclimate models to quantify high albedo pavement cooling effects in antwerp",
       "organization": null,
@@ -48628,7 +48713,7 @@
             "URL": "https://meetingorganizer.copernicus.org/EGU26/EGU26-14185.html"
           }
         },
-        "score": 19.172325,
+        "score": 19.17376,
         "source": "Crossref",
         "subtype": "other",
         "title": [
@@ -49021,7 +49106,7 @@
       ],
       "canonical_url": "https://doi.org/10.1155/2015/540934",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "a78ad907216591bc",
       "engineering_relevance_tags": [
         "thermal performance",
@@ -49031,7 +49116,7 @@
       "human_review_required": true,
       "internal_id": "a78ad907216591bc",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "thermal behavior of an asphalt pavement in the laboratory and in the parking lot",
       "organization": null,
@@ -49644,7 +49729,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": false,
           "is_in_top_1_percent": false,
-          "value": 0.66292006
+          "value": 0.87678147
         },
         "cited_by_count": 11,
         "cited_by_percentile_year": {
@@ -49810,7 +49895,7 @@
         "display_name": "Thermal Behavior of an Asphalt Pavement in the Laboratory and in the Parking Lot",
         "doi": "https://doi.org/10.1155/2015/540934",
         "funders": [],
-        "fwci": 0.6016,
+        "fwci": 2.2122,
         "has_content": {
           "grobid_xml": true,
           "pdf": true
@@ -50078,20 +50163,20 @@
           "version": "publishedVersion"
         },
         "primary_topic": {
-          "display_name": "Smart Materials for Construction",
+          "display_name": "Asphalt Pavement Performance Evaluation",
           "domain": {
             "display_name": "Physical Sciences",
             "id": "https://openalex.org/domains/3"
           },
           "field": {
-            "display_name": "Environmental Science",
-            "id": "https://openalex.org/fields/23"
+            "display_name": "Engineering",
+            "id": "https://openalex.org/fields/22"
           },
-          "id": "https://openalex.org/T12682",
-          "score": 0.9987999796867371,
+          "id": "https://openalex.org/T10264",
+          "score": 0.4302000105381012,
           "subfield": {
-            "display_name": "Pollution",
-            "id": "https://openalex.org/subfields/2310"
+            "display_name": "Civil and Structural Engineering",
+            "id": "https://openalex.org/subfields/2205"
           }
         },
         "publication_date": "2015-01-01",
@@ -50122,7 +50207,7 @@
           "https://openalex.org/W2108230804",
           "https://openalex.org/W2384161908"
         ],
-        "relevance_score": 87.788185,
+        "relevance_score": 87.34441,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -50146,7 +50231,24 @@
         "title": "Thermal Behavior of an Asphalt Pavement in the Laboratory and in the Parking Lot",
         "topics": [
           {
-            "display_name": "Smart Materials for Construction",
+            "display_name": "Asphalt Pavement Performance Evaluation",
+            "domain": {
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
+            },
+            "field": {
+              "display_name": "Engineering",
+              "id": "https://openalex.org/fields/22"
+            },
+            "id": "https://openalex.org/T10264",
+            "score": 0.4302000105381012,
+            "subfield": {
+              "display_name": "Civil and Structural Engineering",
+              "id": "https://openalex.org/subfields/2205"
+            }
+          },
+          {
+            "display_name": "Urban Heat Island Mitigation",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
@@ -50155,45 +50257,28 @@
               "display_name": "Environmental Science",
               "id": "https://openalex.org/fields/23"
             },
-            "id": "https://openalex.org/T12682",
-            "score": 0.9987999796867371,
+            "id": "https://openalex.org/T10766",
+            "score": 0.38960000872612,
             "subfield": {
-              "display_name": "Pollution",
-              "id": "https://openalex.org/subfields/2310"
+              "display_name": "Environmental Engineering",
+              "id": "https://openalex.org/subfields/2305"
             }
           },
           {
-            "display_name": "Acoustic Wave Phenomena Research",
+            "display_name": "Solar Thermal and Photovoltaic Systems",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
             },
             "field": {
-              "display_name": "Engineering",
-              "id": "https://openalex.org/fields/22"
+              "display_name": "Energy",
+              "id": "https://openalex.org/fields/21"
             },
-            "id": "https://openalex.org/T10822",
-            "score": 0.9725000262260437,
+            "id": "https://openalex.org/T10905",
+            "score": 0.025299999862909317,
             "subfield": {
-              "display_name": "Biomedical Engineering",
-              "id": "https://openalex.org/subfields/2204"
-            }
-          },
-          {
-            "display_name": "Building Energy and Comfort Optimization",
-            "domain": {
-              "display_name": "Physical Sciences",
-              "id": "https://openalex.org/domains/3"
-            },
-            "field": {
-              "display_name": "Engineering",
-              "id": "https://openalex.org/fields/22"
-            },
-            "id": "https://openalex.org/T10121",
-            "score": 0.9573000073432922,
-            "subfield": {
-              "display_name": "Building and Construction",
-              "id": "https://openalex.org/subfields/2215"
+              "display_name": "Renewable Energy, Sustainability and the Environment",
+              "id": "https://openalex.org/subfields/2105"
             }
           }
         ],
@@ -50227,13 +50312,13 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.compstruct.2014.07.021",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "abfc85e5176fe8ca",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "abfc85e5176fe8ca",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "thermal characteristics of a conductive cement based composite for a snow melting heated pavement system",
       "organization": null,
@@ -50495,7 +50580,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": false,
           "is_in_top_1_percent": false,
-          "value": 0.82593499
+          "value": 0.86523321
         },
         "cited_by_count": 60,
         "cited_by_percentile_year": {
@@ -50673,7 +50758,7 @@
             "ror": "https://ror.org/025h1m602"
           }
         ],
-        "fwci": 1.7664,
+        "fwci": 2.2584,
         "has_content": {
           "grobid_xml": false,
           "pdf": false
@@ -50822,7 +50907,7 @@
             "id": "https://openalex.org/fields/23"
           },
           "id": "https://openalex.org/T12682",
-          "score": 1.0,
+          "score": 0.5785999894142151,
           "subfield": {
             "display_name": "Pollution",
             "id": "https://openalex.org/subfields/2310"
@@ -50854,7 +50939,7 @@
           "https://openalex.org/W2939872324",
           "https://openalex.org/W2360544060"
         ],
-        "relevance_score": 76.998505,
+        "relevance_score": 76.95552,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -50888,14 +50973,14 @@
               "id": "https://openalex.org/fields/23"
             },
             "id": "https://openalex.org/T12682",
-            "score": 1.0,
+            "score": 0.5785999894142151,
             "subfield": {
               "display_name": "Pollution",
               "id": "https://openalex.org/subfields/2310"
             }
           },
           {
-            "display_name": "Concrete Corrosion and Durability",
+            "display_name": "Icing and De-icing Technologies",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
@@ -50904,15 +50989,15 @@
               "display_name": "Engineering",
               "id": "https://openalex.org/fields/22"
             },
-            "id": "https://openalex.org/T11850",
-            "score": 0.9929999709129333,
+            "id": "https://openalex.org/T12696",
+            "score": 0.33009999990463257,
             "subfield": {
-              "display_name": "Civil and Structural Engineering",
-              "id": "https://openalex.org/subfields/2205"
+              "display_name": "Aerospace Engineering",
+              "id": "https://openalex.org/subfields/2202"
             }
           },
           {
-            "display_name": "Asphalt Pavement Performance Evaluation",
+            "display_name": "Phase Change Materials Research",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
@@ -50921,11 +51006,11 @@
               "display_name": "Engineering",
               "id": "https://openalex.org/fields/22"
             },
-            "id": "https://openalex.org/T10264",
-            "score": 0.9839000105857849,
+            "id": "https://openalex.org/T10938",
+            "score": 0.01940000057220459,
             "subfield": {
-              "display_name": "Civil and Structural Engineering",
-              "id": "https://openalex.org/subfields/2205"
+              "display_name": "Mechanical Engineering",
+              "id": "https://openalex.org/subfields/2210"
             }
           }
         ],
@@ -50960,7 +51045,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.conbuildmat.2025.145088",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "ac5b7dff58e937da",
       "engineering_relevance_tags": [
         "construction",
@@ -50969,7 +51054,7 @@
       "human_review_required": true,
       "internal_id": "ac5b7dff58e937da",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "a sustainable pavement coating with balanced cooling and adhesion for urban heat reduction",
       "organization": null,
@@ -52187,7 +52272,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0950061825052407"
           }
         },
-        "score": 20.378342,
+        "score": 20.381668,
         "short-container-title": [
           "Construction and Building Materials"
         ],
@@ -52220,7 +52305,7 @@
       "authors": [],
       "canonical_url": "https://doi.org/10.1016/c2014-0-04185-8",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "ae12658b1973b90c",
       "engineering_relevance_tags": [
         "urban heat mitigation"
@@ -52228,7 +52313,7 @@
       "human_review_required": false,
       "internal_id": "ae12658b1973b90c",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "pavement materials for heat island mitigation",
       "organization": null,
@@ -52332,7 +52417,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/C20140041858"
           }
         },
-        "score": 19.82182,
+        "score": 19.801407,
         "source": "Crossref",
         "title": [
           "Pavement Materials for Heat Island Mitigation"
@@ -52364,13 +52449,13 @@
       ],
       "canonical_url": "https://doi.org/10.1061/9780784482599.024",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "b536ab00c2d4b13e",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "b536ab00c2d4b13e",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "thermal behavior of flexible pavement containing foam glass aggregates as thermal insulation layer",
       "organization": null,
@@ -52608,7 +52693,7 @@
             "URL": "https://ascelibrary.org/doi/10.1061/9780784482599.024"
           }
         },
-        "score": 20.081743,
+        "score": 20.08812,
         "source": "Crossref",
         "title": [
           "Thermal Behavior of Flexible Pavement Containing Foam Glass Aggregates as Thermal Insulation Layer"
@@ -52645,7 +52730,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.conbuildmat.2026.147286",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "b5456caf77ee0af0",
       "engineering_relevance_tags": [
         "construction"
@@ -52653,7 +52738,7 @@
       "human_review_required": true,
       "internal_id": "f97d010aa8de8e3f",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "design and thermal conduction mechanism of highly thermally conductive semi flexible asphalt concrete for pavement thermal management",
       "organization": null,
@@ -53151,7 +53236,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": true,
           "is_in_top_1_percent": false,
-          "value": 0.9182209
+          "value": 0.9196122
         },
         "cited_by_count": 1,
         "cited_by_percentile_year": {
@@ -53326,7 +53411,7 @@
             "ror": "https://ror.org/01h0zpd94"
           }
         ],
-        "fwci": 2.6593,
+        "fwci": 2.6782,
         "has_content": {
           "grobid_xml": false,
           "pdf": false
@@ -53509,7 +53594,7 @@
             "id": "https://openalex.org/fields/22"
           },
           "id": "https://openalex.org/T10264",
-          "score": 0.3643999993801117,
+          "score": 0.9320999979972839,
           "subfield": {
             "display_name": "Civil and Structural Engineering",
             "id": "https://openalex.org/subfields/2205"
@@ -53555,7 +53640,7 @@
         ],
         "referenced_works_count": 34,
         "related_works": [],
-        "relevance_score": 119.67456,
+        "relevance_score": 119.88837,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -53589,7 +53674,7 @@
               "id": "https://openalex.org/fields/22"
             },
             "id": "https://openalex.org/T10264",
-            "score": 0.3643999993801117,
+            "score": 0.9320999979972839,
             "subfield": {
               "display_name": "Civil and Structural Engineering",
               "id": "https://openalex.org/subfields/2205"
@@ -53606,27 +53691,27 @@
               "id": "https://openalex.org/fields/25"
             },
             "id": "https://openalex.org/T11277",
-            "score": 0.3003000020980835,
+            "score": 0.04610000178217888,
             "subfield": {
               "display_name": "Materials Chemistry",
               "id": "https://openalex.org/subfields/2505"
             }
           },
           {
-            "display_name": "Smart Materials for Construction",
+            "display_name": "Phase Change Materials Research",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
             },
             "field": {
-              "display_name": "Environmental Science",
-              "id": "https://openalex.org/fields/23"
+              "display_name": "Engineering",
+              "id": "https://openalex.org/fields/22"
             },
-            "id": "https://openalex.org/T12682",
-            "score": 0.15240000188350677,
+            "id": "https://openalex.org/T10938",
+            "score": 0.002400000113993883,
             "subfield": {
-              "display_name": "Pollution",
-              "id": "https://openalex.org/subfields/2310"
+              "display_name": "Mechanical Engineering",
+              "id": "https://openalex.org/subfields/2210"
             }
           }
         ],
@@ -55012,7 +55097,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.jreng.2024.12.008",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "b7b2e05793ddfd81",
       "engineering_relevance_tags": [
         "surface temperature"
@@ -55020,7 +55105,7 @@
       "human_review_required": false,
       "internal_id": "b7b2e05793ddfd81",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "evaluation of effective parameters on pavement surface temperature",
       "organization": null,
@@ -55776,7 +55861,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2097049825000344"
           }
         },
-        "score": 21.385601,
+        "score": 21.386045,
         "short-container-title": [
           "Journal of Road Engineering"
         ],
@@ -55908,7 +55993,7 @@
       ],
       "canonical_url": "https://doi.org/10.1061/(asce)mt.1943-5533.0000872",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "c1603506e364878d",
       "engineering_relevance_tags": [
         "urban heat mitigation"
@@ -55916,7 +56001,7 @@
       "human_review_required": false,
       "internal_id": "c1603506e364878d",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "unidirectional heat transfer asphalt pavement for mitigating the urban heat island effect",
       "organization": null,
@@ -56397,7 +56482,7 @@
             "URL": "https://ascelibrary.org/doi/10.1061/%28ASCE%29MT.1943-5533.0000872"
           }
         },
-        "score": 21.549364,
+        "score": 21.553453,
         "short-container-title": [
           "J. Mater. Civ. Eng."
         ],
@@ -56606,7 +56691,7 @@
       ],
       "canonical_url": "https://doi.org/10.1007/978-3-030-87016-4_2",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "caa3a54f8fa489f6",
       "engineering_relevance_tags": [
         "urban heat mitigation"
@@ -56614,7 +56699,7 @@
       "human_review_required": false,
       "internal_id": "caa3a54f8fa489f6",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "empirical evaluation of urban heat island pavements related cagliari case study",
       "organization": null,
@@ -56786,7 +56871,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": false,
           "is_in_top_1_percent": false,
-          "value": 0.6969697
+          "value": 0.7312961
         },
         "cited_by_count": 2,
         "cited_by_percentile_year": {
@@ -56953,7 +57038,7 @@
         "display_name": "Empirical Evaluation of Urban Heat Island Pavements Related. Cagliari Case Study",
         "doi": "https://doi.org/10.1007/978-3-030-87016-4_2",
         "funders": [],
-        "fwci": 0.9197,
+        "fwci": 1.1003,
         "has_content": {
           "grobid_xml": false,
           "pdf": false
@@ -57121,7 +57206,7 @@
             "id": "https://openalex.org/fields/23"
           },
           "id": "https://openalex.org/T10766",
-          "score": 0.9997000098228455,
+          "score": 1.0,
           "subfield": {
             "display_name": "Environmental Engineering",
             "id": "https://openalex.org/subfields/2305"
@@ -57175,7 +57260,7 @@
           "https://openalex.org/W4327808369",
           "https://openalex.org/W4313447624"
         ],
-        "relevance_score": 184.51007,
+        "relevance_score": 184.70282,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -57209,14 +57294,31 @@
               "id": "https://openalex.org/fields/23"
             },
             "id": "https://openalex.org/T10766",
-            "score": 0.9997000098228455,
+            "score": 1.0,
             "subfield": {
               "display_name": "Environmental Engineering",
               "id": "https://openalex.org/subfields/2305"
             }
           },
           {
-            "display_name": "Building Energy and Comfort Optimization",
+            "display_name": "Urban Stormwater Management Solutions",
+            "domain": {
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
+            },
+            "field": {
+              "display_name": "Environmental Science",
+              "id": "https://openalex.org/fields/23"
+            },
+            "id": "https://openalex.org/T11119",
+            "score": 0.0,
+            "subfield": {
+              "display_name": "Environmental Engineering",
+              "id": "https://openalex.org/subfields/2305"
+            }
+          },
+          {
+            "display_name": "Asphalt Pavement Performance Evaluation",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
@@ -57225,28 +57327,11 @@
               "display_name": "Engineering",
               "id": "https://openalex.org/fields/22"
             },
-            "id": "https://openalex.org/T10121",
-            "score": 0.9932000041007996,
+            "id": "https://openalex.org/T10264",
+            "score": 0.0,
             "subfield": {
-              "display_name": "Building and Construction",
-              "id": "https://openalex.org/subfields/2215"
-            }
-          },
-          {
-            "display_name": "Noise Effects and Management",
-            "domain": {
-              "display_name": "Health Sciences",
-              "id": "https://openalex.org/domains/4"
-            },
-            "field": {
-              "display_name": "Health Professions",
-              "id": "https://openalex.org/fields/36"
-            },
-            "id": "https://openalex.org/T11692",
-            "score": 0.9463000297546387,
-            "subfield": {
-              "display_name": "Speech and Hearing",
-              "id": "https://openalex.org/subfields/3616"
+              "display_name": "Civil and Structural Engineering",
+              "id": "https://openalex.org/subfields/2205"
             }
           }
         ],
@@ -57278,7 +57363,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.jclepro.2017.10.182",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "cb2183e4728e1511",
       "engineering_relevance_tags": [
         "commercial maturity"
@@ -57286,7 +57371,7 @@
       "human_review_required": false,
       "internal_id": "cb2183e4728e1511",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "characterizing thermal behaviors of various pavement materials and their thermal impacts on ambient environment",
       "organization": null,
@@ -57504,7 +57589,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": true,
           "is_in_top_1_percent": false,
-          "value": 0.93708624
+          "value": 0.94564721
         },
         "cited_by_count": 96,
         "cited_by_percentile_year": {
@@ -57686,7 +57771,7 @@
             "ror": "https://ror.org/00f1zfq44"
           }
         ],
-        "fwci": 3.7662,
+        "fwci": 4.3933,
         "has_content": {
           "grobid_xml": false,
           "pdf": false
@@ -57860,7 +57945,7 @@
             "id": "https://openalex.org/fields/23"
           },
           "id": "https://openalex.org/T10766",
-          "score": 0.9994000196456909,
+          "score": 0.9814000129699707,
           "subfield": {
             "display_name": "Environmental Engineering",
             "id": "https://openalex.org/subfields/2305"
@@ -57929,7 +58014,7 @@
           "https://openalex.org/W4394814748",
           "https://openalex.org/W811843590"
         ],
-        "relevance_score": 99.52711,
+        "relevance_score": 99.34799,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -57963,10 +58048,27 @@
               "id": "https://openalex.org/fields/23"
             },
             "id": "https://openalex.org/T10766",
-            "score": 0.9994000196456909,
+            "score": 0.9814000129699707,
             "subfield": {
               "display_name": "Environmental Engineering",
               "id": "https://openalex.org/subfields/2305"
+            }
+          },
+          {
+            "display_name": "Asphalt Pavement Performance Evaluation",
+            "domain": {
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
+            },
+            "field": {
+              "display_name": "Engineering",
+              "id": "https://openalex.org/fields/22"
+            },
+            "id": "https://openalex.org/T10264",
+            "score": 0.010499999858438969,
+            "subfield": {
+              "display_name": "Civil and Structural Engineering",
+              "id": "https://openalex.org/subfields/2205"
             }
           },
           {
@@ -57980,24 +58082,7 @@
               "id": "https://openalex.org/fields/23"
             },
             "id": "https://openalex.org/T11119",
-            "score": 0.996999979019165,
-            "subfield": {
-              "display_name": "Environmental Engineering",
-              "id": "https://openalex.org/subfields/2305"
-            }
-          },
-          {
-            "display_name": "Wind and Air Flow Studies",
-            "domain": {
-              "display_name": "Physical Sciences",
-              "id": "https://openalex.org/domains/3"
-            },
-            "field": {
-              "display_name": "Environmental Science",
-              "id": "https://openalex.org/fields/23"
-            },
-            "id": "https://openalex.org/T11371",
-            "score": 0.9955999851226807,
+            "score": 0.0017999999690800905,
             "subfield": {
               "display_name": "Environmental Engineering",
               "id": "https://openalex.org/subfields/2305"
@@ -59315,7 +59400,7 @@
       ],
       "canonical_url": "https://openalex.org/W116296583",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "cfd39abf48b1fcb0",
       "engineering_relevance_tags": [
         "urban heat mitigation"
@@ -59323,7 +59408,7 @@
       "human_review_required": false,
       "internal_id": "cfd39abf48b1fcb0",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "reducing urban heat islands compendium of strategies cool pavements",
       "organization": null,
@@ -59861,7 +59946,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": false,
           "is_in_top_1_percent": false,
-          "value": 0.76720215
+          "value": 0.85655192
         },
         "cited_by_count": 57,
         "cited_by_percentile_year": {
@@ -60065,7 +60150,7 @@
         "display_name": "Reducing Urban Heat Islands: Compendium of Strategies - Cool Pavements",
         "doi": null,
         "funders": [],
-        "fwci": 1.3739,
+        "fwci": 2.0158,
         "has_content": {
           "grobid_xml": false,
           "pdf": false
@@ -60174,7 +60259,7 @@
           "version": null
         },
         "primary_topic": {
-          "display_name": "Smart Materials for Construction",
+          "display_name": "Urban Heat Island Mitigation",
           "domain": {
             "display_name": "Physical Sciences",
             "id": "https://openalex.org/domains/3"
@@ -60183,11 +60268,11 @@
             "display_name": "Environmental Science",
             "id": "https://openalex.org/fields/23"
           },
-          "id": "https://openalex.org/T12682",
-          "score": 0.8288999795913696,
+          "id": "https://openalex.org/T10766",
+          "score": 0.9980000257492065,
           "subfield": {
-            "display_name": "Pollution",
-            "id": "https://openalex.org/subfields/2310"
+            "display_name": "Environmental Engineering",
+            "id": "https://openalex.org/subfields/2305"
           }
         },
         "publication_date": "2008-01-01",
@@ -60216,7 +60301,7 @@
           "https://openalex.org/W1994787597",
           "https://openalex.org/W1556557123"
         ],
-        "relevance_score": 102.357346,
+        "relevance_score": 102.15256,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -60240,23 +60325,6 @@
         "title": "Reducing Urban Heat Islands: Compendium of Strategies - Cool Pavements",
         "topics": [
           {
-            "display_name": "Smart Materials for Construction",
-            "domain": {
-              "display_name": "Physical Sciences",
-              "id": "https://openalex.org/domains/3"
-            },
-            "field": {
-              "display_name": "Environmental Science",
-              "id": "https://openalex.org/fields/23"
-            },
-            "id": "https://openalex.org/T12682",
-            "score": 0.8288999795913696,
-            "subfield": {
-              "display_name": "Pollution",
-              "id": "https://openalex.org/subfields/2310"
-            }
-          },
-          {
             "display_name": "Urban Heat Island Mitigation",
             "domain": {
               "display_name": "Physical Sciences",
@@ -60267,10 +60335,44 @@
               "id": "https://openalex.org/fields/23"
             },
             "id": "https://openalex.org/T10766",
-            "score": 0.7192000150680542,
+            "score": 0.9980000257492065,
             "subfield": {
               "display_name": "Environmental Engineering",
               "id": "https://openalex.org/subfields/2305"
+            }
+          },
+          {
+            "display_name": "Urban Stormwater Management Solutions",
+            "domain": {
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
+            },
+            "field": {
+              "display_name": "Environmental Science",
+              "id": "https://openalex.org/fields/23"
+            },
+            "id": "https://openalex.org/T11119",
+            "score": 0.000699999975040555,
+            "subfield": {
+              "display_name": "Environmental Engineering",
+              "id": "https://openalex.org/subfields/2305"
+            }
+          },
+          {
+            "display_name": "Asphalt Pavement Performance Evaluation",
+            "domain": {
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
+            },
+            "field": {
+              "display_name": "Engineering",
+              "id": "https://openalex.org/fields/22"
+            },
+            "id": "https://openalex.org/T10264",
+            "score": 0.0003000000142492354,
+            "subfield": {
+              "display_name": "Civil and Structural Engineering",
+              "id": "https://openalex.org/subfields/2205"
             }
           }
         ],
@@ -60301,7 +60403,7 @@
       ],
       "canonical_url": "https://doi.org/10.7855/ijhe.2013.15.1.075",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "d0aaf51f0f760123",
       "engineering_relevance_tags": [
         "surface temperature"
@@ -60309,7 +60411,7 @@
       "human_review_required": false,
       "internal_id": "d0aaf51f0f760123",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "a study of the surface temperature reduction using pipe cooling system in asphalt pavement",
       "organization": null,
@@ -60492,7 +60594,7 @@
             "URL": "http://koreascience.or.kr/journal/view.jsp?kj=HGDRC5&py=2013&vnc=v15n1&sp=75"
           }
         },
-        "score": 22.50587,
+        "score": 22.502386,
         "short-container-title": [
           "Journal of the Korean Society of Road Engineers"
         ],
@@ -62036,7 +62138,7 @@
       ],
       "canonical_url": "https://openalex.org/W986703674",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "d611c423ec45a70b",
       "engineering_relevance_tags": [
         "thermal performance"
@@ -62044,7 +62146,7 @@
       "human_review_required": false,
       "internal_id": "d611c423ec45a70b",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "theoretical and experimental analysis of heat transfer in the layers of road pavement",
       "organization": null,
@@ -62360,7 +62462,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": false,
           "is_in_top_1_percent": false,
-          "value": 0.66459169
+          "value": 0.85207458
         },
         "cited_by_count": 4,
         "cited_by_percentile_year": {
@@ -62562,7 +62664,7 @@
         "display_name": "THEORETICAL AND EXPERIMENTAL ANALYSIS OF HEAT TRANSFER IN THE LAYERS OF ROAD PAVEMENT",
         "doi": null,
         "funders": [],
-        "fwci": 0.2734,
+        "fwci": 1.5474,
         "has_content": {
           "grobid_xml": false,
           "pdf": false
@@ -62702,20 +62804,20 @@
           "version": null
         },
         "primary_topic": {
-          "display_name": "Geothermal Energy Systems and Applications",
+          "display_name": "Geotechnical and construction materials studies",
           "domain": {
             "display_name": "Physical Sciences",
             "id": "https://openalex.org/domains/3"
           },
           "field": {
-            "display_name": "Energy",
-            "id": "https://openalex.org/fields/21"
+            "display_name": "Engineering",
+            "id": "https://openalex.org/fields/22"
           },
-          "id": "https://openalex.org/T11225",
-          "score": 0.9970999956130981,
+          "id": "https://openalex.org/T13236",
+          "score": 0.49239999055862427,
           "subfield": {
-            "display_name": "Renewable Energy, Sustainability and the Environment",
-            "id": "https://openalex.org/subfields/2105"
+            "display_name": "Civil and Structural Engineering",
+            "id": "https://openalex.org/subfields/2205"
           }
         },
         "publication_date": "2005-01-01",
@@ -62749,7 +62851,7 @@
           "https://openalex.org/W2073602462",
           "https://openalex.org/W2376329895"
         ],
-        "relevance_score": 93.15009,
+        "relevance_score": 93.14564,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -62773,24 +62875,7 @@
         "title": "THEORETICAL AND EXPERIMENTAL ANALYSIS OF HEAT TRANSFER IN THE LAYERS OF ROAD PAVEMENT",
         "topics": [
           {
-            "display_name": "Geothermal Energy Systems and Applications",
-            "domain": {
-              "display_name": "Physical Sciences",
-              "id": "https://openalex.org/domains/3"
-            },
-            "field": {
-              "display_name": "Energy",
-              "id": "https://openalex.org/fields/21"
-            },
-            "id": "https://openalex.org/T11225",
-            "score": 0.9970999956130981,
-            "subfield": {
-              "display_name": "Renewable Energy, Sustainability and the Environment",
-              "id": "https://openalex.org/subfields/2105"
-            }
-          },
-          {
-            "display_name": "Concrete Properties and Behavior",
+            "display_name": "Geotechnical and construction materials studies",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
@@ -62799,28 +62884,45 @@
               "display_name": "Engineering",
               "id": "https://openalex.org/fields/22"
             },
-            "id": "https://openalex.org/T12152",
-            "score": 0.9939000010490417,
+            "id": "https://openalex.org/T13236",
+            "score": 0.49239999055862427,
             "subfield": {
               "display_name": "Civil and Structural Engineering",
               "id": "https://openalex.org/subfields/2205"
             }
           },
           {
-            "display_name": "Climate change and permafrost",
+            "display_name": "Heat Transfer and Numerical Methods",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
             },
             "field": {
-              "display_name": "Earth and Planetary Sciences",
-              "id": "https://openalex.org/fields/19"
+              "display_name": "Engineering",
+              "id": "https://openalex.org/fields/22"
             },
-            "id": "https://openalex.org/T11333",
-            "score": 0.9889000058174133,
+            "id": "https://openalex.org/T13116",
+            "score": 0.29589998722076416,
             "subfield": {
-              "display_name": "Atmospheric Science",
-              "id": "https://openalex.org/subfields/1902"
+              "display_name": "Computational Mechanics",
+              "id": "https://openalex.org/subfields/2206"
+            }
+          },
+          {
+            "display_name": "Asphalt Pavement Performance Evaluation",
+            "domain": {
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
+            },
+            "field": {
+              "display_name": "Engineering",
+              "id": "https://openalex.org/fields/22"
+            },
+            "id": "https://openalex.org/T10264",
+            "score": 0.09600000083446503,
+            "subfield": {
+              "display_name": "Civil and Structural Engineering",
+              "id": "https://openalex.org/subfields/2205"
             }
           }
         ],
@@ -62853,7 +62955,7 @@
       ],
       "canonical_url": "https://doi.org/10.1007/978-981-19-9822-5_305",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "d96d5efc1217ce54",
       "engineering_relevance_tags": [
         "field validation",
@@ -62862,7 +62964,7 @@
       "human_review_required": true,
       "internal_id": "d96d5efc1217ce54",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "urban heat island mitigation a field evaluation of a pervious pavement combined with pavement watering",
       "organization": null,
@@ -63273,7 +63375,7 @@
             "URL": "https://link.springer.com/10.1007/978-981-19-9822-5_305"
           }
         },
-        "score": 27.600792,
+        "score": 27.611376,
         "source": "Crossref",
         "title": [
           "Urban Heat Island Mitigation: A Field Evaluation of a Pervious Pavement Combined with Pavement Watering"
@@ -64148,7 +64250,7 @@
       ],
       "canonical_url": "https://doi.org/10.1016/j.uclim.2024.102218",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "dba82b7e7abaa4ab",
       "engineering_relevance_tags": [
         "environmental / climatic conditions"
@@ -64156,7 +64258,7 @@
       "human_review_required": false,
       "internal_id": "dba82b7e7abaa4ab",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "pervious asphalt pavement and concrete wall watering for urban cooling characterization of surface cooling effects at an outdoor test site",
       "organization": null,
@@ -64983,7 +65085,7 @@
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2212095524004152"
           }
         },
-        "score": 19.168575,
+        "score": 19.178051,
         "short-container-title": [
           "Urban Climate"
         ],
@@ -66816,7 +66918,7 @@
       ],
       "canonical_url": "https://doi.org/10.2208/journalpe.6.29",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "eb9952bb642f8cb4",
       "engineering_relevance_tags": [
         "surface temperature"
@@ -66824,7 +66926,7 @@
       "human_review_required": false,
       "internal_id": "eb9952bb642f8cb4",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "evaluation of a pavement for heat control of road surface temperature",
       "organization": null,
@@ -66951,7 +67053,7 @@
             "URL": "http://www.jstage.jst.go.jp/article/journalpe1996/6/0/6_0_29/_article"
           }
         },
-        "score": 18.478325,
+        "score": 18.467365,
         "short-container-title": [
           "JOURNAL OF PAVEMENT ENGINEERING, JSCE"
         ],
@@ -66991,7 +67093,7 @@
       ],
       "canonical_url": "https://doi.org/10.11113/mjce.v26.15902",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "ecb6950b7a06b813",
       "engineering_relevance_tags": [
         "surface temperature",
@@ -67002,7 +67104,7 @@
       "human_review_required": false,
       "internal_id": "ecb6950b7a06b813",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "physical and chemical characterization of wasted tiles as coating materials for pavement surface temperature reduction",
       "organization": null,
@@ -67226,7 +67328,7 @@
             "URL": "https://journals.utm.my/mjce/article/view/15902"
           }
         },
-        "score": 21.701601,
+        "score": 21.692053,
         "short-container-title": [
           "MJCE"
         ],
@@ -67261,7 +67363,7 @@
       ],
       "canonical_url": "https://doi.org/10.2208/journalip.16.443",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "edae3599c08af4cc",
       "engineering_relevance_tags": [
         "surface temperature"
@@ -67269,7 +67371,7 @@
       "human_review_required": false,
       "internal_id": "edae3599c08af4cc",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "an experimental study about the reduction effect of surface temperature of the porous pavement",
       "organization": null,
@@ -67413,7 +67515,7 @@
             "URL": "http://www.jstage.jst.go.jp/article/journalip1984/16/0/16_0_443/_article"
           }
         },
-        "score": 22.417067,
+        "score": 22.41418,
         "short-container-title": [
           "INFRASTRUCTURE PLANNING REVIEW"
         ],
@@ -67450,13 +67552,13 @@
       ],
       "canonical_url": "https://doi.org/10.6135/ijprt.org.tw/2014.7(2).135",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "eec5928d0bc5f278",
       "engineering_relevance_tags": [],
       "human_review_required": false,
       "internal_id": "eec5928d0bc5f278",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "reduction of pavement high temperature with the use of thermal insulation layer and high reflectivity surface",
       "organization": null,
@@ -67573,7 +67675,7 @@
         "citation_normalized_percentile": {
           "is_in_top_10_percent": false,
           "is_in_top_1_percent": false,
-          "value": 0.01887452
+          "value": 0.06354391
         },
         "cited_by_count": 6,
         "cited_by_percentile_year": {
@@ -67893,20 +67995,20 @@
           "version": null
         },
         "primary_topic": {
-          "display_name": "Smart Materials for Construction",
+          "display_name": "Asphalt Pavement Performance Evaluation",
           "domain": {
             "display_name": "Physical Sciences",
             "id": "https://openalex.org/domains/3"
           },
           "field": {
-            "display_name": "Environmental Science",
-            "id": "https://openalex.org/fields/23"
+            "display_name": "Engineering",
+            "id": "https://openalex.org/fields/22"
           },
-          "id": "https://openalex.org/T12682",
-          "score": 0.973800003528595,
+          "id": "https://openalex.org/T10264",
+          "score": 0.9082000255584717,
           "subfield": {
-            "display_name": "Pollution",
-            "id": "https://openalex.org/subfields/2310"
+            "display_name": "Civil and Structural Engineering",
+            "id": "https://openalex.org/subfields/2205"
           }
         },
         "publication_date": "2014-03-01",
@@ -67935,7 +68037,7 @@
           "https://openalex.org/W2794020520",
           "https://openalex.org/W2951824777"
         ],
-        "relevance_score": 84.63501,
+        "relevance_score": 84.50424,
         "study_designs": [],
         "sustainable_development_goals": [
           {
@@ -67953,7 +68055,24 @@
         "title": "Reduction of Pavement High Temperature with the Use of Thermal Insulation Layer and High Reflectivity Surface",
         "topics": [
           {
-            "display_name": "Smart Materials for Construction",
+            "display_name": "Asphalt Pavement Performance Evaluation",
+            "domain": {
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
+            },
+            "field": {
+              "display_name": "Engineering",
+              "id": "https://openalex.org/fields/22"
+            },
+            "id": "https://openalex.org/T10264",
+            "score": 0.9082000255584717,
+            "subfield": {
+              "display_name": "Civil and Structural Engineering",
+              "id": "https://openalex.org/subfields/2205"
+            }
+          },
+          {
+            "display_name": "Urban Heat Island Mitigation",
             "domain": {
               "display_name": "Physical Sciences",
               "id": "https://openalex.org/domains/3"
@@ -67962,11 +68081,28 @@
               "display_name": "Environmental Science",
               "id": "https://openalex.org/fields/23"
             },
-            "id": "https://openalex.org/T12682",
-            "score": 0.973800003528595,
+            "id": "https://openalex.org/T10766",
+            "score": 0.033799998462200165,
             "subfield": {
-              "display_name": "Pollution",
-              "id": "https://openalex.org/subfields/2310"
+              "display_name": "Environmental Engineering",
+              "id": "https://openalex.org/subfields/2305"
+            }
+          },
+          {
+            "display_name": "Geotechnical and construction materials studies",
+            "domain": {
+              "display_name": "Physical Sciences",
+              "id": "https://openalex.org/domains/3"
+            },
+            "field": {
+              "display_name": "Engineering",
+              "id": "https://openalex.org/fields/22"
+            },
+            "id": "https://openalex.org/T13236",
+            "score": 0.013799999840557575,
+            "subfield": {
+              "display_name": "Civil and Structural Engineering",
+              "id": "https://openalex.org/subfields/2205"
             }
           }
         ],
@@ -67997,7 +68133,7 @@
       ],
       "canonical_url": "https://doi.org/10.4028/www.scientific.net/amm.110-116.400",
       "country": null,
-      "discovered_at": "2026-10-06T12:58:20Z",
+      "discovered_at": "2026-10-07T12:52:44Z",
       "duplicate_of": "f4b00fba83b4c973",
       "engineering_relevance_tags": [
         "thermal performance",
@@ -68009,7 +68145,7 @@
       "human_review_required": true,
       "internal_id": "f4b00fba83b4c973",
       "item_type": "Research Paper",
-      "last_seen_at": "2026-10-06T12:58:20Z",
+      "last_seen_at": "2026-10-07T12:52:44Z",
       "location": null,
       "normalized_title": "transient thermal behavior of hot mix asphalt pavement",
       "organization": null,
@@ -68326,7 +68462,7 @@
             "URL": "https://www.scientific.net/AMM.110-116.400"
           }
         },
-        "score": 21.84162,
+        "score": 21.828285,
         "short-container-title": [
           "AMM"
         ],
