@@ -2,27 +2,27 @@
   "CORDIS Projects Search": {
     "consecutive_failures": 0,
     "item_count": 1,
-    "last_attempt_at": "2026-10-09T12:47:13Z",
+    "last_attempt_at": "2026-10-10T12:05:55Z",
     "last_error": null,
     "last_http_code": 200,
     "last_status": "success",
-    "last_success_at": "2026-10-09T12:47:13Z",
+    "last_success_at": "2026-10-10T12:05:55Z",
     "source_name": "CORDIS Projects Search"
   },
   "Crossref": {
     "consecutive_failures": 0,
     "item_count": 50,
-    "last_attempt_at": "2026-10-09T12:45:41Z",
+    "last_attempt_at": "2026-10-10T12:04:12Z",
     "last_error": null,
     "last_http_code": 200,
     "last_status": "success",
-    "last_success_at": "2026-10-09T12:45:41Z",
+    "last_success_at": "2026-10-10T12:04:12Z",
     "source_name": "Crossref"
   },
   "FHWA Search": {
-    "consecutive_failures": 57,
+    "consecutive_failures": 58,
     "item_count": 0,
-    "last_attempt_at": "2026-10-09T12:47:13Z",
+    "last_attempt_at": "2026-10-10T12:05:55Z",
     "last_error": "403 Client Error: Forbidden for url: https://highways.dot.gov/search?search=pavement%20cooling",
     "last_http_code": 403,
     "last_status": "failed",
@@ -32,31 +32,31 @@
   "Google Patents Fallback": {
     "consecutive_failures": 0,
     "item_count": 0,
-    "last_attempt_at": "2026-10-09T12:47:13Z",
+    "last_attempt_at": "2026-10-10T12:05:55Z",
     "last_error": null,
     "last_http_code": 200,
     "last_status": "success",
-    "last_success_at": "2026-10-09T12:47:13Z",
+    "last_success_at": "2026-10-10T12:05:55Z",
     "source_name": "Google Patents Fallback"
   },
   "OpenAlex": {
     "consecutive_failures": 0,
     "item_count": 50,
-    "last_attempt_at": "2026-10-09T12:45:49Z",
+    "last_attempt_at": "2026-10-10T12:04:23Z",
     "last_error": null,
     "last_http_code": 200,
     "last_status": "success",
-    "last_success_at": "2026-10-09T12:45:49Z",
+    "last_success_at": "2026-10-10T12:04:23Z",
     "source_name": "OpenAlex"
   },
   "Semantic Scholar": {
-    "consecutive_failures": 57,
-    "item_count": 15,
-    "last_attempt_at": "2026-10-09T12:47:13Z",
-    "last_error": "429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=pavement+surface+temperature+reduction&limit=5&fields=title%2Curl%2Cabstract%2Cyear%2Cauthors%2Cvenue%2CexternalIds%2CpublicationTypes",
-    "last_http_code": 200,
+    "consecutive_failures": 58,
+    "item_count": 5,
+    "last_attempt_at": "2026-10-10T12:05:54Z",
+    "last_error": "429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=urban+pavement+cooling&limit=5&fields=title%2Curl%2Cabstract%2Cyear%2Cauthors%2Cvenue%2CexternalIds%2CpublicationTypes",
+    "last_http_code": 429,
     "last_status": "partial",
-    "last_success_at": "2026-10-09T12:47:13Z",
+    "last_success_at": "2026-10-10T12:05:54Z",
     "source_name": "Semantic Scholar"
   }
 }
