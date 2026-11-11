@@ -31,3 +31,5 @@ Coverage Limitations:
 - FHWA Search: status=failed; consecutive_failures=89; error=403 Client Error: Forbidden for url: https://highways.dot.gov/search?search=pavement%20cooling
 - OpenAlex: status=partial; consecutive_failures=1; error=429 Client Error: Too Many Requests for url: https://api.openalex.org/works?search=urban+pavement+cooling&per-page=5
 - Semantic Scholar: status=partial; consecutive_failures=89; error=429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=pavement+surface+temperature+reduction&limit=5&fields=title%2Curl%2Cabstract%2Cyear%2Cauthors%2Cvenue%2CexternalIds%2CpublicationTypes
+- FHWA Search: status=failed; consecutive_failures=90; error=403 Client Error: Forbidden for url: https://highways.dot.gov/search?search=pavement%20cooling
+- Semantic Scholar: status=partial; consecutive_failures=90; error=429 Client Error:  for url: https://api.semanticscholar.org/graph/v1/paper/search?query=urban+heat+island+pavement&limit=5&fields=title%2Curl%2Cabstract%2Cyear%2Cauthors%2Cvenue%2CexternalIds%2CpublicationTypes
